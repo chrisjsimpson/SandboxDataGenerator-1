@@ -1,7 +1,4 @@
-import os
-import random
-import uuid
-from datetime import date, timedelta
+from datetime import date
 
 from object.Routing import *
 
@@ -30,7 +27,7 @@ def generate_transaction(account, tag, type, posted_date):
             this_account=account,
             other_counterparty=merchant,
             type=type,
-            description="{} pay to {}: {:.2f}".format(account.account_id, merchant, amount),
+            description="Pay to {}: {:.2f}".format(merchant, amount) if merchant!='INCOME' else "GET INCOME: {:.2f}".format(amount),
             posted=posted_date.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
             completed=add_deltatime(posted_date).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
             new_balance='{:.2f}'.format(account.balance),

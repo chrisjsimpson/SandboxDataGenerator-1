@@ -29,23 +29,25 @@ class Customer:
         self.bank=bank
         self.credit_rating=credit_rating
         self.credit_limit=credit_limit
-        self.dict = {
-            "customer_number": customer_number,
-            "legal_name": user.username,
-            "mobile_phone_number": mobile_phone_number,
-            "email": user.email,
-            "face_image": face_image,
-            "date_of_birth": date_of_birth,
-            "relationship_status": relationship_status,
-            "dependants": dependants,
-            "dob_of_dependants": dob_of_dependants,
-            "highest_education_attained": highest_education_attained,
-            "employment_status": employment_status,
-            "kyc_status": kyc_status,
-            "last_ok_date": last_ok_date,
-            "bank_id": bank.id,
-            "credit_rating": credit_rating,
-            "credit_limit": credit_limit
+
+    def dict(self):
+        return {
+            "customer_number": self.customer_number,
+            "legal_name": self.user.username,
+            "mobile_phone_number": self.mobile_phone_number,
+            "email": self.user.email,
+            "face_image": self.face_image,
+            "date_of_birth": self.date_of_birth,
+            "relationship_status": self.relationship_status,
+            "dependants": self.dependants,
+            "dob_of_dependants": self.dob_of_dependants,
+            "highest_education_attained": self.highest_education_attained,
+            "employment_status": self.employment_status,
+            "kyc_status": self.kyc_status,
+            "last_ok_date": self.last_ok_date,
+            "bank_id": self.bank.id,
+            "credit_rating": self.credit_rating,
+            "credit_limit": self.credit_limit
         }
 
     @staticmethod

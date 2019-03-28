@@ -2,17 +2,22 @@ import random
 import uuid
 
 from object.Account import Account
-from object.Routing import Routing, digits11, generateIBAN
+from object.Customer import Customer
+from object.Routing import *
 
 boy_first_names=('John','Andy','Joe')
 girl_first_names=('Alice','Ammy')
 last_names=('Johnson','Smith','Williams')
 mails=('gmail.com','qq.com','tesobe.com')
 class User:
-    def __init__(self,username, email, password):
+    def __init__(self,username, email, password, phone, relationship_status, employment_status, highest_education_attained):
         self.username = username
         self.email = email
         self.password = password
+        self.phone = phone
+        self.relationship_status = relationship_status
+        self.employment_status = employment_status
+        self.highest_education_attained = highest_education_attained
 
     def dict(self):
         return {
@@ -44,8 +49,41 @@ class User:
             iban=iban
         )
 
+    def create_customer(self, bank):
+        customer_number = str(uuid.uuid4())
+        face_image = {
+            "url": "www.example.com",
+            "date": gen_datetime().strftime("%Y-%m-%dT%H:%M:%SZ")
+        }
+        date_of_birth = gen_datetime(min_year = 1970, max_year=2001).strftime("%Y-%m-%dT%H:%M:%SZ")
+        dob_of_dependants = [
+            gen_datetime().strftime("%Y-%m-%dT%H:%M:%SZ") for _ in range(2)
+        ]
+
+        kyc_status = True
+        last_ok_date = gen_datetime().strftime("%Y-%m-%dT%H:%M:%SZ")
+        credit_rating=""
+        credit_limit=""
+        return Customer(
+            customer_number=customer_number,
+            user=self,
+            mobile_phone_number=self.phone,
+            face_image=face_image,
+            date_of_birth=date_of_birth,
+            relationship_status=self.relationship_status,
+            dependants=random.randint(0,6),
+            dob_of_dependants=dob_of_dependants,
+            highest_education_attained=self.highest_education_attained,
+            employment_status=self.employment_status,
+            kyc_status=kyc_status,
+            last_ok_date=last_ok_date,
+            bank=bank,
+            credit_rating=credit_rating,
+            credit_limit=credit_limit
+        )
+
     @staticmethod
-    def Generator(num, gender = 'male'):
+    def Generator(num, gender = 'male', relationship_status = 'married', employment_status = 'retired', highest_education_attained='BA.'):
         if gender == 'male':
             first_names = boy_first_names
         else:
@@ -60,5 +98,9 @@ class User:
             yield User(
                 username=username,
                 email=email,
-                password=password
+                password=password,
+                phone=phone_number_generation(),
+                relationship_status= relationship_status,
+                employment_status= employment_status,
+                highest_education_attained = highest_education_attained
             )
