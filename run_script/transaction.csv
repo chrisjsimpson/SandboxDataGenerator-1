@@ -1,0 +1,1015 @@
+id,bank,counterparty,posted,new_balance,value,type,user,account_type
+cbfefaf6-ba04-4217-8dfa-1eff98643a78,bank_c_00.uk,INCOME,2016-05-11,93000.00,33000.00,INCOME,John Williams,CURRENT
+c77ecc61-4015-493f-a709-055104758a91,bank_c_00.uk,Olive Garden,2016-05-11,92409.97,-590.03,food,John Williams,CURRENT
+4c76b1d4-e6c4-4641-a67c-0c96fba4ad6b,bank_c_00.uk,The Crucible,2016-05-12,91044.01,-1365.96,education,John Williams,CURRENT
+f6fa6ac7-d242-4bbb-a642-f7188b9e0199,bank_c_00.uk,Olive Garden,2016-05-15,90472.20,-571.81,food,John Williams,CURRENT
+432f20e3-335d-4fd6-bd8d-8b6abccd120f,bank_c_00.uk,Comcast,2016-05-16,89204.15,-1268.05,utility,John Williams,CURRENT
+bc7f3717-d2fc-42c2-84cb-69d98fdc02e6,bank_c_00.uk,Macy's,2016-05-21,87616.03,-1588.12,clothing,John Williams,CURRENT
+e0d66209-2d6c-4142-a085-098c12e154f0,bank_c_00.uk,Jiffy Lube,2016-05-24,86517.72,-1098.31,auto,John Williams,CURRENT
+77357344-a350-4227-9da9-fa5c2000e407,bank_c_00.uk,AMC Theaters,2016-05-30,85802.55,-715.17,entertainment,John Williams,CURRENT
+8d53c844-750e-4168-9b08-59a7bf50c68c,bank_c_00.uk,Olive Garden,2016-06-01,85316.95,-485.60,food,John Williams,CURRENT
+1b397633-2d3e-477b-95d9-c347e30a51a0,bank_c_00.uk,Olive Garden,2016-06-04,84762.29,-554.66,food,John Williams,CURRENT
+02cb9bcb-125d-4ee7-803d-9286346eff2f,bank_c_00.uk,Dr. Martins,2016-06-04,83491.99,-1270.30,health,John Williams,CURRENT
+fd92e095-2f13-46c4-8646-4359be85244c,bank_c_00.uk,Nordstrom,2016-06-05,83040.74,-451.25,gift,John Williams,CURRENT
+12ddd290-dec8-4b8d-9231-2356d3c3dc65,bank_c_00.uk,Olive Garden,2016-06-07,82371.44,-669.30,food,John Williams,CURRENT
+3057046c-4e91-418c-9e34-ffabb015cb9a,bank_c_00.uk,INCOME,2016-05-11,2030000.00,30000.00,INCOME,John Williams,SAVING
+1d0e6f23-20f4-4582-b1fd-902d68649546,bank_c_01.uk,INCOME,2016-05-11,620000.00,20000.00,INCOME,Ammy Smith,SAVING
+c538236f-adc8-4124-b415-dcf8aa948086,bank_c_01.uk,INCOME,2016-05-11,210000.00,60000.00,INCOME,Ammy Smith,CURRENT
+830d1a60-90df-4389-b6ef-e9e70448ed6e,bank_c_01.uk,RENT,2016-05-11,190000.00,-20000.00,RENT,Ammy Smith,CURRENT
+57605b72-6cb6-4a8f-950e-366d40952fd7,bank_c_01.uk,Starbucks,2016-05-12,189530.74,-469.26,food,Ammy Smith,CURRENT
+915dd001-5314-44b8-b167-7b425cabd0bf,bank_c_01.uk,Campus Books,2016-05-14,187836.11,-1694.63,education,Ammy Smith,CURRENT
+1d9ce8c1-76ad-48c0-81a4-71cfce011a91,bank_c_01.uk,Starbucks,2016-05-27,187487.15,-348.96,food,Ammy Smith,CURRENT
+f2d8e122-f42d-43e0-8e83-4944038a0959,bank_c_01.uk,Verizon,2016-05-27,186307.65,-1179.50,utility,Ammy Smith,CURRENT
+f380f433-b6c9-41da-800a-113d8483a404,bank_c_01.uk,Macy's,2016-05-27,185032.60,-1275.05,clothing,Ammy Smith,CURRENT
+a2146794-7514-4c49-9da0-cbfc1ec59094,bank_c_01.uk,Dr. Jackson,2016-05-27,183921.66,-1110.94,health,Ammy Smith,CURRENT
+e28aa02b-81f2-4f1f-9587-8fcd3835fa0f,bank_c_01.uk,Apple Store,2016-05-29,183508.06,-413.60,gift,Ammy Smith,CURRENT
+2a09b350-6798-48cc-ad72-0e9244ee0699,bank_c_01.uk,Starbucks,2016-05-30,182871.74,-636.32,food,Ammy Smith,CURRENT
+d56ce086-0fb8-4265-9b0a-2f8b153ed7e9,bank_c_01.uk,Starbucks,2016-06-01,182245.11,-626.63,food,Ammy Smith,CURRENT
+ca04f182-571b-4828-8767-5dcbca9a39e6,bank_c_01.uk,Starbucks,2016-06-06,181904.34,-340.77,food,Ammy Smith,CURRENT
+fb46651d-2530-4998-9ce8-3054f7520bde,bank_c_01.uk,AMC Theaters,2016-06-09,181209.09,-695.25,entertainment,Ammy Smith,CURRENT
+be3e6046-5755-4908-932e-5fce2f43e42e,bank_c_00.uk,INCOME,2016-06-10,115371.44,33000.00,INCOME,John Williams,CURRENT
+29017075-d665-4e17-88f7-b6b20077cb4a,bank_c_00.uk,Whole Foods,2016-06-12,114975.80,-395.64,food,John Williams,CURRENT
+d5d3c40a-76f6-427f-bb5c-ea5e108c17ae,bank_c_00.uk,Nordstrom,2016-06-15,114680.39,-295.41,gift,John Williams,CURRENT
+eb85c3c8-7d16-448c-9dbb-9ebbb8d7ec20,bank_c_00.uk,Dr. Phillips,2016-06-16,113491.37,-1189.02,health,John Williams,CURRENT
+d10352a3-de40-4fa8-954f-537d64c8f4ec,bank_c_00.uk,Whole Foods,2016-06-19,112926.72,-564.65,food,John Williams,CURRENT
+6467f31d-6673-4029-b513-43a9bd2594fa,bank_c_00.uk,Late Fee,2016-06-19,112501.18,-425.54,fee,John Williams,CURRENT
+bc76a073-1d50-4687-bdf9-48ec182b86ba,bank_c_00.uk,Union 76,2016-06-21,110524.76,-1976.42,auto,John Williams,CURRENT
+6376b522-f2b9-4326-8f4d-15cde9e93c93,bank_c_00.uk,Whole Foods,2016-06-23,110163.36,-361.40,food,John Williams,CURRENT
+994929d9-0022-40d5-9dd6-3d5f77255302,bank_c_00.uk,Whole Foods,2016-06-25,109783.84,-379.52,food,John Williams,CURRENT
+b3711114-8060-4721-bc34-674a534f1cba,bank_c_00.uk,Whole Foods,2016-06-29,109301.78,-482.06,food,John Williams,CURRENT
+b8b2fbae-eb94-4449-8a85-8839b248e6fd,bank_c_00.uk,Amazon.com,2016-06-29,107667.38,-1634.40,education,John Williams,CURRENT
+b5fb1486-73f4-4afd-a003-5f5360cab62a,bank_c_00.uk,J. Crew,2016-06-30,106378.65,-1288.73,clothing,John Williams,CURRENT
+d1de298c-8928-4c24-a8f9-d82a6f40ca93,bank_c_00.uk,Metreon Theaters,2016-07-04,105617.95,-760.70,entertainment,John Williams,CURRENT
+93b3c73e-d4c9-47dc-a350-285906c01a3f,bank_c_00.uk,Verizon,2016-07-10,104352.22,-1265.73,utility,John Williams,CURRENT
+f2f99a8a-0a0c-4e81-bef3-e0d7e466418d,bank_c_00.uk,INCOME,2016-06-10,2060000.00,30000.00,INCOME,John Williams,SAVING
+39646d50-bc9a-4ab8-a40a-ad7a4850e1f7,bank_c_01.uk,INCOME,2016-06-10,640000.00,20000.00,INCOME,Ammy Smith,SAVING
+d07cfe16-5cc3-4736-bdbb-153a5be25ac2,bank_c_01.uk,INCOME,2016-06-10,241209.09,60000.00,INCOME,Ammy Smith,CURRENT
+4c74e899-1a7a-43a7-8b88-d13d46cfc092,bank_c_01.uk,RENT,2016-06-10,221209.09,-20000.00,RENT,Ammy Smith,CURRENT
+4a593325-5cc3-4c94-bdb1-a20e734eaba6,bank_c_01.uk,Whole Foods,2016-06-11,220769.65,-439.44,food,Ammy Smith,CURRENT
+acbc5c03-3d5b-45d9-a2a7-2a1012730ed3,bank_c_01.uk,Whole Foods,2016-06-13,220317.43,-452.22,food,Ammy Smith,CURRENT
+8f1f37af-13ad-4898-b64c-0085fbd04903,bank_c_01.uk,Arco,2016-06-15,218912.05,-1405.38,auto,Ammy Smith,CURRENT
+efa61a26-452d-4b77-923c-d125539e5dff,bank_c_01.uk,Whole Foods,2016-06-17,218208.18,-703.87,food,Ammy Smith,CURRENT
+eb9448be-b44e-473f-84f6-a259989de96b,bank_c_01.uk,Dr. Roberts,2016-06-17,216531.05,-1677.13,health,Ammy Smith,CURRENT
+2c259d22-86b8-4c75-981c-587d85c8a7ac,bank_c_01.uk,Whole Foods,2016-06-22,216162.07,-368.98,food,Ammy Smith,CURRENT
+1fc66a3a-29f2-4c0e-a17f-06fabf3af68b,bank_c_01.uk,Tuition,2016-06-23,215155.45,-1006.62,education,Ammy Smith,CURRENT
+3af099aa-217a-48e3-80ca-0b5e6b1ff201,bank_c_01.uk,AMC Theaters,2016-06-25,214658.97,-496.48,entertainment,Ammy Smith,CURRENT
+f848026d-67a3-4bee-911b-d8d64f8ae08e,bank_c_01.uk,The Gap,2016-06-26,213055.22,-1603.75,clothing,Ammy Smith,CURRENT
+d1c213e1-0fdc-46c9-a52a-fc648d391dc7,bank_c_01.uk,Whole Foods,2016-06-29,212419.88,-635.34,food,Ammy Smith,CURRENT
+7429908f-0739-4e57-a072-359b41f44238,bank_c_01.uk,Interest Fee,2016-06-30,211986.96,-432.92,fee,Ammy Smith,CURRENT
+245d96e9-13ac-4055-a607-7a36db60e307,bank_c_01.uk,Nordstrom,2016-07-04,211629.17,-357.79,gift,Ammy Smith,CURRENT
+382f61d2-d10d-4e37-861a-ceecd24054bb,bank_c_01.uk,Whole Foods,2016-07-08,210919.82,-709.35,food,Ammy Smith,CURRENT
+7d5e4b3d-31ab-416e-93e3-9c591451998f,bank_c_00.uk,INCOME,2016-07-10,137352.22,33000.00,INCOME,John Williams,CURRENT
+4b97d295-d2c3-4043-9bc4-449d50289278,bank_c_00.uk,Olive Garden,2016-07-10,137006.65,-345.57,food,John Williams,CURRENT
+84c3155b-82a6-402e-8454-78f51a460451,bank_c_00.uk,K&L Wines,2016-07-10,136582.85,-423.80,gift,John Williams,CURRENT
+ab703129-8486-4db8-bb2d-e43311f6d5f5,bank_c_00.uk,Banana Republic,2016-07-11,135557.84,-1025.01,clothing,John Williams,CURRENT
+b6b85193-6e2f-40af-a6d5-3622aec5cc48,bank_c_00.uk,Registration,2016-07-11,134772.35,-785.49,education,John Williams,CURRENT
+bcbb4009-fcd2-496a-af76-657edd1a5ca9,bank_c_00.uk,Olive Garden,2016-07-15,134357.39,-414.96,food,John Williams,CURRENT
+fc1eb3e7-fac3-4039-8ee4-d500f58eb66d,bank_c_00.uk,Olive Garden,2016-07-21,134012.72,-344.67,food,John Williams,CURRENT
+8690a917-6fbe-4a99-a0a3-d14b6f790fbf,bank_c_00.uk,Shell,2016-07-23,132848.60,-1164.12,auto,John Williams,CURRENT
+a665eef0-0da4-4c00-a985-52557dac419d,bank_c_00.uk,Olive Garden,2016-07-26,132145.94,-702.66,food,John Williams,CURRENT
+05dbc974-6dc0-4f70-82a8-d72ddf53d63e,bank_c_00.uk,Monthly Fee,2016-08-02,131670.90,-475.04,fee,John Williams,CURRENT
+a845d2d1-d5c5-43a5-9b35-6658ace678be,bank_c_00.uk,Dr. Jackson,2016-08-08,129697.80,-1973.10,health,John Williams,CURRENT
+f4bfca60-8737-42ee-9a76-e24f746e977e,bank_c_00.uk,Rhapsody,2016-08-08,128990.32,-707.48,entertainment,John Williams,CURRENT
+aca75150-e360-4b39-b814-a9b89d315f47,bank_c_00.uk,INCOME,2016-07-10,2090000.00,30000.00,INCOME,John Williams,SAVING
+78158199-1bf0-4b3b-9a18-d81a76332779,bank_c_01.uk,INCOME,2016-07-10,660000.00,20000.00,INCOME,Ammy Smith,SAVING
+37dfa94e-f17e-485d-91c1-b7f00d7ce8b5,bank_c_01.uk,INCOME,2016-07-10,270919.82,60000.00,INCOME,Ammy Smith,CURRENT
+04d7141c-a715-4817-8ed0-a03e654e4189,bank_c_01.uk,Whole Foods,2016-07-10,270335.03,-584.79,food,Ammy Smith,CURRENT
+74d1d228-7381-4fc0-bd33-232c41bc64fe,bank_c_01.uk,RENT,2016-07-10,250335.03,-20000.00,RENT,Ammy Smith,CURRENT
+985606be-519f-4c05-9ce3-dbf3c29922e0,bank_c_01.uk,Interest Fee,2016-07-15,249755.82,-579.21,fee,Ammy Smith,CURRENT
+8f1e6d79-e04d-44ca-bfc4-9e624e95aabb,bank_c_01.uk,Whole Foods,2016-07-20,249360.76,-395.06,food,Ammy Smith,CURRENT
+bfd3ab84-719a-41b5-ae2c-b20da168936b,bank_c_01.uk,Whole Foods,2016-07-21,248776.14,-584.62,food,Ammy Smith,CURRENT
+2059a940-5ac6-4c09-9f1a-b58e494b4b46,bank_c_01.uk,Nordstrom,2016-07-21,248281.96,-494.18,gift,Ammy Smith,CURRENT
+a02fb038-3196-435e-94b0-e752fdc8828c,bank_c_01.uk,PG&E,2016-07-27,246684.19,-1597.77,utility,Ammy Smith,CURRENT
+e43845bf-0172-4390-b18d-1972bef6efbb,bank_c_01.uk,Dr. Phillips,2016-07-27,245199.03,-1485.16,health,Ammy Smith,CURRENT
+15fa76b7-9bd5-4bc1-9337-f246b3534ed9,bank_c_01.uk,Kenneth Cole,2016-07-29,244276.09,-922.94,clothing,Ammy Smith,CURRENT
+e0fde904-28dd-41ab-aa03-409947a492bb,bank_c_01.uk,Tuition,2016-07-29,243075.17,-1200.92,education,Ammy Smith,CURRENT
+21c08534-12a5-422b-bd73-02e3cfbabb54,bank_c_01.uk,Whole Foods,2016-08-05,242487.21,-587.96,food,Ammy Smith,CURRENT
+d928f456-4f3b-4522-bc33-67c467c23bbb,bank_c_01.uk,Metreon Theaters,2016-08-08,242118.91,-368.30,entertainment,Ammy Smith,CURRENT
+2970baa7-7fbe-4e9c-a18f-b98e6d82e0cf,bank_c_00.uk,INCOME,2016-08-09,161990.32,33000.00,INCOME,John Williams,CURRENT
+84d1216b-5b74-4579-b8e6-4ab408e75af7,bank_c_00.uk,Kenneth Cole,2016-08-12,160492.57,-1497.75,clothing,John Williams,CURRENT
+b628cc76-d4dc-424c-932f-09cb66e33108,bank_c_00.uk,Shell,2016-08-14,159529.26,-963.31,auto,John Williams,CURRENT
+8e642f83-3787-486e-b52a-cbcb98d3df2f,bank_c_00.uk,Olive Garden,2016-08-15,159051.13,-478.13,food,John Williams,CURRENT
+7dcd9c18-32ae-4a90-8731-3dd73a496643,bank_c_00.uk,Olive Garden,2016-08-16,158375.86,-675.27,food,John Williams,CURRENT
+67e6ed4f-b97e-4c8e-8ea3-007b35cffb5e,bank_c_00.uk,Rhapsody,2016-08-18,157655.37,-720.49,entertainment,John Williams,CURRENT
+3baf270d-9f44-434e-b921-ca404f263983,bank_c_00.uk,Overlimit Fee,2016-08-19,157379.68,-275.69,fee,John Williams,CURRENT
+3c57be75-3638-4dfb-ba97-d80013d41dde,bank_c_00.uk,PG&E,2016-08-24,156219.30,-1160.38,utility,John Williams,CURRENT
+249edda0-fc68-4c17-8a76-efa94974f903,bank_c_00.uk,Olive Garden,2016-08-25,155640.29,-579.01,food,John Williams,CURRENT
+0fb9728b-de92-4e7b-8c1c-f206aa71f017,bank_c_00.uk,Walgreen's,2016-08-25,153614.89,-2025.40,health,John Williams,CURRENT
+50b96314-a90f-4d70-b8fd-6209febf3855,bank_c_00.uk,Tuition,2016-08-27,152390.47,-1224.42,education,John Williams,CURRENT
+6ea96e11-dde6-4715-936d-19901d5caadd,bank_c_00.uk,Olive Garden,2016-08-29,151679.35,-711.12,food,John Williams,CURRENT
+f8cd2064-fa76-4845-87cb-860159298152,bank_c_00.uk,K&L Wines,2016-09-01,151362.89,-316.46,gift,John Williams,CURRENT
+6cfb789a-58f5-45f5-8ce5-528a3eac8609,bank_c_00.uk,Olive Garden,2016-09-04,150690.60,-672.29,food,John Williams,CURRENT
+38f68cd1-cd7c-4d64-9bf6-9bb30ca26d1a,bank_c_00.uk,Olive Garden,2016-09-05,150218.89,-471.71,food,John Williams,CURRENT
+31db8b81-6538-43be-8918-c9c8590cf12d,bank_c_00.uk,INCOME,2016-08-09,2120000.00,30000.00,INCOME,John Williams,SAVING
+c18da088-dfa9-4dff-96e8-78fb4e4ed8d6,bank_c_01.uk,INCOME,2016-08-09,680000.00,20000.00,INCOME,Ammy Smith,SAVING
+d1a5c3c5-aea1-4085-a5c2-8d8388c43972,bank_c_01.uk,INCOME,2016-08-09,302118.91,60000.00,INCOME,Ammy Smith,CURRENT
+c647937e-07a2-4260-b9bb-aa6e81169677,bank_c_01.uk,RENT,2016-08-09,282118.91,-20000.00,RENT,Ammy Smith,CURRENT
+7fc5eeea-ff24-4a98-884d-c7a04fd1b47b,bank_c_01.uk,Trader Joe's,2016-08-10,281539.55,-579.36,food,Ammy Smith,CURRENT
+7760cb2a-6fc4-4f8f-b9ff-b7f75f2a722b,bank_c_01.uk,Trader Joe's,2016-08-14,280961.36,-578.19,food,Ammy Smith,CURRENT
+43625560-6621-4a55-8b95-f0aac79a9f5e,bank_c_01.uk,Arco,2016-08-16,279257.22,-1704.14,auto,Ammy Smith,CURRENT
+d3fe0063-7620-4979-9857-47805815b881,bank_c_01.uk,Wal-Mart,2016-08-17,277429.55,-1827.67,health,Ammy Smith,CURRENT
+77e13d3f-e2ad-4ed7-90fe-8cc823f378da,bank_c_01.uk,Neiman-Marcus,2016-08-17,277125.80,-303.75,gift,Ammy Smith,CURRENT
+9ffdbb1e-839a-4c5e-b82d-7d93bbff6de6,bank_c_01.uk,Trader Joe's,2016-08-21,276556.91,-568.89,food,Ammy Smith,CURRENT
+72e77ca9-6ec3-433b-962c-091b74282f06,bank_c_01.uk,Trader Joe's,2016-08-23,275852.19,-704.72,food,Ammy Smith,CURRENT
+a49c36ee-297b-404b-b77a-e66ae30d2360,bank_c_01.uk,Trader Joe's,2016-08-26,275266.38,-585.81,food,Ammy Smith,CURRENT
+50f44aee-0d76-4a1a-be33-a5f91121cd9d,bank_c_01.uk,Amazon.com,2016-08-26,273953.15,-1313.23,education,Ammy Smith,CURRENT
+839b1e0c-fb59-4dcc-8129-6510101ad109,bank_c_01.uk,Comcast,2016-08-29,271752.18,-2200.97,utility,Ammy Smith,CURRENT
+22bc2bf0-34ce-4199-b997-ff0238946fcb,bank_c_01.uk,Kenneth Cole,2016-09-05,270170.08,-1582.10,clothing,Ammy Smith,CURRENT
+19186ca7-7852-4f00-a7c8-662724812c67,bank_c_01.uk,Rhapsody,2016-09-05,269514.24,-655.84,entertainment,Ammy Smith,CURRENT
+3c3f8da0-fc21-44b9-af84-fffad1c152b6,bank_c_00.uk,INCOME,2016-09-08,183218.89,33000.00,INCOME,John Williams,CURRENT
+0dc5a221-cbff-4ef9-b1ce-dfe0341e1c95,bank_c_00.uk,Safeway,2016-09-10,182850.78,-368.11,food,John Williams,CURRENT
+f2d4ee2d-d00e-46b4-9739-d4e28b74caf0,bank_c_00.uk,Nordstrom,2016-09-15,181673.88,-1176.90,clothing,John Williams,CURRENT
+1fa349d8-cdb4-44f7-9d35-15a16e607c3b,bank_c_00.uk,Shell,2016-09-18,180351.13,-1322.75,auto,John Williams,CURRENT
+19744b43-da8a-43f2-a0fb-29973b168fd2,bank_c_00.uk,Safeway,2016-09-19,179865.38,-485.75,food,John Williams,CURRENT
+627e1ac5-6a30-419b-b48e-b74aeafb3452,bank_c_00.uk,Safeway,2016-09-19,179267.07,-598.31,food,John Williams,CURRENT
+910a3bc7-6084-41f6-a1b1-6bafbb0ce0a2,bank_c_00.uk,Safeway,2016-09-22,178575.24,-691.83,food,John Williams,CURRENT
+985870eb-b331-4218-b8ae-2241cc53805b,bank_c_00.uk,Registration,2016-09-26,176836.85,-1738.39,education,John Williams,CURRENT
+94d68617-515d-4fad-a404-a20af9224bb5,bank_c_00.uk,Safeway,2016-09-29,176233.59,-603.26,food,John Williams,CURRENT
+7180659b-3fb3-4fbf-983d-d642df7b75f2,bank_c_00.uk,AMC Theaters,2016-10-01,175795.70,-437.89,entertainment,John Williams,CURRENT
+a9eeb354-e6b5-40aa-ba77-e1a35129b058,bank_c_00.uk,Dr. Jackson,2016-10-03,174463.90,-1331.80,health,John Williams,CURRENT
+cc83e9aa-d129-4afd-8d27-178e4c0ab525,bank_c_00.uk,Safeway,2016-10-07,173982.89,-481.01,food,John Williams,CURRENT
+792516e2-7495-45eb-8aa7-446213fe2054,bank_c_00.uk,INCOME,2016-09-08,2150000.00,30000.00,INCOME,John Williams,SAVING
+a3887c69-52d3-4598-a99b-2e4df8025011,bank_c_01.uk,INCOME,2016-09-08,700000.00,20000.00,INCOME,Ammy Smith,SAVING
+9fe98954-4a21-42b9-bbf2-2aabbce73e81,bank_c_01.uk,INCOME,2016-09-08,329514.24,60000.00,INCOME,Ammy Smith,CURRENT
+6b24a13d-6200-423c-8805-6d33b884a388,bank_c_01.uk,RENT,2016-09-08,309514.24,-20000.00,RENT,Ammy Smith,CURRENT
+d132d2a2-474f-49d9-915c-6b4edf086606,bank_c_01.uk,Annual Fee,2016-09-12,309170.55,-343.69,fee,Ammy Smith,CURRENT
+d0dc195c-3c5d-4947-99b8-c7f9ae1ae8d4,bank_c_01.uk,J. Crew,2016-09-13,307869.36,-1301.19,clothing,Ammy Smith,CURRENT
+50082ebc-b8da-48f1-9f3c-688fb6aba5d1,bank_c_01.uk,Trader Joe's,2016-09-14,307404.51,-464.85,food,Ammy Smith,CURRENT
+c567c39b-047c-4ca4-854f-417647277512,bank_c_01.uk,Walgreen's,2016-09-18,305415.65,-1988.86,health,Ammy Smith,CURRENT
+f79d079c-bb73-498e-ac69-0a11c915a33f,bank_c_01.uk,Trader Joe's,2016-09-19,304772.71,-642.94,food,Ammy Smith,CURRENT
+feb99196-9d45-42e5-a286-ea23ce941a09,bank_c_01.uk,Trader Joe's,2016-09-24,304299.50,-473.21,food,Ammy Smith,CURRENT
+12262cd9-9e7c-4db8-8f8d-23449453f93a,bank_c_01.uk,Trader Joe's,2016-09-25,303708.61,-590.89,food,Ammy Smith,CURRENT
+0d8ff102-ee4e-485e-bbff-1ab35ca39b7f,bank_c_01.uk,Trader Joe's,2016-09-26,303194.25,-514.36,food,Ammy Smith,CURRENT
+13c0364f-8856-48c2-b93d-fc92053cf65f,bank_c_01.uk,Tuition,2016-09-26,301837.59,-1356.66,education,Ammy Smith,CURRENT
+c3e33548-c927-42fa-86b0-a9a4fb3a7805,bank_c_01.uk,Comcast,2016-09-30,300689.15,-1148.44,utility,Ammy Smith,CURRENT
+468a0757-dc3c-4faf-961b-6a9726fec46b,bank_c_01.uk,Chevron,2016-10-02,299317.48,-1371.67,auto,Ammy Smith,CURRENT
+d8106552-01d3-494a-9868-64f0d46708e4,bank_c_01.uk,K&L Wines,2016-10-02,298946.47,-371.01,gift,Ammy Smith,CURRENT
+85963704-9e22-4d94-bb70-cfa22acb7a64,bank_c_01.uk,Amazon.com,2016-10-06,298555.08,-391.39,entertainment,Ammy Smith,CURRENT
+caa34ca2-2dbb-432c-accf-15e4c77136d0,bank_c_00.uk,INCOME,2016-10-08,206982.89,33000.00,INCOME,John Williams,CURRENT
+8307f848-6fb2-44ad-b561-6cdafa3e1f19,bank_c_00.uk,Trader Joe's,2016-10-09,206460.77,-522.12,food,John Williams,CURRENT
+e1c97269-7868-41f3-854b-1bbfa90ccdcf,bank_c_00.uk,The Crucible,2016-10-09,205129.93,-1330.84,education,John Williams,CURRENT
+f187bf68-e850-400d-b289-8713385e5fda,bank_c_00.uk,Trader Joe's,2016-10-13,204484.28,-645.65,food,John Williams,CURRENT
+8b7fb541-485a-4802-932b-b91f29ef7fc5,bank_c_00.uk,Dr. Martins,2016-10-13,203485.27,-999.01,health,John Williams,CURRENT
+0f8e016d-b175-42ad-b40a-21687d4cce5b,bank_c_00.uk,Trader Joe's,2016-10-15,202823.52,-661.75,food,John Williams,CURRENT
+4083d3b0-300f-4e5b-83cf-ccfc0b6417c5,bank_c_00.uk,AT&T,2016-10-15,200789.21,-2034.31,utility,John Williams,CURRENT
+b693df36-8b39-42c5-8a7f-c61d11823513,bank_c_00.uk,K&L Wines,2016-10-16,200539.32,-249.89,gift,John Williams,CURRENT
+0492bcea-df63-41fb-95a0-641a472a606a,bank_c_00.uk,Monthly Fee,2016-10-21,200284.62,-254.70,fee,John Williams,CURRENT
+27afdf29-f125-4e04-b6f6-5200fd881d33,bank_c_00.uk,Rhapsody,2016-10-23,199870.85,-413.77,entertainment,John Williams,CURRENT
+6f5a8fa4-8fe3-4e7c-a3e3-4afbf6f5bdd6,bank_c_00.uk,Trader Joe's,2016-10-24,199201.27,-669.58,food,John Williams,CURRENT
+786aa4f4-1fea-4cff-adee-67613d5733d5,bank_c_00.uk,Trader Joe's,2016-10-26,198772.43,-428.84,food,John Williams,CURRENT
+b846b9a8-bf50-469d-b021-e9e7ea2af3c5,bank_c_00.uk,Macy's,2016-11-04,197714.89,-1057.54,clothing,John Williams,CURRENT
+02c023ea-45bf-4155-87c9-850730bb7419,bank_c_00.uk,Trader Joe's,2016-11-07,197286.91,-427.98,food,John Williams,CURRENT
+ca1a32e2-d986-4068-93f9-16af7c830a5d,bank_c_00.uk,INCOME,2016-10-08,2180000.00,30000.00,INCOME,John Williams,SAVING
+86156958-9adf-48ce-873f-efd550bd5e90,bank_c_01.uk,INCOME,2016-10-08,720000.00,20000.00,INCOME,Ammy Smith,SAVING
+67a6c201-a155-4f67-b3b6-525be2ed270b,bank_c_01.uk,INCOME,2016-10-08,358555.08,60000.00,INCOME,Ammy Smith,CURRENT
+61c15458-423e-43f0-a09a-a21772c0a80d,bank_c_01.uk,,2016-10-08,356436.83,-2118.25,utility,Ammy Smith,CURRENT
+236f8cb0-9dc9-4e7b-950c-7a6119a91d8d,bank_c_01.uk,RENT,2016-10-08,336436.83,-20000.00,RENT,Ammy Smith,CURRENT
+904ae874-df3f-498d-86d5-dbfb7876b3e3,bank_c_01.uk,Safeway,2016-10-22,336017.03,-419.80,food,Ammy Smith,CURRENT
+329064f1-776c-466c-8161-48eb32ca514f,bank_c_01.uk,The Gap,2016-10-23,335155.57,-861.46,clothing,Ammy Smith,CURRENT
+17d55fea-86ef-485e-a039-8ba3857db4b3,bank_c_01.uk,K&L Wines,2016-10-25,334730.97,-424.60,gift,Ammy Smith,CURRENT
+3565b010-5629-4d24-900d-3ebd1fefb73a,bank_c_01.uk,Monthly Fee,2016-10-26,334450.97,-280.00,fee,Ammy Smith,CURRENT
+c66561e5-574c-4b50-af9c-00f35002630a,bank_c_01.uk,Safeway,2016-10-29,333862.71,-588.26,food,Ammy Smith,CURRENT
+c6e4c262-aaf3-46b3-9eaf-521cc00771bf,bank_c_01.uk,iTunes Music Store,2016-10-29,333349.86,-512.85,entertainment,Ammy Smith,CURRENT
+eabe40ff-7000-4931-a11d-b7ae5178e611,bank_c_01.uk,Safeway,2016-10-30,332926.03,-423.83,food,Ammy Smith,CURRENT
+a4dbf2e8-9ed5-4421-a705-f3aff0aa16e7,bank_c_01.uk,Safeway,2016-11-02,332378.00,-548.03,food,Ammy Smith,CURRENT
+aaafbb7c-0554-49c0-8f0d-15383b656e76,bank_c_01.uk,Safeway,2016-11-03,331687.11,-690.89,food,Ammy Smith,CURRENT
+3f1105a3-16d7-422a-a477-ccd642d2dedc,bank_c_01.uk,Safeway,2016-11-03,331075.25,-611.86,food,Ammy Smith,CURRENT
+dc63d405-0843-4c38-996b-b7c157a40c5a,bank_c_01.uk,Amazon.com,2016-11-05,329737.72,-1337.53,education,Ammy Smith,CURRENT
+5d8dd31b-179d-485f-a3b2-a2e53603d723,bank_c_00.uk,INCOME,2016-11-07,230286.91,33000.00,INCOME,John Williams,CURRENT
+4a363e53-27ed-41e5-bc68-b224c3030ebf,bank_c_00.uk,K&L Wines,2016-11-07,230008.15,-278.76,gift,John Williams,CURRENT
+dbaa1ac8-3cbe-492b-b42e-83c87871b3e1,bank_c_00.uk,Jiffy Lube,2016-11-08,229048.11,-960.04,auto,John Williams,CURRENT
+3027d252-35f9-45cc-b0c2-9ffe4d228474,bank_c_00.uk,Trader Joe's,2016-11-09,228476.11,-572.00,food,John Williams,CURRENT
+5c7a60cd-516f-4627-8213-d9e8ca59ed0d,bank_c_00.uk,Banana Republic,2016-11-13,227505.39,-970.72,clothing,John Williams,CURRENT
+424fec73-857a-44a3-aef5-af8d58861851,bank_c_00.uk,Trader Joe's,2016-11-14,226792.21,-713.18,food,John Williams,CURRENT
+8966cc18-7eaf-4a24-abcb-14201d2012bb,bank_c_00.uk,Trader Joe's,2016-11-17,226246.06,-546.15,food,John Williams,CURRENT
+d3f41ca7-4e17-47a2-a147-595c6a8ad632,bank_c_00.uk,Brinks,2016-11-17,224193.11,-2052.95,utility,John Williams,CURRENT
+ede319b6-d3ec-49f0-90b9-e85f8dcea02e,bank_c_00.uk,Trader Joe's,2016-11-22,223768.64,-424.47,food,John Williams,CURRENT
+345e278d-82a6-434e-b16c-66d6c626838c,bank_c_00.uk,Netflix,2016-11-24,222936.57,-832.07,entertainment,John Williams,CURRENT
+e2b33654-0faf-4177-8d18-ce78c3558d7b,bank_c_00.uk,Dr. Jackson,2016-11-27,221634.98,-1301.59,health,John Williams,CURRENT
+30d10a05-c43d-47c0-8645-9fe6545f3d5d,bank_c_00.uk,INCOME,2016-11-07,2210000.00,30000.00,INCOME,John Williams,SAVING
+cd5fb6c5-8132-48a4-97eb-ccfb18e0ceea,bank_c_01.uk,INCOME,2016-11-07,740000.00,20000.00,INCOME,Ammy Smith,SAVING
+95ba7102-6f49-4730-bec7-7c8015e238c6,bank_c_01.uk,INCOME,2016-11-07,389737.72,60000.00,INCOME,Ammy Smith,CURRENT
+4843a1c5-c7e9-469f-bda6-86e2ab0af56f,bank_c_01.uk,In-N-Out Burger,2016-11-07,389216.86,-520.86,food,Ammy Smith,CURRENT
+e32ed24a-cc48-4643-a559-6bb3282508af,bank_c_01.uk,RENT,2016-11-07,369216.86,-20000.00,RENT,Ammy Smith,CURRENT
+0164c241-1222-47c4-b28b-9ecf6dbccb7e,bank_c_01.uk,Registration,2016-11-09,368283.60,-933.26,education,Ammy Smith,CURRENT
+8b048d91-0746-41b0-9b23-2bb3e4f19ebc,bank_c_01.uk,In-N-Out Burger,2016-11-13,367932.25,-351.35,food,Ammy Smith,CURRENT
+f230fdfd-e495-4e42-82bb-801f66982e26,bank_c_01.uk,In-N-Out Burger,2016-11-17,367501.26,-430.99,food,Ammy Smith,CURRENT
+50fcba6b-486a-465d-94ae-bd9ab5f884e8,bank_c_01.uk,The Gap,2016-11-20,366107.37,-1393.89,clothing,Ammy Smith,CURRENT
+46d9e6ec-1c02-4536-9779-40f775c2435b,bank_c_01.uk,Arco,2016-11-22,364147.14,-1960.23,auto,Ammy Smith,CURRENT
+67155433-cece-4325-985c-766c3d9f0bb6,bank_c_01.uk,In-N-Out Burger,2016-11-23,363696.85,-450.29,food,Ammy Smith,CURRENT
+f92c63a7-8073-4905-8e86-f4ba5f1aa2ad,bank_c_01.uk,Wal-Mart,2016-11-24,362237.21,-1459.64,health,Ammy Smith,CURRENT
+e69f2c27-bf0c-4d57-b0ff-60d298f1f970,bank_c_01.uk,Nordstrom,2016-11-27,361971.88,-265.33,gift,Ammy Smith,CURRENT
+c91b95ec-9b3c-4b37-bdf9-fb5f4ee204dc,bank_c_01.uk,In-N-Out Burger,2016-12-01,361575.89,-395.99,food,Ammy Smith,CURRENT
+d3156602-c3e4-451e-ad9d-56215bbef940,bank_c_01.uk,In-N-Out Burger,2016-12-05,360920.83,-655.06,food,Ammy Smith,CURRENT
+908155e5-a1b4-442c-a877-55d1a952893c,bank_c_01.uk,AMC Theaters,2016-12-06,360510.88,-409.95,entertainment,Ammy Smith,CURRENT
+e0810ee8-aee9-491e-a16d-c86c91f32266,bank_c_00.uk,INCOME,2016-12-07,254634.98,33000.00,INCOME,John Williams,CURRENT
+1db520ac-6f16-4c92-8baa-5f623ed489bc,bank_c_00.uk,In-N-Out Burger,2016-12-07,253969.74,-665.24,food,John Williams,CURRENT
+779cf145-5169-48e5-8029-5d091ac84804,bank_c_00.uk,In-N-Out Burger,2016-12-10,253531.81,-437.93,food,John Williams,CURRENT
+054b648b-b207-4a88-8b52-2509cb0d075c,bank_c_00.uk,iTunes Music Store,2016-12-10,252910.03,-621.78,entertainment,John Williams,CURRENT
+d94af1b3-39f7-45f6-8556-5fcb12af76df,bank_c_00.uk,In-N-Out Burger,2016-12-11,252362.97,-547.06,food,John Williams,CURRENT
+9102ca16-2308-490c-a0fe-e941019e4cc1,bank_c_00.uk,In-N-Out Burger,2016-12-12,251719.58,-643.39,food,John Williams,CURRENT
+7d8136eb-b7af-4eb9-b8a7-81cd93dc9952,bank_c_00.uk,PG&E,2016-12-12,249835.94,-1883.64,utility,John Williams,CURRENT
+5b167d51-0f67-4b3f-85d3-8a0bae95b763,bank_c_00.uk,Registration,2016-12-12,248283.87,-1552.07,education,John Williams,CURRENT
+f58c8df7-85c7-4631-ad42-befd79217c9e,bank_c_00.uk,In-N-Out Burger,2016-12-16,247731.41,-552.46,food,John Williams,CURRENT
+b36752df-2b01-4657-96d2-b9c821ce6f5e,bank_c_00.uk,Shell,2016-12-18,246076.33,-1655.08,auto,John Williams,CURRENT
+bd0b7113-52bb-43d9-9235-eccbcfabf96f,bank_c_00.uk,Amazon.com,2016-12-25,245795.26,-281.07,gift,John Williams,CURRENT
+aa0b68ab-3536-41ba-abdb-1c83aeed8e9a,bank_c_00.uk,In-N-Out Burger,2016-12-29,245194.07,-601.19,food,John Williams,CURRENT
+098629b2-ae85-4166-8a88-b66bbc2c70e4,bank_c_00.uk,Dr. Jackson,2017-01-02,243846.58,-1347.49,health,John Williams,CURRENT
+d7d8e368-e3ce-4d52-aba0-350e575fbdf8,bank_c_00.uk,Kenneth Cole,2017-01-04,242602.44,-1244.14,clothing,John Williams,CURRENT
+7a0c0451-1c9d-4c35-897f-4c1609a0f476,bank_c_00.uk,INCOME,2016-12-07,2240000.00,30000.00,INCOME,John Williams,SAVING
+198a6a65-8d42-4fcc-9715-ca0225b10e9c,bank_c_01.uk,INCOME,2016-12-07,760000.00,20000.00,INCOME,Ammy Smith,SAVING
+467d3b7c-5fc1-46fa-a1c4-6fb2a545c678,bank_c_01.uk,INCOME,2016-12-07,420510.88,60000.00,INCOME,Ammy Smith,CURRENT
+38b955fc-43b4-4628-ac93-ae8e2c2beac8,bank_c_01.uk,Safeway,2016-12-07,420129.51,-381.37,food,Ammy Smith,CURRENT
+3abfe4e1-84c2-4e67-80da-42569836d950,bank_c_01.uk,RENT,2016-12-07,400129.51,-20000.00,RENT,Ammy Smith,CURRENT
+1e6c7884-082b-41a9-a1a4-500c58d3ee07,bank_c_01.uk,Safeway,2016-12-08,399609.52,-519.99,food,Ammy Smith,CURRENT
+69dd9e13-95b3-41d3-953a-39b09e8ea5ad,bank_c_01.uk,Safeway,2016-12-09,399045.35,-564.17,food,Ammy Smith,CURRENT
+13bb61bc-da48-49c8-9a47-d6e0e15f6bb3,bank_c_01.uk,Safeway,2016-12-13,398685.23,-360.12,food,Ammy Smith,CURRENT
+d332a257-3fdf-41a4-a288-93846f187e8a,bank_c_01.uk,Annual Fee,2016-12-14,398103.56,-581.67,fee,Ammy Smith,CURRENT
+d93851a2-1b15-45f1-a08b-1342ca43a714,bank_c_01.uk,Macy's,2016-12-16,396851.46,-1252.10,clothing,Ammy Smith,CURRENT
+737155c6-7880-4d60-9edf-72862a242d4b,bank_c_01.uk,Safeway,2016-12-21,396245.02,-606.44,food,Ammy Smith,CURRENT
+62cf47a8-24e3-4010-bbcc-60b95b1d05b3,bank_c_01.uk,Apple Store,2016-12-22,395910.96,-334.06,gift,Ammy Smith,CURRENT
+1b203744-ae31-421e-a05a-1c65fd22e4e3,bank_c_01.uk,Amazon.com,2016-12-24,395517.10,-393.86,entertainment,Ammy Smith,CURRENT
+ba3b6d53-b3c3-40da-9e6a-84812fc27f9c,bank_c_01.uk,Comcast,2016-12-31,394117.29,-1399.81,utility,Ammy Smith,CURRENT
+8cd57245-4eae-42e9-9bde-92de1ea54f31,bank_c_01.uk,Jiffy Lube,2017-01-01,392235.96,-1881.33,auto,Ammy Smith,CURRENT
+f27ad65a-ee0e-4d9a-93f4-97fe75a5bae5,bank_c_00.uk,INCOME,2017-01-06,275602.44,33000.00,INCOME,John Williams,CURRENT
+1e2c2dba-0cdf-4e75-a52c-57292f5f6607,bank_c_00.uk,Amazon.com,2017-01-06,275301.34,-301.10,gift,John Williams,CURRENT
+c20fec5f-6310-427f-841f-a095ade2e953,bank_c_00.uk,Metreon Theaters,2017-01-08,274756.34,-545.00,entertainment,John Williams,CURRENT
+7a8c12c4-4071-4cb4-b8a7-b1d3808fd73b,bank_c_00.uk,In-N-Out Burger,2017-01-13,274330.28,-426.06,food,John Williams,CURRENT
+68436583-a55b-4290-9006-1ad66c2cf644,bank_c_00.uk,In-N-Out Burger,2017-01-13,273640.14,-690.14,food,John Williams,CURRENT
+de9d6627-0353-4346-9b58-51597b963e4b,bank_c_00.uk,In-N-Out Burger,2017-01-28,272936.28,-703.86,food,John Williams,CURRENT
+6c657ff6-7102-4c09-b2d8-14cfc41cd7b7,bank_c_00.uk,In-N-Out Burger,2017-01-28,272246.19,-690.09,food,John Williams,CURRENT
+cabf508a-1b28-4893-b5a2-c6124c952414,bank_c_00.uk,Annual Fee,2017-01-31,271671.23,-574.96,fee,John Williams,CURRENT
+eb29b39f-28c8-46b9-8c69-e518f948a7d9,bank_c_00.uk,The Gap,2017-02-02,270048.28,-1622.95,clothing,John Williams,CURRENT
+79e16ffd-2fea-420a-a212-b0ed3f6db32c,bank_c_00.uk,Verizon,2017-02-03,267517.46,-2530.82,utility,John Williams,CURRENT
+4fa022b7-cb63-41f3-a3a7-892ac775454e,bank_c_00.uk,Amazon.com,2017-02-04,266559.67,-957.79,education,John Williams,CURRENT
+0dec8435-dc85-4c4e-b907-de78ff8b04b4,bank_c_00.uk,INCOME,2017-01-06,2270000.00,30000.00,INCOME,John Williams,SAVING
+616bfee9-bf32-477c-b189-f4772fd305db,bank_c_01.uk,INCOME,2017-01-06,780000.00,20000.00,INCOME,Ammy Smith,SAVING
+df9b10d6-4918-427a-95c3-b402e4b26318,bank_c_01.uk,INCOME,2017-01-06,452235.96,60000.00,INCOME,Ammy Smith,CURRENT
+aad13144-1e50-4f8a-92da-be11883881f4,bank_c_01.uk,RENT,2017-01-06,432235.96,-20000.00,RENT,Ammy Smith,CURRENT
+7003eba2-2dbf-41a1-aa23-94e4c7464253,bank_c_01.uk,Safeway,2017-01-11,431836.17,-399.79,food,Ammy Smith,CURRENT
+8973f6de-c7bf-4051-99e1-2101cc4be822,bank_c_01.uk,Shell,2017-01-12,430920.49,-915.68,auto,Ammy Smith,CURRENT
+3d053651-a472-466b-9bb4-b455d51c27b0,bank_c_01.uk,Safeway,2017-01-15,430496.04,-424.45,food,Ammy Smith,CURRENT
+bedeff61-18d2-431b-9f9b-94c61251ef3e,bank_c_01.uk,PG&E,2017-01-17,428803.65,-1692.39,utility,Ammy Smith,CURRENT
+b61f918d-6a22-4301-bacc-cfe440ed5f0e,bank_c_01.uk,Metreon Theaters,2017-01-17,428432.02,-371.63,entertainment,Ammy Smith,CURRENT
+6699a4c8-859b-42c1-8a27-1214da5775e4,bank_c_01.uk,Campus Books,2017-01-17,426950.43,-1481.59,education,Ammy Smith,CURRENT
+1c6ba516-4a78-4160-b3b0-e658b30aa00e,bank_c_01.uk,Overlimit Fee,2017-01-20,426378.00,-572.43,fee,Ammy Smith,CURRENT
+df72bdb7-f735-4e07-84d9-4c98ba681eea,bank_c_01.uk,Safeway,2017-01-23,425880.98,-497.02,food,Ammy Smith,CURRENT
+c1d77b4d-7486-4145-8046-31c347746c39,bank_c_01.uk,Macy's,2017-01-27,424257.90,-1623.08,clothing,Ammy Smith,CURRENT
+ee3e52ea-59be-4ba8-b183-8b0efa1e202c,bank_c_01.uk,Safeway,2017-01-29,423854.51,-403.39,food,Ammy Smith,CURRENT
+96f9588b-1480-4b0a-8e44-16e444d67209,bank_c_01.uk,Safeway,2017-02-01,423275.31,-579.20,food,Ammy Smith,CURRENT
+fc4c6742-adb1-4f7f-94dd-678aabcfd72c,bank_c_01.uk,Dr. Phillips,2017-02-01,421314.10,-1961.21,health,Ammy Smith,CURRENT
+2ec8945b-f418-4a11-ae54-4c0b5a626c0b,bank_c_01.uk,K&L Wines,2017-02-02,420985.09,-329.01,gift,Ammy Smith,CURRENT
+55359e1e-a747-40a2-a98b-962e122f7829,bank_c_00.uk,INCOME,2017-02-05,299559.67,33000.00,INCOME,John Williams,CURRENT
+8a3325eb-6d10-4db0-94fb-7f573086edfa,bank_c_00.uk,Trader Joe's,2017-02-05,299183.04,-376.63,food,John Williams,CURRENT
+2bdb625f-8863-4302-99d4-5d6bf9d21c41,bank_c_00.uk,Chevron,2017-02-05,298196.03,-987.01,auto,John Williams,CURRENT
+d974e279-dcaa-4c4b-bfbe-f027c50863be,bank_c_00.uk,Trader Joe's,2017-02-07,297872.10,-323.93,food,John Williams,CURRENT
+d7166a0e-c183-447a-99cd-550f3e44b8a0,bank_c_00.uk,Netflix,2017-02-18,297493.65,-378.45,entertainment,John Williams,CURRENT
+7905d8e2-15de-41f8-a0a6-27626bcdfac3,bank_c_00.uk,Tuition,2017-02-19,296090.58,-1403.07,education,John Williams,CURRENT
+b9b3baa7-601b-4b30-8bd1-c14c44833822,bank_c_00.uk,Trader Joe's,2017-02-25,295671.51,-419.07,food,John Williams,CURRENT
+50021185-5abd-4fe4-8bd9-b3dc47a6b050,bank_c_00.uk,Wal-Mart,2017-02-27,294496.30,-1175.21,health,John Williams,CURRENT
+c65bc215-b020-4f40-bae6-1c2157444c14,bank_c_00.uk,K&L Wines,2017-02-27,294226.01,-270.29,gift,John Williams,CURRENT
+56db570d-2190-414d-9110-7e5514b18513,bank_c_00.uk,Trader Joe's,2017-02-28,293584.38,-641.63,food,John Williams,CURRENT
+a0cdd0a1-5aee-4ad2-92df-0fe492a52edd,bank_c_00.uk,Brinks,2017-02-28,292438.31,-1146.07,utility,John Williams,CURRENT
+ed60d55f-06c6-4401-a21d-fc3d98705348,bank_c_00.uk,Banana Republic,2017-03-07,291199.04,-1239.27,clothing,John Williams,CURRENT
+39e75a1c-f32f-4434-8630-43a3e3293057,bank_c_00.uk,INCOME,2017-02-05,2300000.00,30000.00,INCOME,John Williams,SAVING
+428bd244-c477-4d26-91b1-c553df2bf068,bank_c_01.uk,INCOME,2017-02-05,800000.00,20000.00,INCOME,Ammy Smith,SAVING
+b02e8696-8f15-4bf5-958c-745f3b66b4b0,bank_c_01.uk,INCOME,2017-02-05,480985.09,60000.00,INCOME,Ammy Smith,CURRENT
+5cb8546b-ff87-4e7d-b6d9-6c53157661ab,bank_c_01.uk,RENT,2017-02-05,460985.09,-20000.00,RENT,Ammy Smith,CURRENT
+65bc8387-1df3-40cd-98be-5c7537ddfd1a,bank_c_01.uk,Olive Garden,2017-02-09,460628.40,-356.69,food,Ammy Smith,CURRENT
+3cbe7ed2-e2ec-41d4-a190-f6a99553ce0b,bank_c_01.uk,Tuition,2017-02-10,459813.09,-815.31,education,Ammy Smith,CURRENT
+c7cf3f4f-bf9f-42e2-a3a2-5586bb4b46da,bank_c_01.uk,Olive Garden,2017-02-12,459300.27,-512.82,food,Ammy Smith,CURRENT
+3b846bdb-604d-4b80-b973-33c2b3934be8,bank_c_01.uk,Olive Garden,2017-02-14,458645.59,-654.68,food,Ammy Smith,CURRENT
+f7c1104d-a449-4323-87ba-0d05cf73fafd,bank_c_01.uk,Union 76,2017-02-16,457199.19,-1446.40,auto,Ammy Smith,CURRENT
+d20f6b2d-cec5-4728-a7c0-d5c87701d4ae,bank_c_01.uk,AMC Theaters,2017-02-18,456472.62,-726.57,entertainment,Ammy Smith,CURRENT
+d81cfca6-7a55-4735-a152-636a65a018e4,bank_c_01.uk,Olive Garden,2017-02-20,456104.93,-367.69,food,Ammy Smith,CURRENT
+f35c8885-276f-4b61-8380-025ca7fbc0f2,bank_c_01.uk,Late Fee,2017-02-22,455751.97,-352.96,fee,Ammy Smith,CURRENT
+f3144eff-9bd1-4fca-8162-390c31868ffc,bank_c_01.uk,Dr. Jackson,2017-02-24,454621.33,-1130.64,health,Ammy Smith,CURRENT
+6f385a6f-298b-4512-af48-011cc71c40ea,bank_c_01.uk,Olive Garden,2017-02-26,454188.60,-432.73,food,Ammy Smith,CURRENT
+b89440d7-4668-4eb5-bf9d-6c2f4ebaa5e1,bank_c_01.uk,Comcast,2017-02-26,452216.13,-1972.47,utility,Ammy Smith,CURRENT
+4d5f500d-2886-498b-814b-1133e9e76f22,bank_c_01.uk,Kenneth Cole,2017-03-04,451419.75,-796.38,clothing,Ammy Smith,CURRENT
+71040ba0-5dd4-4b9b-9760-9c4e867954f2,bank_c_00.uk,INCOME,2017-03-07,324199.04,33000.00,INCOME,John Williams,CURRENT
+968d2eaf-f0bf-4bd4-856e-48920b20efe7,bank_c_00.uk,In-N-Out Burger,2017-03-07,323541.77,-657.27,food,John Williams,CURRENT
+78f1066b-16c8-41b8-8d28-24c7f1a4dd22,bank_c_00.uk,Brinks,2017-03-12,322118.06,-1423.71,utility,John Williams,CURRENT
+624423ff-1f76-4827-a740-4cc3b769291c,bank_c_00.uk,Walgreen's,2017-03-13,321130.86,-987.20,health,John Williams,CURRENT
+028f42b1-76d7-425d-a488-91d9326a1927,bank_c_00.uk,In-N-Out Burger,2017-03-16,320513.44,-617.42,food,John Williams,CURRENT
+6dab057b-2631-4581-87cd-aa1e74dd8b56,bank_c_00.uk,In-N-Out Burger,2017-03-18,319826.90,-686.54,food,John Williams,CURRENT
+22dd7d8b-91f9-4c7c-a76a-550ff6ae60b3,bank_c_00.uk,In-N-Out Burger,2017-03-21,319420.71,-406.19,food,John Williams,CURRENT
+fa03a7a2-ed3c-4ed6-9ff4-e97575be116c,bank_c_00.uk,Nordstrom,2017-03-22,319005.05,-415.66,gift,John Williams,CURRENT
+688396cd-d391-4567-8d2c-badb95ab5752,bank_c_00.uk,Pep Boys,2017-03-24,317400.53,-1604.52,auto,John Williams,CURRENT
+2f0f27de-691f-4f21-86a6-cf6625af3059,bank_c_00.uk,Metreon Theaters,2017-03-24,316676.76,-723.77,entertainment,John Williams,CURRENT
+78f51eb0-e0c7-4007-bc24-0a7fd165bef2,bank_c_00.uk,In-N-Out Burger,2017-03-30,316076.13,-600.63,food,John Williams,CURRENT
+823f9992-d8c8-4a8f-8c83-57941c356b6c,bank_c_00.uk,Kenneth Cole,2017-04-03,314889.83,-1186.30,clothing,John Williams,CURRENT
+5a80cd75-b2de-43a7-86bb-6a437e2c6d65,bank_c_00.uk,In-N-Out Burger,2017-04-05,314258.34,-631.49,food,John Williams,CURRENT
+94b3baec-25f0-4cfa-bb85-2684dfbe2a4b,bank_c_00.uk,INCOME,2017-03-07,2330000.00,30000.00,INCOME,John Williams,SAVING
+ee8fc951-6c51-438b-9812-24d6501030c3,bank_c_01.uk,INCOME,2017-03-07,820000.00,20000.00,INCOME,Ammy Smith,SAVING
+05ae6609-e4a5-4e8c-9a07-1ea51a487f8b,bank_c_01.uk,INCOME,2017-03-07,511419.75,60000.00,INCOME,Ammy Smith,CURRENT
+00e356e6-f960-4379-af1d-4a14fcbc4ff2,bank_c_01.uk,RENT,2017-03-07,491419.75,-20000.00,RENT,Ammy Smith,CURRENT
+c86191ce-eaea-40b6-9077-5af370a61d7a,bank_c_01.uk,Olive Garden,2017-03-12,490793.70,-626.05,food,Ammy Smith,CURRENT
+fc7d32ab-bc37-4143-9354-741c123ede89,bank_c_01.uk,Nordstrom,2017-03-20,489731.56,-1062.14,clothing,Ammy Smith,CURRENT
+c2fbee72-9853-465b-8ffa-8b19016d3396,bank_c_01.uk,Olive Garden,2017-03-21,489398.58,-332.98,food,Ammy Smith,CURRENT
+28cea374-c31f-4c47-aa45-93a29da19d04,bank_c_01.uk,Olive Garden,2017-03-24,488981.76,-416.82,food,Ammy Smith,CURRENT
+b9b60e6f-ff79-4835-b5ff-239b7691fa1f,bank_c_01.uk,Olive Garden,2017-03-26,488665.28,-316.48,food,Ammy Smith,CURRENT
+0a099ab8-d4b8-4a8d-9ccb-e9040622820b,bank_c_01.uk,Walgreen's,2017-03-26,487585.49,-1079.79,health,Ammy Smith,CURRENT
+51d42476-d158-46a3-9b5e-b4f7c9eb981b,bank_c_01.uk,Olive Garden,2017-03-27,487127.05,-458.44,food,Ammy Smith,CURRENT
+4784c296-5627-48db-9864-77c25d8c9d50,bank_c_01.uk,Jiffy Lube,2017-03-27,485727.64,-1399.41,auto,Ammy Smith,CURRENT
+fcdc6002-386e-4bc5-b36b-193c71b4fbec,bank_c_01.uk,K&L Wines,2017-03-31,485280.64,-447.00,gift,Ammy Smith,CURRENT
+52c98532-2306-41f9-ae98-c7cf9779c789,bank_c_01.uk,Olive Garden,2017-04-01,484871.48,-409.16,food,Ammy Smith,CURRENT
+247d09ff-a770-43db-af61-8fe06d752067,bank_c_01.uk,Brinks,2017-04-04,483366.64,-1504.84,utility,Ammy Smith,CURRENT
+331132d5-e2c9-47fb-91df-f69cb35b02e9,bank_c_01.uk,iTunes Music Store,2017-04-05,482671.96,-694.68,entertainment,Ammy Smith,CURRENT
+60328231-9f1e-4f9c-a595-8a057be356da,bank_c_00.uk,INCOME,2017-04-06,347258.34,33000.00,INCOME,John Williams,CURRENT
+fdca5bee-bab2-4307-ae3d-777cec123633,bank_c_00.uk,In-N-Out Burger,2017-04-11,346767.35,-490.99,food,John Williams,CURRENT
+720b1a01-71c9-40c4-9f78-318d330f006f,bank_c_00.uk,Jiffy Lube,2017-04-12,345471.49,-1295.86,auto,John Williams,CURRENT
+09ca1492-3af1-4d31-b356-adfabe9920fd,bank_c_00.uk,Monthly Fee,2017-04-13,345014.98,-456.51,fee,John Williams,CURRENT
+31f5da04-4b81-4634-b55d-6ff05b23513a,bank_c_00.uk,Dr. Jackson,2017-04-14,343449.50,-1565.48,health,John Williams,CURRENT
+3f8cb8a9-4179-419d-976c-5917c50344bb,bank_c_00.uk,Banana Republic,2017-04-17,342690.97,-758.53,clothing,John Williams,CURRENT
+ea24f761-89ca-4457-9d3b-da09f9b7eb2a,bank_c_00.uk,K&L Wines,2017-04-18,342386.20,-304.77,gift,John Williams,CURRENT
+56086cfd-f77f-412d-aa9c-aaa0701975b6,bank_c_00.uk,In-N-Out Burger,2017-04-19,341752.43,-633.77,food,John Williams,CURRENT
+78865b1c-71eb-43c2-b241-497994df803a,bank_c_00.uk,In-N-Out Burger,2017-04-21,341214.04,-538.39,food,John Williams,CURRENT
+1c06eae7-aaee-4449-bbc4-e9d9ccdb237a,bank_c_00.uk,AMC Theaters,2017-04-22,340390.45,-823.59,entertainment,John Williams,CURRENT
+3b1145d1-9d2a-4c3a-afb1-b5bdecffd181,bank_c_00.uk,In-N-Out Burger,2017-04-24,339947.43,-443.02,food,John Williams,CURRENT
+9cd3fca0-f664-4c38-ad2b-d63dfda89552,bank_c_00.uk,In-N-Out Burger,2017-04-30,339457.22,-490.21,food,John Williams,CURRENT
+60c952f5-17d7-4bd4-b3fd-0a7628388524,bank_c_00.uk,In-N-Out Burger,2017-05-06,339121.96,-335.26,food,John Williams,CURRENT
+30b73379-3d48-4c89-9fcd-e58401058b76,bank_c_00.uk,Tuition,2017-05-06,337744.88,-1377.08,education,John Williams,CURRENT
+1ddb8239-38c3-40a2-9cc7-d7cc6d228016,bank_c_00.uk,INCOME,2017-04-06,2360000.00,30000.00,INCOME,John Williams,SAVING
+8508bede-231f-4f93-8766-29b5852f097c,bank_c_01.uk,INCOME,2017-04-06,840000.00,20000.00,INCOME,Ammy Smith,SAVING
+71760708-4ca2-40b2-bd38-9d708d09e8e3,bank_c_01.uk,INCOME,2017-04-06,542671.96,60000.00,INCOME,Ammy Smith,CURRENT
+fff34618-e53e-4021-8b3d-9f4c9bef8548,bank_c_01.uk,RENT,2017-04-06,522671.96,-20000.00,RENT,Ammy Smith,CURRENT
+27517af8-3ada-4c6a-b913-eff1a55a0723,bank_c_01.uk,Union 76,2017-04-14,521778.30,-893.66,auto,Ammy Smith,CURRENT
+080a7207-87a2-47c1-9bae-2b7f5c65a25e,bank_c_01.uk,Safeway,2017-04-15,521248.47,-529.83,food,Ammy Smith,CURRENT
+06261196-783b-4681-9379-4e252780ee9f,bank_c_01.uk,Safeway,2017-04-15,520855.51,-392.96,food,Ammy Smith,CURRENT
+01acee43-9dc0-468f-babd-cef047331e1f,bank_c_01.uk,Apple Store,2017-04-23,520426.91,-428.60,gift,Ammy Smith,CURRENT
+abb5593c-ac60-4e8f-8a2f-e24f2eae7316,bank_c_01.uk,AT&T,2017-04-24,518359.68,-2067.23,utility,Ammy Smith,CURRENT
+0746c37c-22df-4a95-8be7-7d86c3f8fe29,bank_c_01.uk,Safeway,2017-04-26,517972.74,-386.94,food,Ammy Smith,CURRENT
+ba838e15-5e50-4eff-b7d2-f4c3a4fdde43,bank_c_01.uk,Metreon Theaters,2017-04-27,517154.62,-818.12,entertainment,Ammy Smith,CURRENT
+b23eee4a-0db0-4195-916b-f6f5a39e3b18,bank_c_01.uk,Banana Republic,2017-05-01,516292.02,-862.60,clothing,Ammy Smith,CURRENT
+5c5c16c2-1636-44d7-9ddc-6aeaf49cedfe,bank_c_01.uk,Dr. Martins,2017-05-03,515016.58,-1275.44,health,Ammy Smith,CURRENT
+7025cb5f-5c43-42a4-9bc2-a03a3bd24ddb,bank_c_01.uk,Safeway,2017-05-06,514429.94,-586.64,food,Ammy Smith,CURRENT
+89c852ea-4ce2-46ff-ad4a-a67d6506373c,bank_c_00.uk,INCOME,2017-05-06,370744.88,33000.00,INCOME,John Williams,CURRENT
+6cdd8bfd-19a4-4d50-a0eb-09114e17eb41,bank_c_00.uk,Trader Joe's,2017-05-08,370177.19,-567.69,food,John Williams,CURRENT
+46c53854-39a2-4114-8344-9cb00ea474b4,bank_c_00.uk,Trader Joe's,2017-05-08,369530.45,-646.74,food,John Williams,CURRENT
+28645fd5-8a49-4cbf-ab1d-05bd3be8613e,bank_c_00.uk,Registration,2017-05-13,368602.70,-927.75,education,John Williams,CURRENT
+10b556da-6fd2-4d09-9ecf-69d1a4130b94,bank_c_00.uk,J. Crew,2017-05-17,367249.26,-1353.44,clothing,John Williams,CURRENT
+4fb8da7c-80af-419a-9a7f-fdef4351bc32,bank_c_00.uk,Metreon Theaters,2017-05-21,366435.52,-813.74,entertainment,John Williams,CURRENT
+98f616b0-a229-4efb-8e40-6ab9eb835fd7,bank_c_00.uk,K&L Wines,2017-05-22,366145.17,-290.35,gift,John Williams,CURRENT
+be92aa6d-baa3-4dc3-8a67-15ec317d3033,bank_c_00.uk,Trader Joe's,2017-05-23,365543.32,-601.85,food,John Williams,CURRENT
+a475ee58-db49-4ae7-94ff-4c74f9781049,bank_c_00.uk,Trader Joe's,2017-05-24,364853.63,-689.69,food,John Williams,CURRENT
+ec94635a-2663-4f5c-8ae2-f09108df2434,bank_c_00.uk,Late Fee,2017-05-25,364584.60,-269.03,fee,John Williams,CURRENT
+ed8e7c0c-3af2-404c-8f58-05bb52af6492,bank_c_00.uk,Shell,2017-05-27,363448.05,-1136.55,auto,John Williams,CURRENT
+d8a57fa9-dfcb-4dfe-91ca-452b45bf91f9,bank_c_00.uk,Trader Joe's,2017-05-30,363117.22,-330.83,food,John Williams,CURRENT
+9ad7faa1-7e68-4f88-9ed7-e659d85a2442,bank_c_00.uk,Trader Joe's,2017-05-30,362603.02,-514.20,food,John Williams,CURRENT
+79a039fb-d992-45d8-b05f-9a986e38644e,bank_c_00.uk,Walgreen's,2017-06-03,361708.39,-894.63,health,John Williams,CURRENT
+ad5d5e5f-9e7c-4c67-b1c5-c677eca7825a,bank_c_00.uk,INCOME,2017-05-06,2390000.00,30000.00,INCOME,John Williams,SAVING
+5a6d29e8-c5b1-4d7b-890a-3a00b79563ba,bank_c_01.uk,INCOME,2017-05-06,860000.00,20000.00,INCOME,Ammy Smith,SAVING
+c9f4012b-cb64-4080-8192-5c9548343fb3,bank_c_01.uk,INCOME,2017-05-06,574429.94,60000.00,INCOME,Ammy Smith,CURRENT
+5fa7cf8e-13d9-4138-a277-9e04f42d9ea8,bank_c_01.uk,RENT,2017-05-06,554429.94,-20000.00,RENT,Ammy Smith,CURRENT
+b0e5b89e-72f9-4ffc-8ec8-1e432eafb597,bank_c_01.uk,Neiman-Marcus,2017-05-07,554133.14,-296.80,gift,Ammy Smith,CURRENT
+6c6ce7fa-aa8d-4036-b002-094d0432f664,bank_c_01.uk,Dr. Jackson,2017-05-08,552387.34,-1745.80,health,Ammy Smith,CURRENT
+08488d4f-636d-4f8e-8b1a-11e188cd9c34,bank_c_01.uk,Verizon,2017-05-09,550499.64,-1887.70,utility,Ammy Smith,CURRENT
+a49f5f1e-e058-4f5f-b24b-485f91cd6a7d,bank_c_01.uk,iTunes Music Store,2017-05-11,549849.98,-649.66,entertainment,Ammy Smith,CURRENT
+c21fedf6-61b0-4cc0-9aa5-14e597b0d933,bank_c_01.uk,In-N-Out Burger,2017-05-12,549172.41,-677.57,food,Ammy Smith,CURRENT
+288e3c6c-af56-4ab6-b9f7-2653043b030a,bank_c_01.uk,Banana Republic,2017-05-13,547859.39,-1313.02,clothing,Ammy Smith,CURRENT
+445f2196-d604-4b94-8cab-124937a3edac,bank_c_01.uk,In-N-Out Burger,2017-05-18,547153.74,-705.65,food,Ammy Smith,CURRENT
+232b1d8e-fdbc-43ce-91c9-c16839d5061b,bank_c_01.uk,In-N-Out Burger,2017-05-18,546778.84,-374.90,food,Ammy Smith,CURRENT
+784d5fc8-e2ba-4474-91f4-057a9f51f86c,bank_c_01.uk,In-N-Out Burger,2017-05-24,546383.35,-395.49,food,Ammy Smith,CURRENT
+a6228016-0e28-4d4f-93c1-5adb0f1ec990,bank_c_01.uk,Amazon.com,2017-05-25,544870.04,-1513.31,education,Ammy Smith,CURRENT
+7684ca88-2496-4689-944c-56d3503dc22f,bank_c_01.uk,In-N-Out Burger,2017-05-29,544542.64,-327.40,food,Ammy Smith,CURRENT
+51912293-62dd-47ea-8f08-b0db2ca21482,bank_c_00.uk,INCOME,2017-06-05,394708.39,33000.00,INCOME,John Williams,CURRENT
+c0edbd0f-027f-4f24-b60e-7a9c7e87ed3d,bank_c_00.uk,The Gap,2017-06-07,393864.32,-844.07,clothing,John Williams,CURRENT
+765446f9-d135-4cde-8def-340ef3bd8472,bank_c_00.uk,AMC Theaters,2017-06-07,393345.51,-518.81,entertainment,John Williams,CURRENT
+882e91d4-510f-4d40-befc-455a9074d113,bank_c_00.uk,Dr. Jackson,2017-06-09,391819.23,-1526.28,health,John Williams,CURRENT
+019d3b22-fafe-4ef9-a154-1e3505a4d4be,bank_c_00.uk,Safeway,2017-06-11,391344.00,-475.23,food,John Williams,CURRENT
+6da6a18f-4b88-4d0c-9576-65bbb818f0e8,bank_c_00.uk,Safeway,2017-06-14,390975.70,-368.30,food,John Williams,CURRENT
+c511676d-5e56-467d-9fb4-6af69165ee0c,bank_c_00.uk,The Crucible,2017-06-17,389388.57,-1587.13,education,John Williams,CURRENT
+62e6adee-034d-4674-8d4e-69b5228a9b16,bank_c_00.uk,Safeway,2017-06-19,388825.38,-563.19,food,John Williams,CURRENT
+e941f068-c9da-42fe-8752-5a456131041b,bank_c_00.uk,Jiffy Lube,2017-06-29,386919.31,-1906.07,auto,John Williams,CURRENT
+f96a728f-e67d-46d1-95e0-8999dcd1b430,bank_c_00.uk,Amazon.com,2017-07-02,386543.82,-375.49,gift,John Williams,CURRENT
+1e0e3d05-8173-4530-94c9-de3a3b1344eb,bank_c_00.uk,Safeway,2017-07-03,385990.89,-552.93,food,John Williams,CURRENT
+6eed4eee-d789-47a9-b2b4-422a1b07fa6a,bank_c_00.uk,INCOME,2017-06-05,2420000.00,30000.00,INCOME,John Williams,SAVING
+42519f1c-7b8c-4603-9ec1-80eb3ddaf77a,bank_c_01.uk,INCOME,2017-06-05,880000.00,20000.00,INCOME,Ammy Smith,SAVING
+6fec1157-ffcb-4af9-8020-88e55614048c,bank_c_01.uk,INCOME,2017-06-05,604542.64,60000.00,INCOME,Ammy Smith,CURRENT
+23a1fa6a-fd39-4e33-95b3-0408ba870a30,bank_c_01.uk,J. Crew,2017-06-05,603624.87,-917.77,clothing,Ammy Smith,CURRENT
+bdba2d6d-a052-4bf6-8833-b2a078a4312c,bank_c_01.uk,RENT,2017-06-05,583624.87,-20000.00,RENT,Ammy Smith,CURRENT
+67a41a1c-3ed1-4bc1-9cb2-ece8252b11cd,bank_c_01.uk,iTunes Music Store,2017-06-10,583032.21,-592.66,entertainment,Ammy Smith,CURRENT
+69b67467-94a8-482e-a886-7c0eacbb8df3,bank_c_01.uk,Neiman-Marcus,2017-06-11,582611.83,-420.38,gift,Ammy Smith,CURRENT
+da1064d4-cd7c-4aac-9177-d9a839cbdde7,bank_c_01.uk,Whole Foods,2017-06-14,582296.63,-315.20,food,Ammy Smith,CURRENT
+cfab2226-f2fa-4b8f-b96f-165e189f0bfe,bank_c_01.uk,Whole Foods,2017-06-22,581930.82,-365.81,food,Ammy Smith,CURRENT
+069a7d4a-eccf-45c6-817f-1e2525fa29f2,bank_c_01.uk,Whole Foods,2017-06-29,581236.49,-694.33,food,Ammy Smith,CURRENT
+1c904af4-2a9f-4e6d-9d5d-efebc411058a,bank_c_01.uk,Arco,2017-06-29,579619.05,-1617.44,auto,Ammy Smith,CURRENT
+762b8e21-86e9-4122-98c7-28d423e37983,bank_c_01.uk,Whole Foods,2017-07-02,579272.94,-346.11,food,Ammy Smith,CURRENT
+a588aa28-570e-49fa-b1cc-76fc1e48bcd6,bank_c_01.uk,Whole Foods,2017-07-02,578900.67,-372.27,food,Ammy Smith,CURRENT
+00e1983a-908e-4562-b31a-69779ea22555,bank_c_01.uk,Whole Foods,2017-07-03,578203.18,-697.49,food,Ammy Smith,CURRENT
+23247813-a3c3-4275-9c2b-6e702d0a5fcf,bank_c_01.uk,,2017-07-04,576600.88,-1602.30,utility,Ammy Smith,CURRENT
+f7797058-3602-409f-a42e-1ee7a8eb6599,bank_c_00.uk,INCOME,2017-07-05,418990.89,33000.00,INCOME,John Williams,CURRENT
+82cb03b9-8001-4320-80f1-2e18ba43fa8c,bank_c_00.uk,Whole Foods,2017-07-07,418481.83,-509.06,food,John Williams,CURRENT
+24443ed9-0dfb-4c76-81e1-b44a838cbe47,bank_c_00.uk,Whole Foods,2017-07-12,417775.72,-706.11,food,John Williams,CURRENT
+c7af6a84-7c8d-46b1-8809-b91ebb55621f,bank_c_00.uk,Whole Foods,2017-07-16,417289.41,-486.31,food,John Williams,CURRENT
+bf820666-fd17-4956-8540-54fe804ba695,bank_c_00.uk,Jiffy Lube,2017-07-16,416083.92,-1205.49,auto,John Williams,CURRENT
+0947c0db-a026-4891-b0a7-80065d39c30e,bank_c_00.uk,Whole Foods,2017-07-21,415567.49,-516.43,food,John Williams,CURRENT
+b61bd32f-42bb-4135-9ce0-719c5ed9922f,bank_c_00.uk,PG&E,2017-07-21,414026.82,-1540.67,utility,John Williams,CURRENT
+02b8dac4-2020-42b6-a44b-464d95f13d40,bank_c_00.uk,Dr. Phillips,2017-07-22,412315.65,-1711.17,health,John Williams,CURRENT
+0254706d-c3d9-481a-8a9d-794ff304870c,bank_c_00.uk,Netflix,2017-07-22,411922.06,-393.59,entertainment,John Williams,CURRENT
+504667c4-24df-446a-a723-f665ffc34a14,bank_c_00.uk,The Crucible,2017-07-24,410477.11,-1444.95,education,John Williams,CURRENT
+12585852-5ad6-4904-8a1f-e68a1a1af212,bank_c_00.uk,Whole Foods,2017-08-03,409980.04,-497.07,food,John Williams,CURRENT
+aef9a060-06d8-48b5-ba41-ec0185d0278c,bank_c_00.uk,Kenneth Cole,2017-08-04,408822.11,-1157.93,clothing,John Williams,CURRENT
+c8926b3f-e8c2-46e7-b7a2-22a3a094e131,bank_c_00.uk,INCOME,2017-07-05,2450000.00,30000.00,INCOME,John Williams,SAVING
+50e4d0c5-e30e-4098-ba00-6a8b1f57277b,bank_c_01.uk,INCOME,2017-07-05,900000.00,20000.00,INCOME,Ammy Smith,SAVING
+e7349a00-a1dd-4de4-b3c3-808c4905bdcd,bank_c_01.uk,INCOME,2017-07-05,636600.88,60000.00,INCOME,Ammy Smith,CURRENT
+5979bc80-7cc0-4058-bb1f-e3a421c8af62,bank_c_01.uk,RENT,2017-07-05,616600.88,-20000.00,RENT,Ammy Smith,CURRENT
+e88cf2ca-c547-4387-ae3d-fc9835759832,bank_c_01.uk,The Gap,2017-07-06,615869.08,-731.80,clothing,Ammy Smith,CURRENT
+0a394b26-af92-44ad-990b-fa548b58f0b7,bank_c_01.uk,Campus Books,2017-07-08,615038.68,-830.40,education,Ammy Smith,CURRENT
+184bb632-cab2-4b88-88a1-a24f680c73ed,bank_c_01.uk,Brinks,2017-07-16,612933.86,-2104.82,utility,Ammy Smith,CURRENT
+c3b083d7-841a-42ee-9de5-b9ee1d5f6f2b,bank_c_01.uk,Arco,2017-07-16,611532.05,-1401.81,auto,Ammy Smith,CURRENT
+dd2e9b1f-bca5-41ef-8cea-2706c873fcde,bank_c_01.uk,Dr. Phillips,2017-07-17,610374.06,-1157.99,health,Ammy Smith,CURRENT
+a2f480d2-2c00-4d26-ba16-8e7f27bc2f5a,bank_c_01.uk,In-N-Out Burger,2017-07-25,609781.36,-592.70,food,Ammy Smith,CURRENT
+645a3472-e950-4f01-8af5-d9f518343717,bank_c_01.uk,In-N-Out Burger,2017-07-25,609232.16,-549.20,food,Ammy Smith,CURRENT
+338bbc98-9f55-4632-94f9-6326325ef0e5,bank_c_01.uk,In-N-Out Burger,2017-07-28,608634.14,-598.02,food,Ammy Smith,CURRENT
+40655a37-5e81-4c0a-87f7-24e805b1e2a4,bank_c_01.uk,In-N-Out Burger,2017-07-29,608039.92,-594.22,food,Ammy Smith,CURRENT
+62e1e67f-a761-4563-b5e1-40380a4a6b58,bank_c_01.uk,Nordstrom,2017-07-29,607703.18,-336.74,gift,Ammy Smith,CURRENT
+fd5118ee-f419-4841-b8b9-90efdbea9fdd,bank_c_01.uk,Netflix,2017-08-03,607200.11,-503.07,entertainment,Ammy Smith,CURRENT
+ae8b4e71-11cc-407a-9350-21602c319d1b,bank_c_00.uk,INCOME,2017-08-04,441822.11,33000.00,INCOME,John Williams,CURRENT
+37f262a2-38ae-4855-be07-cc40a04ecb5d,bank_c_00.uk,Dr. Jackson,2017-08-07,440669.36,-1152.75,health,John Williams,CURRENT
+47cb8cdc-2802-4d6a-8d4f-53497b0a568a,bank_c_00.uk,In-N-Out Burger,2017-08-08,440068.72,-600.64,food,John Williams,CURRENT
+83d25ffc-9d96-435c-9ea7-2792638f71fb,bank_c_00.uk,In-N-Out Burger,2017-08-15,439384.55,-684.17,food,John Williams,CURRENT
+1ae5953b-deaf-4df3-bae4-21d11984ac01,bank_c_00.uk,Amazon.com,2017-08-16,438611.74,-772.81,entertainment,John Williams,CURRENT
+87a561eb-dadd-4c62-83f1-6737b583ee7c,bank_c_00.uk,The Gap,2017-08-17,437499.52,-1112.22,clothing,John Williams,CURRENT
+213f1cd7-8ec6-43a8-9a12-6127efa1dda7,bank_c_00.uk,Overlimit Fee,2017-08-17,437025.74,-473.78,fee,John Williams,CURRENT
+1281d03b-f062-4f7a-b4b6-ff4a4b57effd,bank_c_00.uk,Comcast,2017-08-21,434755.92,-2269.82,utility,John Williams,CURRENT
+b71e63d7-b347-4964-99f7-a4d8ee21e007,bank_c_00.uk,The Crucible,2017-08-21,433383.53,-1372.39,education,John Williams,CURRENT
+38cf2106-509e-48b2-8ff5-fe76521bd741,bank_c_00.uk,Union 76,2017-08-27,432010.26,-1373.27,auto,John Williams,CURRENT
+b02a57a6-89a5-49e1-9e5c-45b1f4b6ad1a,bank_c_00.uk,In-N-Out Burger,2017-08-28,431313.21,-697.05,food,John Williams,CURRENT
+499d1e30-f43b-4269-bc1a-a196539d9cac,bank_c_00.uk,Amazon.com,2017-08-30,431046.83,-266.38,gift,John Williams,CURRENT
+9990e0c1-2052-47c5-b3c4-3b612dfc6846,bank_c_00.uk,In-N-Out Burger,2017-09-02,430455.41,-591.42,food,John Williams,CURRENT
+12ef17e5-7ce9-4222-bec9-23acbddd8f17,bank_c_00.uk,INCOME,2017-08-04,2480000.00,30000.00,INCOME,John Williams,SAVING
+503f5b99-dae5-4bc6-adc3-619f66d2d143,bank_c_01.uk,INCOME,2017-08-04,920000.00,20000.00,INCOME,Ammy Smith,SAVING
+74c0f453-a5ef-4dd4-b973-b1144c2f0f6b,bank_c_01.uk,INCOME,2017-08-04,667200.11,60000.00,INCOME,Ammy Smith,CURRENT
+dd025a63-b0ed-4568-a506-68c04464243b,bank_c_01.uk,RENT,2017-08-04,647200.11,-20000.00,RENT,Ammy Smith,CURRENT
+e7c57d6e-5aa2-4820-b903-acd77c1d013b,bank_c_01.uk,Starbucks,2017-08-05,646737.51,-462.60,food,Ammy Smith,CURRENT
+ba8df86b-103b-46c0-9963-79ea54a5580b,bank_c_01.uk,Starbucks,2017-08-06,646308.01,-429.50,food,Ammy Smith,CURRENT
+95bb452f-1419-4a7e-a411-d34e1380caa9,bank_c_01.uk,iTunes Music Store,2017-08-06,645824.56,-483.45,entertainment,Ammy Smith,CURRENT
+1002e3b1-66cf-4a2f-bea6-4c5988415c63,bank_c_01.uk,Starbucks,2017-08-07,645473.79,-350.77,food,Ammy Smith,CURRENT
+06296922-1255-4377-b402-ea9e47bcf5cd,bank_c_01.uk,Tuition,2017-08-11,643902.70,-1571.09,education,Ammy Smith,CURRENT
+15e9bf34-e09d-406d-8e3b-5c7cd05cd5e9,bank_c_01.uk,Starbucks,2017-08-15,643589.88,-312.82,food,Ammy Smith,CURRENT
+da6682a5-6c5f-499d-ae30-a7d704651997,bank_c_01.uk,Starbucks,2017-08-16,643027.73,-562.15,food,Ammy Smith,CURRENT
+5f86b3d6-b54f-4054-bb41-61152ad12614,bank_c_01.uk,Starbucks,2017-08-18,642559.83,-467.90,food,Ammy Smith,CURRENT
+ffcf9dea-d848-407f-8b25-2aee05f6e2fb,bank_c_01.uk,Kenneth Cole,2017-08-22,641249.73,-1310.10,clothing,Ammy Smith,CURRENT
+c351ad51-40a4-4c4a-86b1-e195a61f0cb9,bank_c_01.uk,Pep Boys,2017-09-01,639453.49,-1796.24,auto,Ammy Smith,CURRENT
+76c64d59-a81e-495f-adff-0ddc20e20707,bank_c_01.uk,Comcast,2017-09-03,637370.89,-2082.60,utility,Ammy Smith,CURRENT
+ba7439a6-d380-4115-8d92-ea1a6d37d14a,bank_c_00.uk,INCOME,2017-09-03,463455.41,33000.00,INCOME,John Williams,CURRENT
+c1e67fc1-e6b1-4dbf-ba86-ffb9b54b96e1,bank_c_00.uk,In-N-Out Burger,2017-09-03,462951.82,-503.59,food,John Williams,CURRENT
+9cb2e511-26ec-48ae-abfa-b5ad83e3bcf6,bank_c_00.uk,Apple Store,2017-09-03,462660.46,-291.36,gift,John Williams,CURRENT
+5f95e451-e8de-41aa-b69e-eec08ffa230e,bank_c_00.uk,In-N-Out Burger,2017-09-10,461951.94,-708.52,food,John Williams,CURRENT
+0fd12748-29ca-4a9c-9013-7633c6fd65ff,bank_c_00.uk,In-N-Out Burger,2017-09-14,461526.27,-425.67,food,John Williams,CURRENT
+8fad81b4-b8e4-45d9-8de7-e0177f155b0d,bank_c_00.uk,,2017-09-20,459101.48,-2424.79,utility,John Williams,CURRENT
+8b947e39-1365-4dc0-9173-7dcf58368eea,bank_c_00.uk,The Crucible,2017-09-24,457738.11,-1363.37,education,John Williams,CURRENT
+4aab7947-b75c-45c8-b317-73899e30795f,bank_c_00.uk,In-N-Out Burger,2017-09-25,457340.44,-397.67,food,John Williams,CURRENT
+0c7c25a9-b0eb-48f7-8655-d394d4d2f240,bank_c_00.uk,Pep Boys,2017-09-25,455886.59,-1453.85,auto,John Williams,CURRENT
+d761ab34-70b1-4425-acfa-92253410602a,bank_c_00.uk,Dr. Jackson,2017-09-25,454414.34,-1472.25,health,John Williams,CURRENT
+23e56291-37f3-408d-ada2-f500d00a7e8f,bank_c_00.uk,In-N-Out Burger,2017-09-27,454107.52,-306.82,food,John Williams,CURRENT
+dd14214e-3d70-4eb1-a1c1-1bcb73650541,bank_c_00.uk,iTunes Music Store,2017-09-28,453501.32,-606.20,entertainment,John Williams,CURRENT
+86dea361-6b6f-420c-9695-d39d18e47680,bank_c_00.uk,Nordstrom,2017-10-03,451934.74,-1566.58,clothing,John Williams,CURRENT
+17a43ffe-d18b-41ee-ba38-fcf1189d0bad,bank_c_00.uk,INCOME,2017-09-03,2510000.00,30000.00,INCOME,John Williams,SAVING
+92054394-a611-4fa2-a0ed-7103c525dcb0,bank_c_01.uk,INCOME,2017-09-03,940000.00,20000.00,INCOME,Ammy Smith,SAVING
+3649b306-a4d4-468b-9408-311e20f2ce08,bank_c_01.uk,INCOME,2017-09-03,697370.89,60000.00,INCOME,Ammy Smith,CURRENT
+aa4c71cc-5518-45aa-89ac-7659d0456518,bank_c_01.uk,RENT,2017-09-03,677370.89,-20000.00,RENT,Ammy Smith,CURRENT
+36fe43af-3a27-4919-a2f6-82e330a86893,bank_c_01.uk,Neiman-Marcus,2017-09-07,677141.16,-229.73,gift,Ammy Smith,CURRENT
+5e226a8e-233e-4618-b219-15d4761f9727,bank_c_01.uk,Trader Joe's,2017-09-09,676543.87,-597.29,food,Ammy Smith,CURRENT
+e1efe6e8-81dd-4101-8552-7b8df748735c,bank_c_01.uk,Trader Joe's,2017-09-14,676179.54,-364.33,food,Ammy Smith,CURRENT
+9bdec771-e30c-485f-91c1-3cc456663900,bank_c_01.uk,Trader Joe's,2017-09-15,675564.19,-615.35,food,Ammy Smith,CURRENT
+fa52519f-2f0a-4e7f-9406-132043e578d1,bank_c_01.uk,Chevron,2017-09-19,674638.58,-925.61,auto,Ammy Smith,CURRENT
+d9cb5e2b-217e-49a7-9eb9-be5f2c145388,bank_c_01.uk,Nordstrom,2017-09-20,673770.68,-867.90,clothing,Ammy Smith,CURRENT
+4195294a-7d43-4011-a7fe-500d77248880,bank_c_01.uk,Wal-Mart,2017-09-20,672551.54,-1219.14,health,Ammy Smith,CURRENT
+c4662462-806a-4572-adb0-e592791be399,bank_c_01.uk,Metreon Theaters,2017-09-22,671951.11,-600.43,entertainment,Ammy Smith,CURRENT
+a41e17b2-8e61-4ec8-b3aa-c74f0599b6e4,bank_c_01.uk,The Crucible,2017-09-22,670321.71,-1629.40,education,Ammy Smith,CURRENT
+10136c08-40c8-4e77-9dcc-aa76e625a47a,bank_c_01.uk,Trader Joe's,2017-09-24,669787.39,-534.32,food,Ammy Smith,CURRENT
+ab4f947b-2af9-46bc-8a1d-03c7a56b2b53,bank_c_01.uk,,2017-09-24,667814.92,-1972.47,utility,Ammy Smith,CURRENT
+d65b2a27-f4d7-45ff-944e-f50bea442c8e,bank_c_01.uk,Trader Joe's,2017-09-27,667263.16,-551.76,food,Ammy Smith,CURRENT
+7c725d6d-77b8-4ff9-aabf-c1222aaceaaf,bank_c_00.uk,INCOME,2017-10-03,484934.74,33000.00,INCOME,John Williams,CURRENT
+1c564653-6535-4bb1-9ffb-4fc1afe49620,bank_c_00.uk,In-N-Out Burger,2017-10-06,484297.79,-636.95,food,John Williams,CURRENT
+e32c1e48-c5f6-43ae-ad18-dac5cb129a8f,bank_c_00.uk,Jiffy Lube,2017-10-07,482326.08,-1971.71,auto,John Williams,CURRENT
+4de05fad-bd1a-45de-b5f5-2da606ffdb75,bank_c_00.uk,In-N-Out Burger,2017-10-09,482017.78,-308.30,food,John Williams,CURRENT
+0d593211-e0c2-4981-a11c-d7cbaf264d61,bank_c_00.uk,Walgreen's,2017-10-10,480406.35,-1611.43,health,John Williams,CURRENT
+c9b27609-a71a-4218-b9f0-25c8e78f7f6a,bank_c_00.uk,In-N-Out Burger,2017-10-12,480078.54,-327.81,food,John Williams,CURRENT
+53741548-b88d-487d-bfec-adb424972548,bank_c_00.uk,Apple Store,2017-10-12,479666.92,-411.62,gift,John Williams,CURRENT
+b817d141-7580-40a2-ae56-9e7f835b6160,bank_c_00.uk,Metreon Theaters,2017-10-18,478952.60,-714.32,entertainment,John Williams,CURRENT
+8bd8345f-e09f-4341-98b6-d93a0cd7a793,bank_c_00.uk,Amazon.com,2017-10-18,478199.30,-753.30,education,John Williams,CURRENT
+8bd26096-8c8e-474c-aa6c-d8e25d94810e,bank_c_00.uk,Verizon,2017-10-20,476440.43,-1758.87,utility,John Williams,CURRENT
+8d9b6252-aeda-452e-b505-b94720eef0c0,bank_c_00.uk,In-N-Out Burger,2017-10-25,476109.32,-331.11,food,John Williams,CURRENT
+ba6fb36a-8e85-48fd-943b-bfef061548fc,bank_c_00.uk,In-N-Out Burger,2017-10-25,475561.31,-548.01,food,John Williams,CURRENT
+dd929254-ca4e-464f-b5c5-f27e39716c18,bank_c_00.uk,Nordstrom,2017-10-28,474375.21,-1186.10,clothing,John Williams,CURRENT
+7cb2a2ab-215f-445b-8191-f06d090be716,bank_c_00.uk,Late Fee,2017-11-01,474042.25,-332.96,fee,John Williams,CURRENT
+b0079317-ac46-4e25-a2a6-65deadb2aba8,bank_c_00.uk,INCOME,2017-10-03,2540000.00,30000.00,INCOME,John Williams,SAVING
+592cf7dc-2ce8-4b80-a12a-e13cfd720acd,bank_c_01.uk,INCOME,2017-10-03,960000.00,20000.00,INCOME,Ammy Smith,SAVING
+5c672ccf-d61d-484c-940b-84b07fe9a4d1,bank_c_01.uk,INCOME,2017-10-03,727263.16,60000.00,INCOME,Ammy Smith,CURRENT
+ea4ca906-e7b0-4ac3-8fef-9ad316f6f98c,bank_c_01.uk,RENT,2017-10-03,707263.16,-20000.00,RENT,Ammy Smith,CURRENT
+d0a8119c-f315-4929-b009-3fbbc701baea,bank_c_01.uk,Pep Boys,2017-10-05,705314.00,-1949.16,auto,Ammy Smith,CURRENT
+c1b869d3-7eff-442a-897e-8b0e23395305,bank_c_01.uk,Netflix,2017-10-07,704634.54,-679.46,entertainment,Ammy Smith,CURRENT
+7689ffc3-5526-4ed9-9f62-08a2038980c9,bank_c_01.uk,Neiman-Marcus,2017-10-10,704188.68,-445.86,gift,Ammy Smith,CURRENT
+5526fcd1-85d3-4c6f-b382-ffa7df954039,bank_c_01.uk,Starbucks,2017-10-11,703647.03,-541.65,food,Ammy Smith,CURRENT
+9855d7f2-4a92-4ce2-aace-df16fa32891e,bank_c_01.uk,Starbucks,2017-10-14,703149.47,-497.56,food,Ammy Smith,CURRENT
+21085d82-4042-42ba-831e-d2428e51c093,bank_c_01.uk,Brinks,2017-10-14,701294.26,-1855.21,utility,Ammy Smith,CURRENT
+c2c513da-d03e-4c53-bb21-249cb012ba14,bank_c_01.uk,Nordstrom,2017-10-14,699833.50,-1460.76,clothing,Ammy Smith,CURRENT
+0494fc3d-2e27-4b01-81f4-0791426ece94,bank_c_01.uk,Starbucks,2017-10-24,699147.15,-686.35,food,Ammy Smith,CURRENT
+c0214639-f745-470e-9048-1d64b58f692e,bank_c_01.uk,Starbucks,2017-10-29,698625.91,-521.24,food,Ammy Smith,CURRENT
+e6f039f1-dbf5-4635-8ac2-ac5fe82e6d51,bank_c_01.uk,Dr. Jackson,2017-10-31,697511.20,-1114.71,health,Ammy Smith,CURRENT
+f6322f8c-b247-4a69-b163-86ac272bd170,bank_c_00.uk,INCOME,2017-11-02,507042.25,33000.00,INCOME,John Williams,CURRENT
+602a26ee-125e-4dfd-8446-e1d71e2b34f1,bank_c_00.uk,Starbucks,2017-11-04,506500.26,-541.99,food,John Williams,CURRENT
+60185232-b6bd-46af-bd49-6ad98eaa6d9d,bank_c_00.uk,Starbucks,2017-11-04,505812.13,-688.13,food,John Williams,CURRENT
+e3811d5c-acf4-4c82-b5f8-5d1d2efacc38,bank_c_00.uk,The Gap,2017-11-04,504562.21,-1249.92,clothing,John Williams,CURRENT
+712208b7-336a-4231-b553-681337a72c98,bank_c_00.uk,Dr. Jackson,2017-11-06,503303.14,-1259.07,health,John Williams,CURRENT
+5b99d653-046c-4996-9420-f7fe0060b0b9,bank_c_00.uk,Starbucks,2017-11-07,502831.08,-472.06,food,John Williams,CURRENT
+555b5b8e-d883-4c56-b413-a9afbf832159,bank_c_00.uk,Rhapsody,2017-11-16,502453.39,-377.69,entertainment,John Williams,CURRENT
+0eba189e-68dc-40fc-8e43-3d91d75e8324,bank_c_00.uk,Tuition,2017-11-16,501177.29,-1276.10,education,John Williams,CURRENT
+2951a97a-b365-4b1a-8ee7-669d9371b196,bank_c_00.uk,Starbucks,2017-11-22,500795.42,-381.87,food,John Williams,CURRENT
+a3889783-a93c-4769-acdc-424991a3216d,bank_c_00.uk,Verizon,2017-11-26,499537.99,-1257.43,utility,John Williams,CURRENT
+6a5db0dd-6c41-4e49-aac8-2650332f5af3,bank_c_00.uk,Interest Fee,2017-11-27,498985.04,-552.95,fee,John Williams,CURRENT
+05a1ea8f-4540-4629-8224-f08311b9b0c2,bank_c_00.uk,INCOME,2017-11-02,2570000.00,30000.00,INCOME,John Williams,SAVING
+184d5e1e-7a2c-474d-8397-4957f0a69cc1,bank_c_01.uk,INCOME,2017-11-02,980000.00,20000.00,INCOME,Ammy Smith,SAVING
+814bc223-2395-4d12-829e-c3d77d406742,bank_c_01.uk,INCOME,2017-11-02,757511.20,60000.00,INCOME,Ammy Smith,CURRENT
+1be877ea-f727-4a53-a13b-8e4297a38895,bank_c_01.uk,RENT,2017-11-02,737511.20,-20000.00,RENT,Ammy Smith,CURRENT
+27894501-c0ff-46a3-8835-1441c8080bcd,bank_c_01.uk,Whole Foods,2017-11-03,737183.93,-327.27,food,Ammy Smith,CURRENT
+84518631-df00-4a44-866a-403d42f52d95,bank_c_01.uk,The Gap,2017-11-03,735908.30,-1275.63,clothing,Ammy Smith,CURRENT
+9dba3c15-24e5-4a9f-ba59-a5b3cc025a41,bank_c_01.uk,Arco,2017-11-04,734081.98,-1826.32,auto,Ammy Smith,CURRENT
+1ba057d5-4a9f-4ad0-b64c-044608f75c2c,bank_c_01.uk,Dr. Roberts,2017-11-07,732696.29,-1385.69,health,Ammy Smith,CURRENT
+1c1a4856-4a9d-4536-8b34-ec8b58260dd6,bank_c_01.uk,Whole Foods,2017-11-08,732325.94,-370.35,food,Ammy Smith,CURRENT
+d8190a75-80cc-4f7c-a41b-23110168c7c5,bank_c_01.uk,Rhapsody,2017-11-08,731699.91,-626.03,entertainment,Ammy Smith,CURRENT
+8170f9aa-976f-470d-81af-339b7a0ba1a5,bank_c_01.uk,Whole Foods,2017-11-10,731174.17,-525.74,food,Ammy Smith,CURRENT
+7690a0a7-5f25-4e9d-ab42-ddfa081062d2,bank_c_01.uk,K&L Wines,2017-11-15,730803.72,-370.45,gift,Ammy Smith,CURRENT
+dfa4fcba-a27a-485b-9f5f-839f45c20f1f,bank_c_01.uk,Whole Foods,2017-11-16,730454.15,-349.57,food,Ammy Smith,CURRENT
+a1518343-2f74-408e-84b8-389687643122,bank_c_01.uk,Verizon,2017-12-02,729275.28,-1178.87,utility,Ammy Smith,CURRENT
+16b5b768-8cca-4250-bf49-4ec00534c356,bank_c_00.uk,INCOME,2017-12-02,531985.04,33000.00,INCOME,John Williams,CURRENT
+036ee8b0-a00a-45ed-b868-c7a504bf76f9,bank_c_00.uk,Wal-Mart,2017-12-09,530383.80,-1601.24,health,John Williams,CURRENT
+11c22ed9-8740-4517-b1ae-9788d0cf442a,bank_c_00.uk,Olive Garden,2017-12-11,529825.62,-558.18,food,John Williams,CURRENT
+e544e142-6bd8-46d4-ab96-7784f77044ba,bank_c_00.uk,Olive Garden,2017-12-17,529391.71,-433.91,food,John Williams,CURRENT
+95083014-645b-48f5-a8a1-9b8b2637c082,bank_c_00.uk,J. Crew,2017-12-18,528105.87,-1285.84,clothing,John Williams,CURRENT
+42a9045e-af1d-48c1-8578-f1e98aee5afc,bank_c_00.uk,Rhapsody,2017-12-21,527565.54,-540.33,entertainment,John Williams,CURRENT
+c8610590-9326-498a-b8f9-664579841af2,bank_c_00.uk,Tuition,2017-12-21,526044.63,-1520.91,education,John Williams,CURRENT
+cc988055-5cc0-44c7-a3cf-f5ff1fa992c3,bank_c_00.uk,Olive Garden,2017-12-22,525587.70,-456.93,food,John Williams,CURRENT
+72032125-07e3-462e-a1bc-7f171554a6c5,bank_c_00.uk,Olive Garden,2017-12-24,524892.73,-694.97,food,John Williams,CURRENT
+07fd65bb-0d13-4fb0-b6f9-6350c450e090,bank_c_00.uk,Olive Garden,2017-12-29,524180.87,-711.86,food,John Williams,CURRENT
+54f5a7b2-eff1-4b25-a9b0-7d98c0cb996a,bank_c_00.uk,K&L Wines,2017-12-29,523809.17,-371.70,gift,John Williams,CURRENT
+a3e1a3d1-745a-4666-893e-be1fe05243ee,bank_c_00.uk,INCOME,2017-12-02,2600000.00,30000.00,INCOME,John Williams,SAVING
+d2305491-a3a2-4e5a-83aa-b763b9784a6c,bank_c_01.uk,INCOME,2017-12-02,1000000.00,20000.00,INCOME,Ammy Smith,SAVING
+0f87453b-62d3-4c29-b8a1-f41c11bf8301,bank_c_01.uk,INCOME,2017-12-02,789275.28,60000.00,INCOME,Ammy Smith,CURRENT
+2fa59259-b432-4c68-ab7a-d3d478c3edb8,bank_c_01.uk,RENT,2017-12-02,769275.28,-20000.00,RENT,Ammy Smith,CURRENT
+142f0c4a-07c4-4073-9f76-a4320ccae863,bank_c_01.uk,Netflix,2017-12-06,768605.96,-669.32,entertainment,Ammy Smith,CURRENT
+678b4a4e-9947-4030-b39b-34b173a65f71,bank_c_01.uk,Dr. Martins,2017-12-07,766907.23,-1698.73,health,Ammy Smith,CURRENT
+3dd56c0f-6fc0-4070-a7df-f834f8725cd7,bank_c_01.uk,Amazon.com,2017-12-11,766534.20,-373.03,gift,Ammy Smith,CURRENT
+9418d9c3-e924-4326-831a-6469409b421c,bank_c_01.uk,Whole Foods,2017-12-14,765973.46,-560.74,food,Ammy Smith,CURRENT
+60ca6603-0c4f-4191-82f4-b0993ce7a6c3,bank_c_01.uk,Whole Foods,2017-12-17,765635.74,-337.72,food,Ammy Smith,CURRENT
+a9448182-d947-45ff-9047-a3d971dd95ef,bank_c_01.uk,The Gap,2017-12-17,764579.11,-1056.63,clothing,Ammy Smith,CURRENT
+e7def253-fb91-452f-ae07-af5727abe537,bank_c_01.uk,Pep Boys,2017-12-17,763489.31,-1089.80,auto,Ammy Smith,CURRENT
+3135a122-2a10-46fd-bfed-63b619883f3b,bank_c_01.uk,Annual Fee,2017-12-18,763140.20,-349.11,fee,Ammy Smith,CURRENT
+dc3a4842-6a8a-4ec6-be1e-a3544a6738f9,bank_c_01.uk,Whole Foods,2017-12-20,762446.08,-694.12,food,Ammy Smith,CURRENT
+31d2b8b8-7ada-4974-a678-ae3953d3ff1d,bank_c_01.uk,Whole Foods,2017-12-21,761761.43,-684.65,food,Ammy Smith,CURRENT
+b70e56e8-905e-48ae-bcb1-5dfd300662e4,bank_c_01.uk,Whole Foods,2017-12-27,761091.68,-669.75,food,Ammy Smith,CURRENT
+ea19afae-aa28-4858-82ca-dc0ee246507a,bank_c_01.uk,Registration,2017-12-28,759650.39,-1441.29,education,Ammy Smith,CURRENT
+b5dc51cf-1183-4d77-9415-2b9560741be8,bank_c_00.uk,INCOME,2018-01-01,556809.17,33000.00,INCOME,John Williams,CURRENT
+23c72b70-11ca-4f69-9411-7f565535e12f,bank_c_00.uk,Dr. Roberts,2018-01-01,555223.12,-1586.05,health,John Williams,CURRENT
+69c6f0df-1ac2-428f-91a4-9cb220946ad2,bank_c_00.uk,Trader Joe's,2018-01-02,554847.77,-375.35,food,John Williams,CURRENT
+b42eb601-4a85-4c85-a9c0-b6071c0701be,bank_c_00.uk,Amazon.com,2018-01-02,553453.78,-1393.99,education,John Williams,CURRENT
+22b7135c-41d5-4360-9526-7bbee36b7274,bank_c_00.uk,Trader Joe's,2018-01-05,552972.73,-481.05,food,John Williams,CURRENT
+58b1aa6d-1d4a-43ce-b86b-4fcfcf4d6e5e,bank_c_00.uk,Trader Joe's,2018-01-13,552264.40,-708.33,food,John Williams,CURRENT
+19b8cb2b-df28-4c94-86bd-d9813a0bb8ff,bank_c_00.uk,The Gap,2018-01-15,551386.21,-878.19,clothing,John Williams,CURRENT
+7d322dfd-8e94-4acc-b967-0ec00a5b4443,bank_c_00.uk,Trader Joe's,2018-01-17,550785.64,-600.57,food,John Williams,CURRENT
+099addb1-df42-40ee-b910-ab1f92c8afe4,bank_c_00.uk,Trader Joe's,2018-01-22,550321.98,-463.66,food,John Williams,CURRENT
+bbfa2469-37c8-431f-9b08-f0a931d1f0fd,bank_c_00.uk,Late Fee,2018-01-25,549932.27,-389.71,fee,John Williams,CURRENT
+7bdd0491-1d34-420c-a8ce-84736540eade,bank_c_00.uk,AMC Theaters,2018-01-27,549342.25,-590.02,entertainment,John Williams,CURRENT
+6dc1bebc-e4cb-47df-9dbf-e815e3da65db,bank_c_00.uk,INCOME,2018-01-01,2630000.00,30000.00,INCOME,John Williams,SAVING
+34f3da49-0258-4b3c-a97f-2b4c05963eb3,bank_c_01.uk,INCOME,2018-01-01,1020000.00,20000.00,INCOME,Ammy Smith,SAVING
+25977581-6468-42c7-8b33-9f0b375a0cb0,bank_c_01.uk,INCOME,2018-01-01,819650.39,60000.00,INCOME,Ammy Smith,CURRENT
+9cf87cd0-cb4e-4f54-b9ba-616c110aca62,bank_c_01.uk,In-N-Out Burger,2018-01-01,818990.18,-660.21,food,Ammy Smith,CURRENT
+96a21d86-cc39-40f4-ada6-28e40a4c03dd,bank_c_01.uk,RENT,2018-01-01,798990.18,-20000.00,RENT,Ammy Smith,CURRENT
+e24bdb8b-0dfe-4b08-8b75-a4eb73118131,bank_c_01.uk,In-N-Out Burger,2018-01-03,798642.83,-347.35,food,Ammy Smith,CURRENT
+93bae923-a270-4b13-8b2c-fc88904dcf69,bank_c_01.uk,In-N-Out Burger,2018-01-04,798015.49,-627.34,food,Ammy Smith,CURRENT
+21fd26a5-8ccf-4323-8521-b47d0aa8285c,bank_c_01.uk,iTunes Music Store,2018-01-12,797309.84,-705.65,entertainment,Ammy Smith,CURRENT
+9d754170-0505-4d31-9f09-20cd8a3f36c2,bank_c_01.uk,K&L Wines,2018-01-12,796784.67,-525.17,gift,Ammy Smith,CURRENT
+f85794d3-e77d-44da-a1e7-37e398029efc,bank_c_01.uk,Walgreen's,2018-01-19,795086.66,-1698.01,health,Ammy Smith,CURRENT
+0b0e703d-52be-42ed-ac9b-837e71d73520,bank_c_01.uk,In-N-Out Burger,2018-01-21,794522.92,-563.74,food,Ammy Smith,CURRENT
+8e2fd129-4735-4703-8b7c-a4256967e8e9,bank_c_01.uk,Registration,2018-01-25,793614.27,-908.65,education,Ammy Smith,CURRENT
+b1bf38f4-45c5-4815-a36f-38998976e488,bank_c_01.uk,In-N-Out Burger,2018-01-27,793008.53,-605.74,food,Ammy Smith,CURRENT
+e85d3ec4-a0a5-4a0a-8abb-9acedadcb3bb,bank_c_01.uk,In-N-Out Burger,2018-01-28,792383.63,-624.90,food,Ammy Smith,CURRENT
+ba91dc84-11f0-462b-851e-21b198b6cf5d,bank_c_01.uk,Macy's,2018-01-30,791001.63,-1382.00,clothing,Ammy Smith,CURRENT
+35b5ca91-3298-49d6-bfc5-3d9a052e4844,bank_c_01.uk,Brinks,2018-01-31,789570.51,-1431.12,utility,Ammy Smith,CURRENT
+0d32f253-b395-40ed-8b4f-644133679e6d,bank_c_00.uk,INCOME,2018-01-31,582342.25,33000.00,INCOME,John Williams,CURRENT
+65436b78-7d43-43fa-bceb-caefa00c4d0b,bank_c_00.uk,In-N-Out Burger,2018-02-06,581693.03,-649.22,food,John Williams,CURRENT
+efb7edd8-b83f-4be1-a597-85047ff1fa32,bank_c_00.uk,In-N-Out Burger,2018-02-10,581347.06,-345.97,food,John Williams,CURRENT
+c20ac289-e91d-48ac-aa59-7986b38f0499,bank_c_00.uk,In-N-Out Burger,2018-02-16,580666.98,-680.08,food,John Williams,CURRENT
+665d45ab-839d-49e7-8a62-c11751bad00c,bank_c_00.uk,iTunes Music Store,2018-02-20,579987.89,-679.09,entertainment,John Williams,CURRENT
+06e41824-e69f-4e05-9873-7c8f16cfd575,bank_c_00.uk,In-N-Out Burger,2018-02-22,579572.34,-415.55,food,John Williams,CURRENT
+d40918b9-0f27-4c8b-a211-39a63f5d69ff,bank_c_00.uk,Dr. Martins,2018-02-23,578553.06,-1019.28,health,John Williams,CURRENT
+1edbd2fc-e653-484f-a273-fa390f934762,bank_c_00.uk,In-N-Out Burger,2018-02-24,577910.40,-642.66,food,John Williams,CURRENT
+3d8e5c18-e38c-471e-8112-5ff75e7ced7f,bank_c_00.uk,Neiman-Marcus,2018-02-25,577671.38,-239.02,gift,John Williams,CURRENT
+9610d9b2-3d03-4c81-87b9-30217249d627,bank_c_00.uk,In-N-Out Burger,2018-02-28,577248.03,-423.35,food,John Williams,CURRENT
+b0fe60f4-07b3-491d-acb2-30052285518b,bank_c_00.uk,J. Crew,2018-03-01,576439.25,-808.78,clothing,John Williams,CURRENT
+41c2d734-b7be-4960-8a92-a3db9dfa2267,bank_c_00.uk,Campus Books,2018-03-02,574895.72,-1543.53,education,John Williams,CURRENT
+ec197a3b-65d2-40f5-afca-3574e2e1c3d5,bank_c_00.uk,INCOME,2018-01-31,2660000.00,30000.00,INCOME,John Williams,SAVING
+9a76b992-4bb5-44b5-9a97-54e9bf2759f3,bank_c_01.uk,INCOME,2018-01-31,1040000.00,20000.00,INCOME,Ammy Smith,SAVING
+3a8cad07-1cdf-4871-ace1-8f13f1fcaed9,bank_c_01.uk,INCOME,2018-01-31,849570.51,60000.00,INCOME,Ammy Smith,CURRENT
+b98f0c2d-32da-4095-9a4f-d2f5c4483b4b,bank_c_01.uk,RENT,2018-01-31,829570.51,-20000.00,RENT,Ammy Smith,CURRENT
+63d0e1a5-39da-4a8f-a7be-fb3e0b4c51fe,bank_c_01.uk,In-N-Out Burger,2018-02-03,829063.62,-506.89,food,Ammy Smith,CURRENT
+4e96bc24-9afc-422c-9730-98b0cfa180f2,bank_c_01.uk,In-N-Out Burger,2018-02-09,828689.03,-374.59,food,Ammy Smith,CURRENT
+4b5b7ff3-ed69-4ae6-a861-1f18626da50e,bank_c_01.uk,Kenneth Cole,2018-02-09,827724.09,-964.94,clothing,Ammy Smith,CURRENT
+644b07d7-8662-4ff7-9234-4ff0df94df3f,bank_c_01.uk,In-N-Out Burger,2018-02-12,827284.17,-439.92,food,Ammy Smith,CURRENT
+4f55ae47-efef-4925-9330-a6d89196ca02,bank_c_01.uk,In-N-Out Burger,2018-02-13,826692.96,-591.21,food,Ammy Smith,CURRENT
+d8a02f75-1794-4754-b842-d6591d53990d,bank_c_01.uk,Metreon Theaters,2018-02-21,826141.40,-551.56,entertainment,Ammy Smith,CURRENT
+94b29a95-0208-4705-95d0-75c8a6635990,bank_c_01.uk,Nordstrom,2018-02-21,825732.56,-408.84,gift,Ammy Smith,CURRENT
+6cce7f45-1ff5-4e80-9df6-e8c709df6d31,bank_c_01.uk,Amazon.com,2018-02-24,824882.42,-850.14,education,Ammy Smith,CURRENT
+f629da10-3779-44fc-89f0-ac933cd50955,bank_c_01.uk,Dr. Martins,2018-02-27,823364.24,-1518.18,health,Ammy Smith,CURRENT
+987b2e87-3ae7-461d-9a18-3acc65430f45,bank_c_01.uk,Interest Fee,2018-02-28,822825.26,-538.98,fee,Ammy Smith,CURRENT
+5194e152-e829-4b1c-b2e8-2ceacc3aabe8,bank_c_00.uk,INCOME,2018-03-02,607895.72,33000.00,INCOME,John Williams,CURRENT
+508bdcf8-82cd-442b-b262-443bf500921d,bank_c_00.uk,Interest Fee,2018-03-03,607581.08,-314.64,fee,John Williams,CURRENT
+5c2d7874-78f2-498a-a26d-058c55c5304d,bank_c_00.uk,The Gap,2018-03-09,606818.76,-762.32,clothing,John Williams,CURRENT
+0187da98-3384-4aa2-89bb-15a9a4ee80c6,bank_c_00.uk,Metreon Theaters,2018-03-10,606138.30,-680.46,entertainment,John Williams,CURRENT
+0774fc4b-c037-42ee-a843-4dd81ae3385c,bank_c_00.uk,Campus Books,2018-03-10,604902.06,-1236.24,education,John Williams,CURRENT
+b4e478ff-a86f-45ae-812c-54b97871f893,bank_c_00.uk,Whole Foods,2018-03-14,604332.13,-569.93,food,John Williams,CURRENT
+65d017a8-97b3-4ced-9304-b4d34f3b7382,bank_c_00.uk,Whole Foods,2018-03-14,603712.58,-619.55,food,John Williams,CURRENT
+fc5e5ea5-f935-45e0-b5cb-323f6c755c24,bank_c_00.uk,Whole Foods,2018-03-23,603145.64,-566.94,food,John Williams,CURRENT
+85ccbded-d977-4844-8263-54f5cac1e1e2,bank_c_00.uk,Amazon.com,2018-03-23,602668.19,-477.45,gift,John Williams,CURRENT
+56210466-3324-4527-8b5b-f448fc65a852,bank_c_00.uk,,2018-03-25,601434.92,-1233.27,utility,John Williams,CURRENT
+7215709f-1717-40da-965b-dfde76b83399,bank_c_00.uk,Whole Foods,2018-03-29,600851.84,-583.08,food,John Williams,CURRENT
+58c96117-436c-4994-8598-7362a2874542,bank_c_00.uk,INCOME,2018-03-02,2690000.00,30000.00,INCOME,John Williams,SAVING
+e8401ae3-7995-4336-a5ea-f4a6811de495,bank_c_01.uk,INCOME,2018-03-02,1060000.00,20000.00,INCOME,Ammy Smith,SAVING
+9697298c-80af-422d-885e-d8c99015ba67,bank_c_01.uk,INCOME,2018-03-02,882825.26,60000.00,INCOME,Ammy Smith,CURRENT
+6d15b1fc-e010-4565-a306-545f792acd5f,bank_c_01.uk,In-N-Out Burger,2018-03-02,882496.29,-328.97,food,Ammy Smith,CURRENT
+5430d17a-303a-4f1d-ad04-bb5775f78781,bank_c_01.uk,RENT,2018-03-02,862496.29,-20000.00,RENT,Ammy Smith,CURRENT
+32018661-2133-4ffd-a611-d4ffc5049782,bank_c_01.uk,In-N-Out Burger,2018-03-06,861878.97,-617.32,food,Ammy Smith,CURRENT
+3e1affee-940c-473b-9b46-a507c7a137b4,bank_c_01.uk,The Crucible,2018-03-06,860262.27,-1616.70,education,Ammy Smith,CURRENT
+551520d9-50f4-44f5-b021-61da5973794e,bank_c_01.uk,Dr. Jackson,2018-03-08,858276.62,-1985.65,health,Ammy Smith,CURRENT
+45a332c3-4f57-4f33-977f-12b788a47c97,bank_c_01.uk,Metreon Theaters,2018-03-11,857469.13,-807.49,entertainment,Ammy Smith,CURRENT
+dec64570-81fc-45b5-9d7b-aeb2978239d6,bank_c_01.uk,In-N-Out Burger,2018-03-13,857012.15,-456.98,food,Ammy Smith,CURRENT
+90bf4ef0-5e91-4c9e-a19b-1a699c2b1726,bank_c_01.uk,Verizon,2018-03-19,855516.40,-1495.75,utility,Ammy Smith,CURRENT
+1ab63927-7bd4-4ef9-a5b7-f1a88bc0c4a9,bank_c_01.uk,In-N-Out Burger,2018-03-20,855029.58,-486.82,food,Ammy Smith,CURRENT
+26383f3f-f16f-43e3-bb2b-147e577b90a6,bank_c_01.uk,In-N-Out Burger,2018-03-28,854537.35,-492.23,food,Ammy Smith,CURRENT
+969bfaaa-1680-4b72-b067-2d9bcf3a9105,bank_c_01.uk,Banana Republic,2018-03-29,853619.76,-917.59,clothing,Ammy Smith,CURRENT
+d690d966-edbd-4841-94c8-99c77fc9babd,bank_c_01.uk,Chevron,2018-03-30,852104.06,-1515.70,auto,Ammy Smith,CURRENT
+212ce95d-c051-449b-a842-1c3ff24466d8,bank_c_01.uk,Nordstrom,2018-03-30,851770.33,-333.73,gift,Ammy Smith,CURRENT
+05226934-e9be-4bf7-98ba-981992654a56,bank_c_01.uk,In-N-Out Burger,2018-04-01,851374.60,-395.73,food,Ammy Smith,CURRENT
+71dd5496-894e-450a-8eea-53e9cd351097,bank_c_00.uk,INCOME,2018-04-01,633851.84,33000.00,INCOME,John Williams,CURRENT
+be8c9382-798a-4246-aae8-418e6f976a17,bank_c_00.uk,Olive Garden,2018-04-01,633165.49,-686.35,food,John Williams,CURRENT
+ad50796e-19f3-4315-b660-12dddd248f52,bank_c_00.uk,Metreon Theaters,2018-04-04,632605.14,-560.35,entertainment,John Williams,CURRENT
+74d4d975-df7e-4734-87a0-75879ba9d0d5,bank_c_00.uk,Olive Garden,2018-04-07,632225.81,-379.33,food,John Williams,CURRENT
+3df9a91d-fc1c-41b6-bba1-b084e55b4394,bank_c_00.uk,Nordstrom,2018-04-07,631966.49,-259.32,gift,John Williams,CURRENT
+7b4e063a-c804-4e2d-b79d-b0f873d19dc7,bank_c_00.uk,Banana Republic,2018-04-13,630483.88,-1482.61,clothing,John Williams,CURRENT
+ffd50b03-fc68-479e-a5d2-61948e040bde,bank_c_00.uk,Arco,2018-04-15,629486.40,-997.48,auto,John Williams,CURRENT
+30bd1da2-eab6-4e5d-aacd-de97566bcd8a,bank_c_00.uk,Olive Garden,2018-04-16,628987.89,-498.51,food,John Williams,CURRENT
+422953aa-c6c7-4c8b-a541-8e372c8c745b,bank_c_00.uk,Wal-Mart,2018-04-17,627904.78,-1083.11,health,John Williams,CURRENT
+5c0ee9da-7d08-4b38-a79f-5984e9166c85,bank_c_00.uk,Tuition,2018-04-18,626372.32,-1532.46,education,John Williams,CURRENT
+a231a9d9-5924-471f-b000-b503723cfd03,bank_c_00.uk,PG&E,2018-04-24,625164.65,-1207.67,utility,John Williams,CURRENT
+f6554755-7f00-47f9-a3c4-5de042f71494,bank_c_00.uk,Olive Garden,2018-04-29,624845.71,-318.94,food,John Williams,CURRENT
+8787bf25-516c-424b-b715-53e4d6494967,bank_c_00.uk,Olive Garden,2018-04-29,624378.18,-467.53,food,John Williams,CURRENT
+cf20b10b-5655-4fbe-9a0e-8ab6e8211c01,bank_c_00.uk,Olive Garden,2018-04-30,623719.54,-658.64,food,John Williams,CURRENT
+507f816b-f57b-4a83-89ec-3219b72626d5,bank_c_00.uk,INCOME,2018-04-01,2720000.00,30000.00,INCOME,John Williams,SAVING
+4542f6bf-bef9-4d89-aaf5-33c779a291d2,bank_c_01.uk,INCOME,2018-04-01,1080000.00,20000.00,INCOME,Ammy Smith,SAVING
+1272c122-164a-4ab5-9c63-09ffd68c2321,bank_c_01.uk,INCOME,2018-04-01,911374.60,60000.00,INCOME,Ammy Smith,CURRENT
+7707ac7e-482d-42de-a9e5-7f419eb4c687,bank_c_01.uk,Olive Garden,2018-04-01,911031.91,-342.69,food,Ammy Smith,CURRENT
+49be2b80-fe85-414f-87b3-afbc4b2d234a,bank_c_01.uk,RENT,2018-04-01,891031.91,-20000.00,RENT,Ammy Smith,CURRENT
+03533495-ffb5-4d8d-90e4-29ecc5bf3a6b,bank_c_01.uk,K&L Wines,2018-04-05,890524.87,-507.04,gift,Ammy Smith,CURRENT
+e3da0e39-bf35-40e7-9937-7d5a13dd1c79,bank_c_01.uk,Olive Garden,2018-04-08,890105.85,-419.02,food,Ammy Smith,CURRENT
+fc62bc07-e34f-4238-a58d-91c55e530d3f,bank_c_01.uk,Pep Boys,2018-04-10,889029.33,-1076.52,auto,Ammy Smith,CURRENT
+81460ceb-d047-440c-80c3-26be5003047f,bank_c_01.uk,Walgreen's,2018-04-10,887999.10,-1030.23,health,Ammy Smith,CURRENT
+381d3d1f-f851-4334-b2f1-fea0bdb391d7,bank_c_01.uk,Olive Garden,2018-04-11,887482.28,-516.82,food,Ammy Smith,CURRENT
+4813206b-df3a-47c8-b3f8-dc8ef9428af1,bank_c_01.uk,Olive Garden,2018-04-12,887055.47,-426.81,food,Ammy Smith,CURRENT
+ab919de6-51c2-49db-a01a-5ad183dc8679,bank_c_01.uk,Brinks,2018-04-12,885607.46,-1448.01,utility,Ammy Smith,CURRENT
+aac32892-0980-4f24-b617-face6f922b8f,bank_c_01.uk,iTunes Music Store,2018-04-13,884925.65,-681.81,entertainment,Ammy Smith,CURRENT
+73027806-84ee-4bc4-8562-7bda9b0578da,bank_c_01.uk,The Crucible,2018-04-16,883529.29,-1396.36,education,Ammy Smith,CURRENT
+8e6c7855-7f98-41ac-98a2-238019162192,bank_c_01.uk,The Gap,2018-04-23,882785.43,-743.86,clothing,Ammy Smith,CURRENT
+1b81213d-b226-4ef9-8368-9be28f0af5dc,bank_c_01.uk,Olive Garden,2018-04-26,882276.63,-508.80,food,Ammy Smith,CURRENT
+66a201e1-03b2-492b-9147-e04378aeef32,bank_c_01.uk,Olive Garden,2018-05-01,881669.02,-607.61,food,Ammy Smith,CURRENT
+2612173b-3934-45a4-b9f2-247ef25809a6,bank_c_00.uk,INCOME,2018-05-01,656719.54,33000.00,INCOME,John Williams,CURRENT
+e62cacde-b7a0-42a5-bb48-5d98784a8a3e,bank_c_00.uk,Nordstrom,2018-05-03,655777.70,-941.84,clothing,John Williams,CURRENT
+eb464075-8c69-43f5-8613-7929158a35ed,bank_c_00.uk,Jiffy Lube,2018-05-03,654756.22,-1021.48,auto,John Williams,CURRENT
+ab8d3fe8-cc38-4a91-a9e2-9a4cb702c2a9,bank_c_00.uk,Tuition,2018-05-05,653628.00,-1128.22,education,John Williams,CURRENT
+69a940fc-eb6b-472e-8e09-98c748371ba1,bank_c_00.uk,Dr. Phillips,2018-05-06,652273.78,-1354.22,health,John Williams,CURRENT
+95bd618c-289c-477f-8cf6-b78a73aa6d02,bank_c_00.uk,Bank Fee,2018-05-08,651882.31,-391.47,fee,John Williams,CURRENT
+2b404664-6ef1-4562-b769-1f20e79bf6d9,bank_c_00.uk,Verizon,2018-05-12,650131.38,-1750.93,utility,John Williams,CURRENT
+7441d420-f292-4d6a-a489-7086e7587205,bank_c_00.uk,Safeway,2018-05-20,649624.31,-507.07,food,John Williams,CURRENT
+c81f01db-8197-4653-a9dd-19eb3f12d389,bank_c_00.uk,Metreon Theaters,2018-05-20,649036.28,-588.03,entertainment,John Williams,CURRENT
+1e7d89c0-48e9-4375-b454-0a656a0a7b22,bank_c_00.uk,Safeway,2018-05-21,648638.11,-398.17,food,John Williams,CURRENT
+0de391fe-d404-4acf-bdaf-d69ea091e839,bank_c_00.uk,Safeway,2018-05-21,648168.79,-469.32,food,John Williams,CURRENT
+228d61d5-2a61-4e76-b2aa-550eeb03206b,bank_c_00.uk,Neiman-Marcus,2018-05-21,647827.05,-341.74,gift,John Williams,CURRENT
+3d91cfe3-afbb-46cd-82e0-91ee773cc991,bank_c_00.uk,Safeway,2018-05-24,647303.76,-523.29,food,John Williams,CURRENT
+8a9cdbbb-95fa-44b2-a558-ac538f844235,bank_c_00.uk,Safeway,2018-05-25,646733.26,-570.50,food,John Williams,CURRENT
+14e720b0-c416-4caf-8318-21f511310256,bank_c_00.uk,INCOME,2018-05-01,2750000.00,30000.00,INCOME,John Williams,SAVING
+683464b3-701a-4af2-bd70-c062e997ba6c,bank_c_01.uk,INCOME,2018-05-01,1100000.00,20000.00,INCOME,Ammy Smith,SAVING
+3aba061c-75c8-4fb6-aadd-dc98639cdfd9,bank_c_01.uk,INCOME,2018-05-01,941669.02,60000.00,INCOME,Ammy Smith,CURRENT
+d25a4f5e-3d0c-436b-8ea0-b3f44427a67d,bank_c_01.uk,RENT,2018-05-01,921669.02,-20000.00,RENT,Ammy Smith,CURRENT
+cb41cfae-ce29-44e4-a0f9-92d63b04c943,bank_c_01.uk,Safeway,2018-05-07,921263.64,-405.38,food,Ammy Smith,CURRENT
+242f0b47-d170-4415-a992-cc4f327378bf,bank_c_01.uk,Safeway,2018-05-09,920859.68,-403.96,food,Ammy Smith,CURRENT
+cd7c1d41-a861-46ca-b5d1-2e4223b7ea08,bank_c_01.uk,Safeway,2018-05-09,920491.13,-368.55,food,Ammy Smith,CURRENT
+d72b7213-7d65-40fe-9151-d4a22b092df2,bank_c_01.uk,iTunes Music Store,2018-05-09,919734.17,-756.96,entertainment,Ammy Smith,CURRENT
+a0db8f6e-2686-40b2-a6ce-6a6acf34c0ad,bank_c_01.uk,Amazon.com,2018-05-14,918060.41,-1673.76,education,Ammy Smith,CURRENT
+f8d563f2-0e47-4418-ad0b-6a0295483202,bank_c_01.uk,Jiffy Lube,2018-05-17,916400.20,-1660.21,auto,Ammy Smith,CURRENT
+50e4a344-9880-4a49-9e46-a8cb5c30d981,bank_c_01.uk,Dr. Jackson,2018-05-19,915381.16,-1019.04,health,Ammy Smith,CURRENT
+54957960-0ef5-4d5d-b305-d52b5b9394c9,bank_c_01.uk,Late Fee,2018-05-19,914915.17,-465.99,fee,Ammy Smith,CURRENT
+6c8f9bdd-a5e1-4da4-832a-8725eb425fe2,bank_c_01.uk,Safeway,2018-05-21,914328.51,-586.66,food,Ammy Smith,CURRENT
+ea357fd9-c5fc-412b-912b-c629f381b498,bank_c_01.uk,Macy's,2018-05-21,913563.50,-765.01,clothing,Ammy Smith,CURRENT
+2802b4c5-f14b-427b-b084-c801c348f69a,bank_c_01.uk,Safeway,2018-05-31,913127.80,-435.70,food,Ammy Smith,CURRENT
+18575d95-b7f9-4b3b-ad29-353cd2a4a167,bank_c_00.uk,INCOME,2018-05-31,679733.26,33000.00,INCOME,John Williams,CURRENT
+ce9b97e5-5e9c-4a78-ab0a-849c4e479f3e,bank_c_00.uk,AMC Theaters,2018-06-06,679254.21,-479.05,entertainment,John Williams,CURRENT
+92819a02-9df1-4424-976a-de21c7fb8384,bank_c_00.uk,Safeway,2018-06-08,678553.06,-701.15,food,John Williams,CURRENT
+d9931868-e637-40ab-97cf-f7e6a7882380,bank_c_00.uk,Safeway,2018-06-12,678157.26,-395.80,food,John Williams,CURRENT
+5b73d9d2-5dd3-46fa-b21d-8424ababfb20,bank_c_00.uk,Kenneth Cole,2018-06-18,676717.32,-1439.94,clothing,John Williams,CURRENT
+ae612498-3dbc-4330-9687-95b763c17a15,bank_c_00.uk,Safeway,2018-06-19,676334.45,-382.87,food,John Williams,CURRENT
+8e144ca1-f08b-4ef3-93a9-cbf9c8b349d8,bank_c_00.uk,Dr. Phillips,2018-06-20,675416.90,-917.55,health,John Williams,CURRENT
+85f55524-a832-4f59-a457-09e744832ee4,bank_c_00.uk,Jiffy Lube,2018-06-21,674422.92,-993.98,auto,John Williams,CURRENT
+3f05f15d-f77c-4ea3-a3e7-3e767543388b,bank_c_00.uk,Brinks,2018-06-24,671936.37,-2486.55,utility,John Williams,CURRENT
+33ce1e80-1a5b-4ebf-b060-e4ee8dcdf253,bank_c_00.uk,Safeway,2018-06-28,671300.50,-635.87,food,John Williams,CURRENT
+0e569262-1c5d-45cb-842d-2644f3866114,bank_c_00.uk,Registration,2018-06-29,670000.29,-1300.21,education,John Williams,CURRENT
+59dee8a5-b0f2-4cef-8216-107f5d617927,bank_c_00.uk,Interest Fee,2018-06-29,669507.44,-492.85,fee,John Williams,CURRENT
+65b4ee46-c2a6-41f6-9ed5-d45f619f1f66,bank_c_00.uk,INCOME,2018-05-31,2780000.00,30000.00,INCOME,John Williams,SAVING
+90c9fb5c-c135-4a14-b843-6eacc150bf66,bank_c_01.uk,INCOME,2018-05-31,1120000.00,20000.00,INCOME,Ammy Smith,SAVING
+a72baa03-da27-4055-a461-173f1f8774fa,bank_c_01.uk,INCOME,2018-05-31,973127.80,60000.00,INCOME,Ammy Smith,CURRENT
+53e2f5ed-4021-454a-942e-af933c7e108f,bank_c_01.uk,RENT,2018-05-31,953127.80,-20000.00,RENT,Ammy Smith,CURRENT
+8975add9-dca1-41b1-bdb6-423487e386e9,bank_c_01.uk,In-N-Out Burger,2018-06-06,952673.85,-453.95,food,Ammy Smith,CURRENT
+0c492326-d477-4a12-9aef-151d104f8edc,bank_c_01.uk,Wal-Mart,2018-06-07,950793.39,-1880.46,health,Ammy Smith,CURRENT
+6119e5bf-9f21-442d-aafe-900da5b34f85,bank_c_01.uk,Tuition,2018-06-07,949467.81,-1325.58,education,Ammy Smith,CURRENT
+ed510da9-a1ea-442a-8eeb-3cc4b07f4e3a,bank_c_01.uk,Comcast,2018-06-16,948272.24,-1195.57,utility,Ammy Smith,CURRENT
+f465842e-d023-4e9c-a0a1-9e7ea76de0dc,bank_c_01.uk,The Gap,2018-06-16,947419.59,-852.65,clothing,Ammy Smith,CURRENT
+c97d5acc-ba74-4052-9fe5-e2f362d7b489,bank_c_01.uk,In-N-Out Burger,2018-06-17,947073.81,-345.78,food,Ammy Smith,CURRENT
+d68b392e-41dd-4c7a-88e4-701ee4d38fb3,bank_c_01.uk,Union 76,2018-06-21,946054.34,-1019.47,auto,Ammy Smith,CURRENT
+66599878-25a5-49fd-98d8-2f9086717e59,bank_c_01.uk,In-N-Out Burger,2018-06-24,945643.02,-411.32,food,Ammy Smith,CURRENT
+d31e1ac9-15cf-45cb-be2e-227b6ffc1fef,bank_c_01.uk,Netflix,2018-06-26,944935.39,-707.63,entertainment,Ammy Smith,CURRENT
+f7ff5a4f-5e7c-4b85-95db-59d6313bfe5a,bank_c_01.uk,In-N-Out Burger,2018-06-28,944501.38,-434.01,food,Ammy Smith,CURRENT
+f27602ab-6d62-44fa-8632-ec939c221d11,bank_c_01.uk,In-N-Out Burger,2018-06-30,943915.77,-585.61,food,Ammy Smith,CURRENT
+c92faf91-af29-449f-8128-e6a8c0436ee4,bank_c_00.uk,INCOME,2018-06-30,702507.44,33000.00,INCOME,John Williams,CURRENT
+40cba390-efb3-42b0-8e40-2fef99cf00e6,bank_c_00.uk,Starbucks,2018-07-01,701834.34,-673.10,food,John Williams,CURRENT
+c8b0eb2b-372f-445a-938f-4b303fd0eddc,bank_c_00.uk,Comcast,2018-07-01,700188.22,-1646.12,utility,John Williams,CURRENT
+e22a2acd-b5eb-449e-a19b-d3c98c0bc5d6,bank_c_00.uk,Chevron,2018-07-01,699308.88,-879.34,auto,John Williams,CURRENT
+ced4cbf1-8297-4d92-a542-80d77ea903a0,bank_c_00.uk,Starbucks,2018-07-07,698843.92,-464.96,food,John Williams,CURRENT
+d6fce10d-e446-4753-88e8-2a007b01f630,bank_c_00.uk,Netflix,2018-07-12,698467.29,-376.63,entertainment,John Williams,CURRENT
+3d5c1fcd-da93-4787-8946-a4c8497bee08,bank_c_00.uk,Starbucks,2018-07-14,698041.09,-426.20,food,John Williams,CURRENT
+2b473a4f-8a18-4ec7-98dc-f9319f632127,bank_c_00.uk,Wal-Mart,2018-07-19,696967.15,-1073.94,health,John Williams,CURRENT
+dd4e8ba0-b98b-454c-b6af-f95286657f0b,bank_c_00.uk,Starbucks,2018-07-21,696407.50,-559.65,food,John Williams,CURRENT
+ee900eb7-5f43-43d6-a13f-9f3066bc4870,bank_c_00.uk,Starbucks,2018-07-22,695750.18,-657.32,food,John Williams,CURRENT
+93e5c35b-6abc-44f3-8da9-370702453f90,bank_c_00.uk,Monthly Fee,2018-07-25,695305.39,-444.79,fee,John Williams,CURRENT
+33ccd4cb-85e2-4020-a188-cc825021e22e,bank_c_00.uk,K&L Wines,2018-07-29,694794.58,-510.81,gift,John Williams,CURRENT
+8150ec6e-7bac-41a8-8e19-416a0c324e04,bank_c_00.uk,Nordstrom,2018-07-30,693698.64,-1095.94,clothing,John Williams,CURRENT
+bf84afe8-1f9b-433f-8920-0307fd12a1c2,bank_c_00.uk,INCOME,2018-06-30,2810000.00,30000.00,INCOME,John Williams,SAVING
+9e65331b-0dcb-4b53-b3fc-572395c5e23d,bank_c_01.uk,INCOME,2018-06-30,1140000.00,20000.00,INCOME,Ammy Smith,SAVING
+b1657db3-674f-4e67-8da2-8ccf6596838c,bank_c_01.uk,INCOME,2018-06-30,1003915.77,60000.00,INCOME,Ammy Smith,CURRENT
+f19aadc1-1dff-4040-884a-6cb948d735b8,bank_c_01.uk,Arco,2018-06-30,1002285.92,-1629.85,auto,Ammy Smith,CURRENT
+3bbe2726-21e7-4cc4-881e-99147a7f74f5,bank_c_01.uk,RENT,2018-06-30,982285.92,-20000.00,RENT,Ammy Smith,CURRENT
+8878a860-f276-4300-85ef-1d26a4af5286,bank_c_01.uk,In-N-Out Burger,2018-07-01,981595.22,-690.70,food,Ammy Smith,CURRENT
+10924c7a-80a2-4dbe-97cc-083dc4f1c6c8,bank_c_01.uk,iTunes Music Store,2018-07-05,981231.73,-363.49,entertainment,Ammy Smith,CURRENT
+2e7b25b1-3244-429f-9b5f-73489cb53fb8,bank_c_01.uk,Tuition,2018-07-05,979589.66,-1642.07,education,Ammy Smith,CURRENT
+bfa1577d-d4d5-4e59-b4ef-234bc1a6342f,bank_c_01.uk,In-N-Out Burger,2018-07-09,978927.03,-662.63,food,Ammy Smith,CURRENT
+dc6d4fcf-87c8-4892-8f26-29c8d6e13d7d,bank_c_01.uk,In-N-Out Burger,2018-07-13,978284.65,-642.38,food,Ammy Smith,CURRENT
+355d6570-53e3-43e4-83af-1948e71a7cca,bank_c_01.uk,Apple Store,2018-07-17,977894.07,-390.58,gift,Ammy Smith,CURRENT
+a8e7a6b2-22a7-49d8-a95d-0dcdf566863b,bank_c_01.uk,Kenneth Cole,2018-07-18,976809.43,-1084.64,clothing,Ammy Smith,CURRENT
+404ba33d-ae5b-4316-acd8-6ba16725ab70,bank_c_01.uk,In-N-Out Burger,2018-07-20,976120.25,-689.18,food,Ammy Smith,CURRENT
+165a2b27-f839-4ee9-95d7-c20ac261279f,bank_c_01.uk,In-N-Out Burger,2018-07-23,975725.08,-395.17,food,Ammy Smith,CURRENT
+1341d6c0-d2a6-4272-813b-19c2d60d5e97,bank_c_00.uk,INCOME,2018-07-30,726698.64,33000.00,INCOME,John Williams,CURRENT
+ad91c2c8-42b1-4e02-b24f-911d9ccde3c0,bank_c_00.uk,In-N-Out Burger,2018-08-01,726278.91,-419.73,food,John Williams,CURRENT
+0d5f5218-7b50-4ca1-a064-3c78bceeb7d0,bank_c_00.uk,Macy's,2018-08-02,725345.86,-933.05,clothing,John Williams,CURRENT
+7b829036-44bf-4f0d-a668-ffa52e469aa8,bank_c_00.uk,Bank Fee,2018-08-05,724908.65,-437.21,fee,John Williams,CURRENT
+49d12ca0-ca68-4243-93ad-c29902b5c8bd,bank_c_00.uk,In-N-Out Burger,2018-08-06,724478.11,-430.54,food,John Williams,CURRENT
+f10b5e99-7d2d-4231-a970-b37c628ae579,bank_c_00.uk,In-N-Out Burger,2018-08-09,723832.58,-645.53,food,John Williams,CURRENT
+35330c94-7f79-4f33-abfa-b689e626340e,bank_c_00.uk,Amazon.com,2018-08-10,723514.25,-318.33,gift,John Williams,CURRENT
+4f49ea7f-2e3b-43d7-8cba-3153034f9156,bank_c_00.uk,In-N-Out Burger,2018-08-11,723194.65,-319.60,food,John Williams,CURRENT
+920daeda-746a-4d19-92f1-24fe8a240b31,bank_c_00.uk,The Crucible,2018-08-12,721945.08,-1249.57,education,John Williams,CURRENT
+aa6818f3-2e36-4a0a-a43f-5a07d8510c40,bank_c_00.uk,Rhapsody,2018-08-13,721469.75,-475.33,entertainment,John Williams,CURRENT
+01676c85-8a3d-4d71-bc6c-2e29b94c49a5,bank_c_00.uk,Dr. Jackson,2018-08-21,719603.28,-1866.47,health,John Williams,CURRENT
+b0e1d4eb-1c88-4105-84de-d4a05a532660,bank_c_00.uk,AT&T,2018-08-27,717097.14,-2506.14,utility,John Williams,CURRENT
+c12e2cc6-69d2-4908-a0da-26b96ac4c1ee,bank_c_00.uk,In-N-Out Burger,2018-08-28,716597.65,-499.49,food,John Williams,CURRENT
+011e0390-37cd-4543-a923-c975288c8c7a,bank_c_00.uk,INCOME,2018-07-30,2840000.00,30000.00,INCOME,John Williams,SAVING
+644dc98b-d5d4-4e9b-850d-85df957a58f8,bank_c_01.uk,INCOME,2018-07-30,1160000.00,20000.00,INCOME,Ammy Smith,SAVING
+126c8c86-f3d8-4b3f-b091-7d4111eaba8b,bank_c_01.uk,INCOME,2018-07-30,1035725.08,60000.00,INCOME,Ammy Smith,CURRENT
+e105b4d5-9d1f-4bfb-b91d-caaaee9c9767,bank_c_01.uk,RENT,2018-07-30,1015725.08,-20000.00,RENT,Ammy Smith,CURRENT
+68fb6916-bbba-48d0-8ddb-109ece50f050,bank_c_01.uk,Whole Foods,2018-08-06,1015281.89,-443.19,food,Ammy Smith,CURRENT
+4e8ee92c-f7b5-4ac8-9e71-953c0f5c0d34,bank_c_01.uk,Verizon,2018-08-11,1013092.55,-2189.34,utility,Ammy Smith,CURRENT
+dc561f8b-8a5f-4e55-b07e-bcad9109aac7,bank_c_01.uk,Macy's,2018-08-12,1012214.61,-877.94,clothing,Ammy Smith,CURRENT
+f8e1317a-7c20-4872-8ee6-3fc2536ae596,bank_c_01.uk,Whole Foods,2018-08-16,1011790.90,-423.71,food,Ammy Smith,CURRENT
+fcb84d0d-2c20-434f-ba92-e85af5ae1a93,bank_c_01.uk,Whole Foods,2018-08-17,1011374.07,-416.83,food,Ammy Smith,CURRENT
+0b44aa2e-6317-42f3-98bc-e06a265e430f,bank_c_01.uk,Whole Foods,2018-08-19,1010678.21,-695.86,food,Ammy Smith,CURRENT
+6a19fab2-fd0f-499d-9bff-6e49acb66477,bank_c_01.uk,Whole Foods,2018-08-22,1010210.84,-467.37,food,Ammy Smith,CURRENT
+0f0574d7-851e-463c-a9d9-2a3842bba755,bank_c_01.uk,Walgreen's,2018-08-22,1008904.67,-1306.17,health,Ammy Smith,CURRENT
+2d85e227-e0b2-41d8-ab4a-eb4f0d2670d7,bank_c_01.uk,The Crucible,2018-08-23,1007934.92,-969.75,education,Ammy Smith,CURRENT
+e76bd1d3-4a4f-4318-93e7-d7e097c5b3e5,bank_c_01.uk,Nordstrom,2018-08-26,1007421.82,-513.10,gift,Ammy Smith,CURRENT
+6dd2c288-6910-4bf3-85b3-e647d0eefb38,bank_c_01.uk,Rhapsody,2018-08-27,1006918.94,-502.88,entertainment,Ammy Smith,CURRENT
+c4df558f-674e-4d34-9fd4-29a5efad08da,bank_c_00.uk,INCOME,2018-08-29,749597.65,33000.00,INCOME,John Williams,CURRENT
+306d49b7-bae9-4b1a-8441-df83d86735ee,bank_c_00.uk,Neiman-Marcus,2018-08-29,749223.40,-374.25,gift,John Williams,CURRENT
+da8669c4-b90d-446d-97ad-ef43648d332e,bank_c_00.uk,In-N-Out Burger,2018-08-31,748746.83,-476.57,food,John Williams,CURRENT
+707718cc-6e3b-4cd3-89b0-6cd2c5c59543,bank_c_00.uk,In-N-Out Burger,2018-09-02,748044.59,-702.24,food,John Williams,CURRENT
+071ed19f-4594-40b6-921b-6e13e9886c72,bank_c_00.uk,In-N-Out Burger,2018-09-05,747667.82,-376.77,food,John Williams,CURRENT
+b0794954-a6aa-4318-94d2-8cf3739f1b62,bank_c_00.uk,Dr. Roberts,2018-09-05,746107.82,-1560.00,health,John Williams,CURRENT
+bb3ad51f-95f9-4c8e-bdd8-0e28bbfab6b2,bank_c_00.uk,Metreon Theaters,2018-09-07,745564.66,-543.16,entertainment,John Williams,CURRENT
+84aef84d-2ff9-4c4e-8510-428a510c8197,bank_c_00.uk,In-N-Out Burger,2018-09-09,744906.83,-657.83,food,John Williams,CURRENT
+bb9b7eed-1a64-4dcb-bd69-0ecb26903b22,bank_c_00.uk,In-N-Out Burger,2018-09-12,744564.84,-341.99,food,John Williams,CURRENT
+d809ca12-69e9-4339-89cb-f9b01300b80e,bank_c_00.uk,PG&E,2018-09-12,743069.73,-1495.11,utility,John Williams,CURRENT
+2faf3ad4-f480-4668-a77d-3c9e139950e1,bank_c_00.uk,Tuition,2018-09-24,741787.17,-1282.56,education,John Williams,CURRENT
+1220ba1e-4a08-44d9-ba11-2e6223d56219,bank_c_00.uk,In-N-Out Burger,2018-09-25,741376.32,-410.85,food,John Williams,CURRENT
+493979ad-decb-4708-974e-db84a0f9ea62,bank_c_00.uk,Macy's,2018-09-28,740265.73,-1110.59,clothing,John Williams,CURRENT
+a186c38a-33a3-4aa7-bf94-bcee6ba6f1d7,bank_c_00.uk,INCOME,2018-08-29,2870000.00,30000.00,INCOME,John Williams,SAVING
+5a5c8189-32a4-42e8-a207-478353eac7c5,bank_c_01.uk,INCOME,2018-08-29,1180000.00,20000.00,INCOME,Ammy Smith,SAVING
+d43fd270-1640-47eb-a65e-29fbcebd1f90,bank_c_01.uk,INCOME,2018-08-29,1066918.94,60000.00,INCOME,Ammy Smith,CURRENT
+e90685d2-4d3e-4327-b506-84fe05b183d6,bank_c_01.uk,RENT,2018-08-29,1046918.94,-20000.00,RENT,Ammy Smith,CURRENT
+d3d8afcd-04ee-4a7a-94b6-43bad731c38d,bank_c_01.uk,Dr. Jackson,2018-09-02,1045373.11,-1545.83,health,Ammy Smith,CURRENT
+279e423e-07c2-44bc-90e0-23af8e1814f0,bank_c_01.uk,Tuition,2018-09-02,1044147.73,-1225.38,education,Ammy Smith,CURRENT
+b45bd57e-bcd1-466c-b028-0623f3a7d406,bank_c_01.uk,Macy's,2018-09-03,1043281.14,-866.59,clothing,Ammy Smith,CURRENT
+f184e63e-557d-4ac9-8d08-3fc941ba0668,bank_c_01.uk,Amazon.com,2018-09-05,1042845.75,-435.39,entertainment,Ammy Smith,CURRENT
+90382437-30fd-4f7b-849c-ecdbb5f76c7c,bank_c_01.uk,AT&T,2018-09-17,1040658.12,-2187.63,utility,Ammy Smith,CURRENT
+8799f7b4-3dc4-47e1-9b66-bc298cc04d6e,bank_c_01.uk,Olive Garden,2018-09-20,1040187.04,-471.08,food,Ammy Smith,CURRENT
+50dd0f2d-2c27-4ec6-baea-50a16ecced78,bank_c_01.uk,Olive Garden,2018-09-25,1039594.78,-592.26,food,Ammy Smith,CURRENT
+88a1668f-ff8a-4d59-86b6-27d9e7de7baa,bank_c_01.uk,Olive Garden,2018-09-26,1038942.69,-652.09,food,Ammy Smith,CURRENT
+f65c5710-87ed-4e60-9d88-f1b94d4512d9,bank_c_01.uk,Olive Garden,2018-09-26,1038543.92,-398.77,food,Ammy Smith,CURRENT
+698b8225-f23e-4a16-9346-ba4ef87a88fa,bank_c_00.uk,INCOME,2018-09-28,773265.73,33000.00,INCOME,John Williams,CURRENT
+b0b5b883-f8b9-41ed-818f-efb926216596,bank_c_00.uk,Starbucks,2018-09-28,772865.46,-400.27,food,John Williams,CURRENT
+6611384c-985d-438e-ad53-a9fbda7d9d8a,bank_c_00.uk,Starbucks,2018-09-30,772466.03,-399.43,food,John Williams,CURRENT
+62a8d273-d462-4837-aab6-4285437e3147,bank_c_00.uk,Kenneth Cole,2018-10-04,771281.56,-1184.47,clothing,John Williams,CURRENT
+435abea7-143b-497a-97cc-2927600798db,bank_c_00.uk,Starbucks,2018-10-05,770857.86,-423.70,food,John Williams,CURRENT
+bec05031-a4b4-4d8a-a856-5d0cb2c5fb70,bank_c_00.uk,Starbucks,2018-10-06,770304.28,-553.58,food,John Williams,CURRENT
+2090eca4-e293-40ce-9c89-77206fd20a6f,bank_c_00.uk,Wal-Mart,2018-10-07,768895.76,-1408.52,health,John Williams,CURRENT
+bbaf1f3b-baf4-4c96-acb5-fc4fb900255b,bank_c_00.uk,Pep Boys,2018-10-11,767033.25,-1862.51,auto,John Williams,CURRENT
+23b5ae49-136c-434c-a48f-54c238c176c8,bank_c_00.uk,Neiman-Marcus,2018-10-15,766676.81,-356.44,gift,John Williams,CURRENT
+739ab820-4446-4f05-ae97-8f1f54c90fa3,bank_c_00.uk,Registration,2018-10-22,765770.25,-906.56,education,John Williams,CURRENT
+81b66ad2-3c7b-4a01-9ff4-8d32bc492a0d,bank_c_00.uk,Starbucks,2018-10-24,765365.73,-404.52,food,John Williams,CURRENT
+ac2f3157-1c07-4d7d-abf8-e0ecf28657ac,bank_c_00.uk,AMC Theaters,2018-10-25,764956.91,-408.82,entertainment,John Williams,CURRENT
+0d7314c3-e744-4dbb-b2e5-174dea0e1100,bank_c_00.uk,INCOME,2018-09-28,2900000.00,30000.00,INCOME,John Williams,SAVING
+6b1495c3-1798-4516-a59d-48db6e69245f,bank_c_01.uk,INCOME,2018-09-28,1200000.00,20000.00,INCOME,Ammy Smith,SAVING
+ad71f5f2-d357-47cb-aace-d8521e723bbc,bank_c_01.uk,INCOME,2018-09-28,1098543.92,60000.00,INCOME,Ammy Smith,CURRENT
+7ed33e9b-5ff8-419e-92e8-ccff385bff2f,bank_c_01.uk,RENT,2018-09-28,1078543.92,-20000.00,RENT,Ammy Smith,CURRENT
+252efb78-2887-4df5-b4f9-5d8bd979a558,bank_c_01.uk,Late Fee,2018-09-29,1078044.55,-499.37,fee,Ammy Smith,CURRENT
+bedc7e82-fb0e-4ffa-a24d-de3c85808887,bank_c_01.uk,Starbucks,2018-10-01,1077430.12,-614.43,food,Ammy Smith,CURRENT
+4c28ed0a-7c75-4e07-aea7-b07efe33a107,bank_c_01.uk,AMC Theaters,2018-10-01,1076714.39,-715.73,entertainment,Ammy Smith,CURRENT
+7e0ea3de-841e-468c-999a-990f7b4231a5,bank_c_01.uk,Starbucks,2018-10-04,1076349.02,-365.37,food,Ammy Smith,CURRENT
+82aa2fee-0720-419d-b063-533031757536,bank_c_01.uk,Banana Republic,2018-10-06,1075058.13,-1290.89,clothing,Ammy Smith,CURRENT
+ddf075de-956b-40cf-a689-a408b4c9ba6b,bank_c_01.uk,Verizon,2018-10-08,1072648.45,-2409.68,utility,Ammy Smith,CURRENT
+9bd48b3a-4316-4e50-a7f1-f950401c7e73,bank_c_01.uk,Starbucks,2018-10-09,1072183.67,-464.78,food,Ammy Smith,CURRENT
+586882f0-9ce8-468c-8c4b-8b5b2fadb672,bank_c_01.uk,Nordstrom,2018-10-09,1071717.90,-465.77,gift,Ammy Smith,CURRENT
+aa4542dd-e5e7-459a-b95d-6f9f9e0a38e9,bank_c_01.uk,Starbucks,2018-10-18,1071064.64,-653.26,food,Ammy Smith,CURRENT
+edea38e2-0acb-4ced-9240-8f769813f1c8,bank_c_01.uk,Starbucks,2018-10-19,1070456.54,-608.10,food,Ammy Smith,CURRENT
+d46957c3-874b-4e9a-b7ce-72f1da40e4ee,bank_c_01.uk,Starbucks,2018-10-21,1069751.14,-705.40,food,Ammy Smith,CURRENT
+790d91da-ab1c-4eaf-8eea-ae0042b671bc,bank_c_01.uk,Walgreen's,2018-10-28,1068320.31,-1430.83,health,Ammy Smith,CURRENT
+b2d9188f-4de4-470a-addf-2f378a29f149,bank_c_00.uk,INCOME,2018-10-28,797956.91,33000.00,INCOME,John Williams,CURRENT
+4fc531e0-0685-4f25-b0f4-50b477a2e62f,bank_c_00.uk,Dr. Roberts,2018-10-29,796584.43,-1372.48,health,John Williams,CURRENT
+fb361b20-1fe8-4d58-aac5-4b3c90b5dd7e,bank_c_00.uk,Amazon.com,2018-11-01,796135.59,-448.84,entertainment,John Williams,CURRENT
+f512af15-dea2-4a32-8453-d79a254842c8,bank_c_00.uk,Trader Joe's,2018-11-03,795618.44,-517.15,food,John Williams,CURRENT
+13792b82-9b8e-4172-9d54-8219e4051a7d,bank_c_00.uk,Verizon,2018-11-06,793111.96,-2506.48,utility,John Williams,CURRENT
+bd531b2e-c7c5-42b2-a797-3776c8cbe29f,bank_c_00.uk,Trader Joe's,2018-11-07,792678.26,-433.70,food,John Williams,CURRENT
+dca196de-4be3-4bb6-ad62-a1c51d422d7e,bank_c_00.uk,Trader Joe's,2018-11-11,792245.05,-433.21,food,John Williams,CURRENT
+8c5ac367-181a-4a2f-832e-ba97025ec36c,bank_c_00.uk,Trader Joe's,2018-11-11,791883.40,-361.65,food,John Williams,CURRENT
+ecfbc918-86b0-4497-afcc-2c1e87fcb85b,bank_c_00.uk,Kenneth Cole,2018-11-14,791118.60,-764.80,clothing,John Williams,CURRENT
+585a8509-f435-478a-ba9a-5318113b3bd7,bank_c_00.uk,Trader Joe's,2018-11-15,790460.45,-658.15,food,John Williams,CURRENT
+50d89dfd-7d7b-4439-be0a-9937844722b6,bank_c_00.uk,Shell,2018-11-25,788898.82,-1561.63,auto,John Williams,CURRENT
+e22aa20e-d35f-47fb-91e6-5a7e39f7166d,bank_c_00.uk,INCOME,2018-10-28,2930000.00,30000.00,INCOME,John Williams,SAVING
+62a8e8e9-b084-49c1-a99e-d2d603b6ed7a,bank_c_01.uk,INCOME,2018-10-28,1220000.00,20000.00,INCOME,Ammy Smith,SAVING
+eb12d78f-f3bc-451e-a832-7d3d4f37afba,bank_c_01.uk,INCOME,2018-10-28,1128320.31,60000.00,INCOME,Ammy Smith,CURRENT
+743107c1-2e29-43a8-9bbb-289cdf0bc903,bank_c_01.uk,RENT,2018-10-28,1108320.31,-20000.00,RENT,Ammy Smith,CURRENT
+4d298943-0bec-4df7-a610-e479d490c6f2,bank_c_01.uk,Union 76,2018-11-02,1106806.95,-1513.36,auto,Ammy Smith,CURRENT
+0eda2fec-6abc-4fbd-afa5-753f79260229,bank_c_01.uk,Safeway,2018-11-04,1106268.97,-537.98,food,Ammy Smith,CURRENT
+0ba90238-4603-4230-8c08-7b15950d1bb4,bank_c_01.uk,Metreon Theaters,2018-11-08,1105693.33,-575.64,entertainment,Ammy Smith,CURRENT
+a9c01a64-a524-4ae8-946e-1cd8eb359fa8,bank_c_01.uk,,2018-11-10,1103255.15,-2438.18,utility,Ammy Smith,CURRENT
+a9e20847-032c-4ca6-8748-954815535fe4,bank_c_01.uk,The Gap,2018-11-12,1102459.18,-795.97,clothing,Ammy Smith,CURRENT
+36709ec8-3a45-42de-b534-d8f7ae505900,bank_c_01.uk,Safeway,2018-11-14,1102146.21,-312.97,food,Ammy Smith,CURRENT
+9beb1a19-bf7e-4947-82b0-ddfeec9ba70f,bank_c_01.uk,Nordstrom,2018-11-16,1101767.46,-378.75,gift,Ammy Smith,CURRENT
+5915259c-1130-48e9-aa5e-9ab83b53f339,bank_c_01.uk,Dr. Roberts,2018-11-20,1100008.15,-1759.31,health,Ammy Smith,CURRENT
+d771cdec-a2d3-47c2-8089-2825269923cb,bank_c_01.uk,Safeway,2018-11-22,1099660.65,-347.50,food,Ammy Smith,CURRENT
+7eea274f-3114-41c9-8902-d49e401d9111,bank_c_01.uk,The Crucible,2018-11-26,1098562.41,-1098.24,education,Ammy Smith,CURRENT
+376fb77e-2e89-4469-99be-7e93434f0618,bank_c_01.uk,Safeway,2018-11-27,1097914.49,-647.92,food,Ammy Smith,CURRENT
+a285edce-4875-422e-9169-b9af776467ef,bank_c_00.uk,INCOME,2018-11-27,821898.82,33000.00,INCOME,John Williams,CURRENT
+73477c37-b5da-41f1-a93d-831040f8ea2d,bank_c_00.uk,Campus Books,2018-11-30,821083.14,-815.68,education,John Williams,CURRENT
+cba3f514-3493-4e2e-bbec-fb1122cec8b6,bank_c_00.uk,Kenneth Cole,2018-12-07,819620.24,-1462.90,clothing,John Williams,CURRENT
+745ef7fb-b265-45d8-92ea-835fb92390fc,bank_c_00.uk,In-N-Out Burger,2018-12-10,818965.95,-654.29,food,John Williams,CURRENT
+a538056d-7c62-438a-8217-92c14179779b,bank_c_00.uk,In-N-Out Burger,2018-12-12,818426.56,-539.39,food,John Williams,CURRENT
+2ec0e857-e36e-4a62-988a-c36c16f473f6,bank_c_00.uk,In-N-Out Burger,2018-12-13,818060.78,-365.78,food,John Williams,CURRENT
+6c6e5517-c731-48eb-a71c-fdb3f09af60b,bank_c_00.uk,Netflix,2018-12-13,817346.18,-714.60,entertainment,John Williams,CURRENT
+e0b83060-6eaa-4e6a-b8c5-5c17abfb1c48,bank_c_00.uk,In-N-Out Burger,2018-12-18,816853.33,-492.85,food,John Williams,CURRENT
+e4e5f496-f407-4db4-9b37-e70f1e3d9f84,bank_c_00.uk,In-N-Out Burger,2018-12-18,816380.46,-472.87,food,John Williams,CURRENT
+440a7a87-9adb-4d00-91aa-c921137bfd35,bank_c_00.uk,Dr. Jackson,2018-12-23,814695.74,-1684.72,health,John Williams,CURRENT
+2ca6b841-dff9-430f-91f4-0b5691b2ded0,bank_c_00.uk,Nordstrom,2018-12-25,814311.48,-384.26,gift,John Williams,CURRENT
+2e2f0ca8-8ed9-4e12-8bf5-bf5100eba82d,bank_c_00.uk,Union 76,2018-12-27,813015.53,-1295.95,auto,John Williams,CURRENT
+91905315-09ec-46fe-9760-eafbce0cca86,bank_c_00.uk,INCOME,2018-11-27,2960000.00,30000.00,INCOME,John Williams,SAVING
+553b14f3-25fe-4936-9ae3-211c01afbb7f,bank_c_01.uk,INCOME,2018-11-27,1240000.00,20000.00,INCOME,Ammy Smith,SAVING
+ff6b4dc9-63a8-4c81-a69a-b6ac6bba9ebb,bank_c_01.uk,INCOME,2018-11-27,1157914.49,60000.00,INCOME,Ammy Smith,CURRENT
+ea0dbbc6-8d5b-484c-bb88-b61f14822a6e,bank_c_01.uk,RENT,2018-11-27,1137914.49,-20000.00,RENT,Ammy Smith,CURRENT
+7aa92827-203f-463c-b909-774929747ce3,bank_c_01.uk,Starbucks,2018-12-02,1137448.08,-466.41,food,Ammy Smith,CURRENT
+abd44822-c5c7-4530-a23a-66bb7838e06c,bank_c_01.uk,Jiffy Lube,2018-12-04,1136000.09,-1447.99,auto,Ammy Smith,CURRENT
+4c8f3208-fb81-4218-a47a-5c2dcecb0837,bank_c_01.uk,Starbucks,2018-12-05,1135337.64,-662.45,food,Ammy Smith,CURRENT
+222a65b6-29a7-441d-b4c5-fd948e7ba8e8,bank_c_01.uk,The Gap,2018-12-08,1134186.54,-1151.10,clothing,Ammy Smith,CURRENT
+8058a633-4ad7-495a-a3a0-69bf40de3931,bank_c_01.uk,Starbucks,2018-12-09,1133678.87,-507.67,food,Ammy Smith,CURRENT
+b7d61ca8-eaf5-44ef-9749-7d57f83763ca,bank_c_01.uk,Dr. Jackson,2018-12-09,1131733.41,-1945.46,health,Ammy Smith,CURRENT
+ec45f127-148f-4c8d-a3f3-73d6b3740b43,bank_c_01.uk,Starbucks,2018-12-16,1131166.38,-567.03,food,Ammy Smith,CURRENT
+03d26de0-3c1a-4805-8b4d-c67645179bf5,bank_c_01.uk,Starbucks,2018-12-21,1130569.90,-596.48,food,Ammy Smith,CURRENT
+8387cdb7-38c9-4c6b-be7d-a79d459f9886,bank_c_01.uk,Starbucks,2018-12-21,1130181.69,-388.21,food,Ammy Smith,CURRENT
+544bc869-f28c-4ea7-ad0d-ed8ae2335228,bank_c_01.uk,Netflix,2018-12-23,1129364.18,-817.51,entertainment,Ammy Smith,CURRENT
+308ee0a4-75f3-4d3a-b06f-69c117960a10,bank_c_01.uk,Nordstrom,2018-12-26,1128996.74,-367.44,gift,Ammy Smith,CURRENT
+142ca602-ec3f-4f6d-a880-4525b83d987e,bank_c_00.uk,INCOME,2018-12-27,846015.53,33000.00,INCOME,John Williams,CURRENT
+d0cfbbe3-0c6c-4c46-8be1-731dc79f9b2b,bank_c_00.uk,Olive Garden,2018-12-31,845471.29,-544.24,food,John Williams,CURRENT
+a316cc92-973f-44cb-a00a-6655275a8498,bank_c_00.uk,Olive Garden,2019-01-02,844771.78,-699.51,food,John Williams,CURRENT
+5c226c06-7ba2-48a5-9d4f-ed77ea9992eb,bank_c_00.uk,Banana Republic,2019-01-05,844014.14,-757.64,clothing,John Williams,CURRENT
+70920f0a-7d0e-4614-8756-e991ba2d8835,bank_c_00.uk,Amazon.com,2019-01-10,842675.35,-1338.79,education,John Williams,CURRENT
+10cd1119-88c3-4f66-a476-bff5a897b645,bank_c_00.uk,Olive Garden,2019-01-12,842045.00,-630.35,food,John Williams,CURRENT
+93e3993f-b3b0-4a47-8f06-303a908ae72b,bank_c_00.uk,Overlimit Fee,2019-01-13,841583.91,-461.09,fee,John Williams,CURRENT
+989354b3-7b2f-40c1-97f1-9d403f460da0,bank_c_00.uk,Jiffy Lube,2019-01-14,840603.80,-980.11,auto,John Williams,CURRENT
+10585dd8-7d54-41d9-b57e-93f508537927,bank_c_00.uk,Verizon,2019-01-19,838916.12,-1687.68,utility,John Williams,CURRENT
+799e8c2e-2a5a-4a03-88ca-a7089a443a56,bank_c_00.uk,Olive Garden,2019-01-20,838476.24,-439.88,food,John Williams,CURRENT
+aa495b47-5ead-4819-9fb6-57c9a4a014f0,bank_c_00.uk,Olive Garden,2019-01-20,837802.07,-674.17,food,John Williams,CURRENT
+74a56c07-03d7-4cf5-8407-8d58e21ef453,bank_c_00.uk,Netflix,2019-01-21,837215.94,-586.13,entertainment,John Williams,CURRENT
+c18113f4-8ecc-4323-8847-0384db64095a,bank_c_00.uk,Olive Garden,2019-01-24,836794.64,-421.30,food,John Williams,CURRENT
+41a83a38-3b0b-4abc-89c2-04ca45566eee,bank_c_00.uk,INCOME,2018-12-27,2990000.00,30000.00,INCOME,John Williams,SAVING
+028a45df-690a-4150-b0c2-d545d007a05c,bank_c_01.uk,INCOME,2018-12-27,1260000.00,20000.00,INCOME,Ammy Smith,SAVING
+97bbb089-4055-40d6-9ffa-dfe88f9084c7,bank_c_01.uk,INCOME,2018-12-27,1188996.74,60000.00,INCOME,Ammy Smith,CURRENT
+289e6822-d1fd-4686-ab5f-393972e3d3a1,bank_c_01.uk,RENT,2018-12-27,1168996.74,-20000.00,RENT,Ammy Smith,CURRENT
+3ffe68c7-3f85-48ec-aa68-41fa4d3c56db,bank_c_01.uk,,2019-01-02,1166997.48,-1999.26,utility,Ammy Smith,CURRENT
+17650ff7-d1bc-483e-b577-2812852450f2,bank_c_01.uk,In-N-Out Burger,2019-01-03,1166401.76,-595.72,food,Ammy Smith,CURRENT
+67cb3454-3bf6-409d-a41c-d6ec663505f3,bank_c_01.uk,Amazon.com,2019-01-07,1164685.64,-1716.12,education,Ammy Smith,CURRENT
+3fd522a4-8952-4856-9c77-fb65d94602f6,bank_c_01.uk,In-N-Out Burger,2019-01-08,1164018.69,-666.95,food,Ammy Smith,CURRENT
+b204e393-d8ae-466f-b266-8c132441a969,bank_c_01.uk,Jiffy Lube,2019-01-09,1162316.12,-1702.57,auto,Ammy Smith,CURRENT
+af0dc08c-156f-4e98-91c2-8cf8cb091b04,bank_c_01.uk,Dr. Roberts,2019-01-12,1161145.86,-1170.26,health,Ammy Smith,CURRENT
+9e589ed0-5413-4910-986e-789486a78d5e,bank_c_01.uk,In-N-Out Burger,2019-01-13,1160629.94,-515.92,food,Ammy Smith,CURRENT
+4493fa2e-a92f-4373-80ad-425dcd50e812,bank_c_01.uk,Netflix,2019-01-13,1159891.51,-738.43,entertainment,Ammy Smith,CURRENT
+61db5bd7-a353-47ff-819f-6c3791ab324d,bank_c_01.uk,Amazon.com,2019-01-16,1159468.28,-423.23,gift,Ammy Smith,CURRENT
+2b05edb0-345f-4d69-9397-cb16026df91b,bank_c_01.uk,J. Crew,2019-01-19,1158152.15,-1316.13,clothing,Ammy Smith,CURRENT
+70c60948-dd44-4623-b07f-e3764daff3ca,bank_c_01.uk,In-N-Out Burger,2019-01-20,1157567.76,-584.39,food,Ammy Smith,CURRENT
+e9f30d97-6250-4266-a2fb-935f9ef5db7b,bank_c_01.uk,In-N-Out Burger,2019-01-23,1157244.32,-323.44,food,Ammy Smith,CURRENT
+9b6c455b-d1f7-4515-9dc3-af1493e7223f,bank_c_00.uk,INCOME,2019-01-26,869794.64,33000.00,INCOME,John Williams,CURRENT
+080827bb-ff8b-4473-aae1-85ac0393e954,bank_c_00.uk,Starbucks,2019-01-30,869202.59,-592.05,food,John Williams,CURRENT
+1f4c9049-7bc9-4aab-9fc2-218d16da14b8,bank_c_00.uk,The Crucible,2019-01-31,867713.29,-1489.30,education,John Williams,CURRENT
+226df0b8-0910-400e-b51c-0628a381b827,bank_c_00.uk,Neiman-Marcus,2019-02-02,867337.65,-375.64,gift,John Williams,CURRENT
+102d8b74-41eb-4b78-bfdf-63c586901a5e,bank_c_00.uk,Starbucks,2019-02-04,867007.48,-330.17,food,John Williams,CURRENT
+95378b60-313a-41a9-8f98-5d4c3aaa533b,bank_c_00.uk,Pep Boys,2019-02-10,865122.24,-1885.24,auto,John Williams,CURRENT
+3bda6a80-332e-4355-bd09-a485242ed1b1,bank_c_00.uk,PG&E,2019-02-14,863349.01,-1773.23,utility,John Williams,CURRENT
+810ed916-c336-422c-9d57-4bc36cc64ba1,bank_c_00.uk,Starbucks,2019-02-15,862845.43,-503.58,food,John Williams,CURRENT
+86cf2068-d9b9-483c-962a-0194482b2d4a,bank_c_00.uk,Starbucks,2019-02-16,862359.74,-485.69,food,John Williams,CURRENT
+9efa2dfa-4e90-43b0-a8f3-e61738774ec0,bank_c_00.uk,iTunes Music Store,2019-02-16,861763.95,-595.79,entertainment,John Williams,CURRENT
+2bd250c7-0827-481b-a516-1e213d81e51e,bank_c_00.uk,J. Crew,2019-02-17,860728.04,-1035.91,clothing,John Williams,CURRENT
+e305961d-39a0-47a3-86f7-917dcf774300,bank_c_00.uk,Starbucks,2019-02-19,860297.16,-430.88,food,John Williams,CURRENT
+5e78f67d-82b9-40ea-9db8-0abcd7b25f81,bank_c_00.uk,Starbucks,2019-02-19,859610.40,-686.76,food,John Williams,CURRENT
+df3ca7bf-32cf-4098-b765-208bf5263ec1,bank_c_00.uk,Dr. Phillips,2019-02-21,857813.47,-1796.93,health,John Williams,CURRENT
+80317ca8-a1cf-48a8-a2af-dfecf36b9d90,bank_c_00.uk,INCOME,2019-01-26,3020000.00,30000.00,INCOME,John Williams,SAVING
+bc9220a1-dae2-4d44-a1a0-266a9daa7f92,bank_c_01.uk,INCOME,2019-01-26,1280000.00,20000.00,INCOME,Ammy Smith,SAVING
+a7acb43b-eb93-4ef1-bc23-4f468d31b356,bank_c_01.uk,INCOME,2019-01-26,1217244.32,60000.00,INCOME,Ammy Smith,CURRENT
+9edcb9f6-c634-48a4-8ad7-ac04f3f66d1e,bank_c_01.uk,RENT,2019-01-26,1197244.32,-20000.00,RENT,Ammy Smith,CURRENT
+cfe1eefa-1cbb-4eac-aaad-73ffae782e99,bank_c_01.uk,Olive Garden,2019-01-27,1196877.66,-366.66,food,Ammy Smith,CURRENT
+016ebadb-3b72-42b8-a272-b81fc090457e,bank_c_01.uk,AT&T,2019-01-28,1195222.37,-1655.29,utility,Ammy Smith,CURRENT
+7c0b3890-db3f-460c-90be-73f405aaa353,bank_c_01.uk,Olive Garden,2019-01-29,1194631.35,-591.02,food,Ammy Smith,CURRENT
+f7ff64c3-a5ff-475b-8047-16a227bd77c7,bank_c_01.uk,Olive Garden,2019-01-30,1194218.21,-413.14,food,Ammy Smith,CURRENT
+d1e93265-bae2-4868-a39e-69cfa9afa9fe,bank_c_01.uk,Dr. Phillips,2019-02-04,1192504.46,-1713.75,health,Ammy Smith,CURRENT
+e47bc3c6-08cc-42f0-800f-50d741895e3b,bank_c_01.uk,Amazon.com,2019-02-04,1191787.74,-716.72,entertainment,Ammy Smith,CURRENT
+778bbda2-e5bc-49b3-bb5b-2d1315ab3f22,bank_c_01.uk,Amazon.com,2019-02-08,1190595.98,-1191.76,education,Ammy Smith,CURRENT
+988fdbe8-2d4d-4efe-9038-3389da9563f7,bank_c_01.uk,Olive Garden,2019-02-10,1190160.64,-435.34,food,Ammy Smith,CURRENT
+bd5b6658-2a0a-43f8-bc48-32d07754152b,bank_c_01.uk,Neiman-Marcus,2019-02-18,1189926.66,-233.98,gift,Ammy Smith,CURRENT
+f006bd92-3b7f-42a0-9524-d54387556753,bank_c_01.uk,Olive Garden,2019-02-21,1189475.54,-451.12,food,Ammy Smith,CURRENT
+8783f3c4-0013-4833-8e9b-b005eca1c8a5,bank_c_01.uk,Banana Republic,2019-02-22,1188438.87,-1036.67,clothing,Ammy Smith,CURRENT
+0a107c57-6664-4bf0-a72e-ceb313291608,bank_c_01.uk,Chevron,2019-02-22,1186904.43,-1534.44,auto,Ammy Smith,CURRENT
+7af1da53-6e03-4792-a345-a0ef4d179ed1,bank_c_01.uk,Monthly Fee,2019-02-25,1186381.70,-522.73,fee,Ammy Smith,CURRENT
+4936a782-c567-4b9c-9bef-1325187875ab,bank_c_00.uk,INCOME,2019-02-25,890813.47,33000.00,INCOME,John Williams,CURRENT
+09f68f25-0ec1-416b-b280-1fa1f53995f9,bank_c_00.uk,Nordstrom,2019-02-26,889885.96,-927.51,clothing,John Williams,CURRENT
+14fece20-14d2-41a7-a0f4-7f73443efa5d,bank_c_00.uk,Amazon.com,2019-02-26,889196.36,-689.60,entertainment,John Williams,CURRENT
+10520d62-fecd-400e-918b-ed7013653573,bank_c_00.uk,Arco,2019-03-04,887874.46,-1321.90,auto,John Williams,CURRENT
+afd07a64-4f93-4de4-8acd-c072efbc0ae2,bank_c_00.uk,Safeway,2019-03-09,887240.58,-633.88,food,John Williams,CURRENT
+51201033-724b-4636-9e7e-f9efd880445a,bank_c_00.uk,Safeway,2019-03-11,886912.81,-327.77,food,John Williams,CURRENT
+4af18243-9eb7-4ded-96af-3a7d6b5e3ad8,bank_c_00.uk,Amazon.com,2019-03-13,885887.67,-1025.14,education,John Williams,CURRENT
+98fc82d1-054b-4776-a18d-1bdf3fda317e,bank_c_00.uk,Walgreen's,2019-03-15,883890.27,-1997.40,health,John Williams,CURRENT
+08735896-07b5-4020-891c-a5af2322e59e,bank_c_00.uk,Safeway,2019-03-16,883412.47,-477.80,food,John Williams,CURRENT
+75ccd8fa-cbf1-4530-9a05-b713b51bfdf0,bank_c_00.uk,PG&E,2019-03-19,882064.71,-1347.76,utility,John Williams,CURRENT
+37c62654-9c44-4f47-84a3-501a2bcca30f,bank_c_00.uk,Safeway,2019-03-20,881671.73,-392.98,food,John Williams,CURRENT
+2b5d48aa-47cc-4dd5-a7d2-c4d2b3bdb730,bank_c_00.uk,K&L Wines,2019-03-20,881177.44,-494.29,gift,John Williams,CURRENT
+2c1c3aee-12f5-4b06-b92b-1dc6f5f6386e,bank_c_00.uk,Safeway,2019-03-24,880556.19,-621.25,food,John Williams,CURRENT
+74d8d23f-e5f6-4d5a-bf07-e46166e6c780,bank_c_00.uk,Safeway,2019-03-26,880194.40,-361.79,food,John Williams,CURRENT
+9d2565ba-0647-4bee-8627-4f1c9f16ee5a,bank_c_00.uk,INCOME,2019-02-25,3050000.00,30000.00,INCOME,John Williams,SAVING
+83706229-bd58-4678-814b-dda1d8f1bfc2,bank_c_01.uk,INCOME,2019-02-25,1300000.00,20000.00,INCOME,Ammy Smith,SAVING
+ae990f39-b9aa-4858-b8b4-fbf243c1cc7a,bank_c_01.uk,INCOME,2019-02-25,1246381.70,60000.00,INCOME,Ammy Smith,CURRENT
+6d5744bf-0856-4f40-adf7-025f9766b976,bank_c_01.uk,RENT,2019-02-25,1226381.70,-20000.00,RENT,Ammy Smith,CURRENT
+3f663691-246a-474d-a1c4-6b402d26283a,bank_c_01.uk,Neiman-Marcus,2019-03-03,1225927.37,-454.33,gift,Ammy Smith,CURRENT
+5b3532f2-451b-4c48-9a7a-7ca700dbc4d0,bank_c_01.uk,Wal-Mart,2019-03-04,1224099.43,-1827.94,health,Ammy Smith,CURRENT
+13711af3-473c-48e3-9d18-331dbda63099,bank_c_01.uk,J. Crew,2019-03-07,1223211.59,-887.84,clothing,Ammy Smith,CURRENT
+cb7d71d5-7b47-464e-9425-68b54a93b95c,bank_c_01.uk,In-N-Out Burger,2019-03-10,1222691.29,-520.30,food,Ammy Smith,CURRENT
+d319e0d9-f8f7-483c-bb5d-9b4c1bb8e460,bank_c_01.uk,In-N-Out Burger,2019-03-11,1222270.91,-420.38,food,Ammy Smith,CURRENT
+b07ab7cc-1e6c-4122-b24b-51f1015e1950,bank_c_01.uk,Jiffy Lube,2019-03-12,1221290.57,-980.34,auto,Ammy Smith,CURRENT
+df482df5-46f9-4422-b3ad-b640bd1e148e,bank_c_01.uk,In-N-Out Burger,2019-03-15,1220938.39,-352.18,food,Ammy Smith,CURRENT
+97e6f75e-9eb2-4c3c-9d32-1ed3ac181455,bank_c_01.uk,In-N-Out Burger,2019-03-16,1220545.37,-393.02,food,Ammy Smith,CURRENT
+aaed6286-4061-4dd6-935f-25e013c920a5,bank_c_01.uk,In-N-Out Burger,2019-03-18,1220213.25,-332.12,food,Ammy Smith,CURRENT
+2dd05a5e-371f-4590-8d1a-726b04b492de,bank_c_01.uk,AT&T,2019-03-20,1217944.29,-2268.96,utility,Ammy Smith,CURRENT
+4cbbba7c-df68-4bb0-98b7-ffb92f03740e,bank_c_01.uk,AMC Theaters,2019-03-20,1217200.64,-743.65,entertainment,Ammy Smith,CURRENT
+0000b19c-7877-4952-8a48-ce2b260cb26a,bank_c_01.uk,Amazon.com,2019-03-27,1216334.69,-865.95,education,Ammy Smith,CURRENT
+70228274-ffc0-44cf-908b-974c8b408c15,bank_c_00.uk,INCOME,2019-03-27,913194.40,33000.00,INCOME,John Williams,CURRENT
+c3ccc5b2-9dce-48aa-b46b-ea5ba771a3dc,bank_c_00.uk,Neiman-Marcus,2019-03-27,912691.28,-503.12,gift,John Williams,CURRENT
+a1c94410-4106-4aed-a015-6a13170480d8,bank_c_00.uk,Trader Joe's,2019-03-31,912114.24,-577.04,food,John Williams,CURRENT
+d8f5e82e-c126-427b-9664-a2958c6f3056,bank_c_00.uk,Shell,2019-04-02,910956.51,-1157.73,auto,John Williams,CURRENT
+1bf24771-80fb-42b2-8e6c-01a5af3dc565,bank_c_00.uk,Trader Joe's,2019-04-04,910481.28,-475.23,food,John Williams,CURRENT
+c16ec066-60be-42b7-a647-d9e020b79bf8,bank_c_00.uk,Amazon.com,2019-04-06,909544.49,-936.79,education,John Williams,CURRENT
+85baa25c-8e30-428f-b1f8-eccca18c4251,bank_c_00.uk,Amazon.com,2019-04-09,909023.75,-520.74,entertainment,John Williams,CURRENT
+7f0354d2-e9e3-46b5-9c00-aff5c32534e1,bank_c_00.uk,Trader Joe's,2019-04-14,908560.00,-463.75,food,John Williams,CURRENT
+14b19233-24b5-4048-80b5-1a8f4f60990e,bank_c_00.uk,Trader Joe's,2019-04-17,908227.17,-332.83,food,John Williams,CURRENT
+28f1da25-cad1-4b69-a265-e6ab04a33c1f,bank_c_00.uk,J. Crew,2019-04-17,907356.04,-871.13,clothing,John Williams,CURRENT
+027299c9-e31b-40a6-9909-12e885663e1a,bank_c_00.uk,Trader Joe's,2019-04-20,906782.09,-573.95,food,John Williams,CURRENT
+08ca2c13-e86c-4c7a-8a6c-fe6b06accf5d,bank_c_00.uk,,2019-04-21,904876.56,-1905.53,utility,John Williams,CURRENT
+c87214d2-4ae0-43d2-87b4-f4e7c09132f1,bank_c_00.uk,Trader Joe's,2019-04-22,904523.75,-352.81,food,John Williams,CURRENT
+fba6d621-a2f3-472a-b75e-d0f4da44d20f,bank_c_00.uk,Interest Fee,2019-04-22,903980.75,-543.00,fee,John Williams,CURRENT
+75800b55-f458-4d7d-87aa-ca798e78addc,bank_c_00.uk,Dr. Jackson,2019-04-23,902552.53,-1428.22,health,John Williams,CURRENT
+3afeab2b-dfb6-47e6-b8dd-244e81b16ef3,bank_c_00.uk,INCOME,2019-03-27,3080000.00,30000.00,INCOME,John Williams,SAVING
+7ca68d21-b04b-485e-9d1f-feb0adbb73a5,bank_c_01.uk,INCOME,2019-03-27,1320000.00,20000.00,INCOME,Ammy Smith,SAVING
+d54688fb-a441-46a3-b523-081c85d9157e,bank_c_01.uk,INCOME,2019-03-27,1276334.69,60000.00,INCOME,Ammy Smith,CURRENT
+008ce7f8-ac54-498a-b50a-a9b4e6898680,bank_c_01.uk,Olive Garden,2019-03-27,1275847.89,-486.80,food,Ammy Smith,CURRENT
+167b68e0-6ec6-46e0-8692-4df0e4249e9f,bank_c_01.uk,RENT,2019-03-27,1255847.89,-20000.00,RENT,Ammy Smith,CURRENT
+7107e78f-f8f9-4ff2-ba6a-101e165ebc3d,bank_c_01.uk,Nordstrom,2019-03-28,1255439.40,-408.49,gift,Ammy Smith,CURRENT
+1c6de4c5-2a0e-4ed8-9500-cc3cae892993,bank_c_01.uk,Olive Garden,2019-04-05,1254736.37,-703.03,food,Ammy Smith,CURRENT
+8ec7f524-5976-4b10-b8a5-576e29faeae8,bank_c_01.uk,The Gap,2019-04-06,1253310.00,-1426.37,clothing,Ammy Smith,CURRENT
+28561c1e-e4ae-48d1-bd90-ccc119684adb,bank_c_01.uk,Amazon.com,2019-04-07,1252497.78,-812.22,education,Ammy Smith,CURRENT
+df1478af-3997-403f-8093-1f2a83622a8e,bank_c_01.uk,Olive Garden,2019-04-11,1251960.14,-537.64,food,Ammy Smith,CURRENT
+84a35dd5-bb40-446a-985d-e838b0b80c57,bank_c_01.uk,Arco,2019-04-16,1250620.12,-1340.02,auto,Ammy Smith,CURRENT
+f88d09c7-4847-4fc1-bbbf-14cfd893c303,bank_c_01.uk,Olive Garden,2019-04-18,1250153.42,-466.70,food,Ammy Smith,CURRENT
+79446449-6f67-453a-9641-229e7e052a41,bank_c_01.uk,Dr. Jackson,2019-04-18,1248507.61,-1645.81,health,Ammy Smith,CURRENT
+572e4a9a-a481-4f71-a399-ae9ff8022f0d,bank_c_01.uk,Amazon.com,2019-04-20,1247701.28,-806.33,entertainment,Ammy Smith,CURRENT
+2a439827-6994-490a-be16-aadda43bc385,bank_c_01.uk,Olive Garden,2019-04-25,1247324.42,-376.86,food,Ammy Smith,CURRENT
