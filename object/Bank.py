@@ -28,41 +28,19 @@ class Bank:
             "website": self.website_url
         }
 
-    def create_atm(self, address, location):
-        atm_id = str(uuid.uuid4())
-        name = "ATM of {}".format(self.id)
-        return ATM(
-            atm_id = atm_id,
-            bank = self,
-            name=name,
-            address=address,
-            location=location,
-            meta={
-                "license":{
-                    "id":"PDDL",
-                    "name":random.choice(Meta_list)
-                }
-            }
-        )
+    def create_branches(self, num):
+        branchGenerator = Branch.Generator(self, num)
+        branch_list = []
+        for j in range(num):
+            branch_list.append(next(branchGenerator))
+        return branch_list
 
-    def create_branch(self, address, location, lobby=lobby_default, driveUp=driveup_default):
-        branch_id = str(uuid.uuid4())
-        name = "Branch of {}".format(self.id)
-        return Branch(
-            branch_id = branch_id,
-            bank = self,
-            name=name,
-            address=address,
-            location=location,
-            meta={
-                "license":{
-                    "id":"PDDL",
-                    "name":random.choice(Meta_list)
-                }
-            },
-            lobby = lobby,
-            drive_up = driveUp
-        )
+    def create_atms(self, num):
+        atmGenerator = ATM.Generator(self, num)
+        atm_list = []
+        for j in range(num):
+            atm_list.append(next(atmGenerator))
+        return atm_list
 
     def create_product(self):
         pass

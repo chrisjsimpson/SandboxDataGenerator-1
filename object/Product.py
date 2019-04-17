@@ -19,15 +19,16 @@ class Product:
         self.more_info_url = more_info_url
         self.meta = meta
 
-        self.dict = {
-            "bank_id":bank.id,
-            "code":code,
-            "name":name,
-            "category":category,
-            "family":family,
-            "super_family":super_family,
-            "more_info_url":more_info_url,
-            "meta":meta
+    def dict(self):
+        return {
+            "bank_id":self.bank.id,
+            "code":self.code,
+            "name":self.name,
+            "category":self.category,
+            "family":self.family,
+            "super_family":self.super_family,
+            "more_info_url":self.more_info_url,
+            "meta":self.meta
         }
 
     @staticmethod

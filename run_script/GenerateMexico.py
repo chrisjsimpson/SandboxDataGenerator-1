@@ -121,11 +121,11 @@ if __name__ == '__main__':
         json.dump({
             "users": user_list,
             "banks": bank_list,
-            # "branches": branch_list,
+            "branches": branch_list,
             "accounts": account_list,
-            # "atms":atm_list,
+            "atms":atm_list,
             # "counterparties":counterparty_list,
-            # "products":product_list,
+            "products":product_list,
             "transactions": transaction_list
         }, outfile, default=lambda x: x.dict(), indent=4)
 

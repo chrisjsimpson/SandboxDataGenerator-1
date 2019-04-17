@@ -20,8 +20,8 @@ line3_list = ['The {} District'.format(i + 1) for i in range(8)]
 city_list = ['city{:2d}'.format(i) for i in range(20)]
 county_list = ['county{:2d}'.format(i) for i in range(10)]
 state_list = ['state{:2d}'.format(i) for i in range(5)]
-postcode_list = [str(int(uuid.uuid4()) % 1e6) for i in range(10)]
-country_list = ['country{:2d}'.format(i) for i in range(10)]
+postcode_list = [str(int(int(uuid.uuid4()) % 1e6)) for i in range(10)]
+country_list = ['MX']
 
 
 class Address:
@@ -33,7 +33,7 @@ class Address:
                  county=random.choice(county_list),
                  state=random.choice(state_list),
                  postcode=random.choice(postcode_list),
-                 country_code=random.choice(county_list)
+                 country_code=random.choice(country_list)
                  ):
         self.line1 = line1
         self.line2 = line2
@@ -43,15 +43,17 @@ class Address:
         self.state = state
         self.postcode = postcode
         self.country_code = country_code
-        self.dict = {
-            "line1":line1,
-            "line2":line2,
-            "line3":line3,
-            "city": city,
-            "county": county,
-            "state": state,
-            "postcode": postcode,
-            "country_code": country_code,
+
+    def dict(self):
+        return {
+            "line1":self.line1,
+            "line2":self.line2,
+            "line3":self.line3,
+            "city": self.city,
+            "county": self.county,
+            "state": self.state,
+            "postcode": self.postcode,
+            "country_code": self.country_code,
         }
 
 class Location:
@@ -59,11 +61,12 @@ class Location:
                  latitude = random.uniform(0.0, 180.0),
                  longitude = random.uniform(0.0, 360.0)
                  ):
-        self.latitude = latitude
-        self.longitude = longitude
-        self.dict = {
-            "latitude": latitude,
-            "longitude": longitude,
+        self.latitude = float("{:.2f}".format(latitude))
+        self.longitude = float("{:.2f}".format(longitude))
+    def dict(self):
+        return {
+            "latitude": self.latitude,
+            "longitude": self.longitude,
         }
 
 Meta_list = ['meta {:02}'.format(i) for i in range(10)]
@@ -76,8 +79,8 @@ class Day:
                  closing_time = random.choice(close_list)):
         self.opening_time = opening_time+":00"
         self.closing_time = closing_time+":00"
-
-        self.dict = {
+    def dict(self):
+        return {
             "opening_time" : self.opening_time,
             "closing_time" : self.closing_time,
         }

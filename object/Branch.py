@@ -7,9 +7,7 @@ from object.Routing import Address, Location, Meta_list, Day, Routing, phone_num
 
 class Branch:
     def __init__(self, branch_id, bank, name,
-                 address, location, meta, lobby, drive_up,
-                 branch_routing =None, is_accessible=None, accessibleFeatures=None, branch_type=None,
-                 more_info=None, phone_number=None
+                 address, location, meta, lobby, drive_up
                  ):
         self.id = branch_id
         self.bank = bank
@@ -19,14 +17,9 @@ class Branch:
         self.meta = meta
         self.lobby = lobby
         self.drive_up = drive_up
-        self.branch_routing = branch_routing
-        self.is_accessible = is_accessible
-        self.accessibleFeatures = accessibleFeatures
-        self.branch_type = branch_type
-        self.more_info= more_info
-        self.phone_number = phone_number
 
-        self.dict = {
+    def dict(self):
+        return {
             "id": self.id,
             "bank_id": self.bank.id,
             "name": self.name,
@@ -40,7 +33,7 @@ class Branch:
     @staticmethod
     def Generator(bank, num):
         for i in range(num):
-            branch_id = "branch-id-{}".format(str(uuid.uuid4())[:10])
+            branch_id = str(uuid.uuid4())
             name = "Branch {} of {}".format(i, bank.id)
             address = Address()
             location = Location()
@@ -52,35 +45,13 @@ class Branch:
             }
 
             lobby = {
-                "monday":[Day()],
-                "tuesday":[Day()],
-                "wednesday":[Day()],
-                "thursday":[Day()],
-                "friday":[Day()],
-                "saturday":[Day()],
-                "sunday":[Day()]
+                "hours":"M-TH 8:30-3:30, F 9-5"
             }
 
             drive_up = {
-                "monday": Day(),
-                "tuesday": Day(),
-                "wednesday": Day(),
-                "thursday": Day(),
-                "friday": Day(),
-                "saturday": Day(),
-                "sunday": Day()
+                "hours": "M-Th 8:30-5:30, F-8:30-6, Sat 9-12"
             }
 
-            branch_routing = Routing(
-                scheme="OBP",
-                address=branch_id
-            )
-
-            is_accessible = "true" if random.uniform(0,1) > 0.5 else "false"
-            accessibleFeatures = "feature {:02}".format(i)
-            branch_type = "Full service store"
-            more_info = "more info {:02}".format(i)
-            phone_number = phone_number_generation()
             yield Branch(
                 branch_id = branch_id,
                 bank = bank,
@@ -89,13 +60,7 @@ class Branch:
                 location=location,
                 meta=meta,
                 lobby=lobby,
-                drive_up=drive_up,
-                branch_routing=branch_routing,
-                is_accessible=is_accessible,
-                accessibleFeatures=accessibleFeatures,
-                branch_type=branch_type,
-                more_info=more_info,
-                phone_number=phone_number
+                drive_up=drive_up
             )
 
 class ATM:
@@ -109,7 +74,8 @@ class ATM:
         self.location = location
         self.meta = meta
 
-        self.dict = {
+    def dict(self):
+        return {
             "id": self.id,
             "bank_id": self.bank.id,
             "name": self.name,
@@ -121,7 +87,7 @@ class ATM:
     @staticmethod
     def Generator(bank, num):
         for i in range(num):
-            atm_id = "atm-id-{}".format(str(uuid.uuid4())[:10])
+            atm_id = str(uuid.uuid4())
             name = "ATM {} of {}".format(i, bank.id)
             address = Address()
             location = Location()
