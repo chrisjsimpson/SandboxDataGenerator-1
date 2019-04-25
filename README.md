@@ -14,10 +14,10 @@ Generate main sandbox data including users,
 banks, branches, accounts, atms, products and transactions
 Generate customer data
 ```
-python run_script/GenerateMexico.py
+$ python run_script/GenerateMexico.py
 ```
 
 Generate counterparty data
 ```
-python run_script/GenerateCounterpartyJson.py
+$ python run_script/GenerateCounterpartyJson.py
 ```
