@@ -1,5 +1,6 @@
 import random
 import uuid
+import pandas as pd
 
 category_list = ["Mortgage", "Account","Credit Card","Loan","Savings","Overdraft"]
 family_list = ["Mortgage", "Service","Credit Card","Loan","Credit","Loan"]
@@ -53,3 +54,37 @@ class Product:
                     }
                 }
             )
+
+    @staticmethod
+    def generate_from_file(bank, num,  input_file = '../input_file/dataset.xlsx'):
+        df = pd.read_excel(input_file, sheet_name = 'products', header=0, index_col=None)
+        atm_list = []
+        df = df.sample(frac=1).reset_index(drop=True)
+
+        for row in df[:num].iterrows():
+            row = row[1]
+            code = str(uuid.uuid4())
+            name = row['Product']
+
+            category = row['Category']
+            family = row['Family']
+            super_family = row['Super-Family']
+            more_info = row['More info']
+
+            atm_list.append(Product(
+                bank=bank,
+                code=code,
+                name=name,
+                category=category,
+                family=family,
+                super_family=super_family,
+                more_info_url=more_info,
+                meta={
+                    "license":{
+                        "id": "copyright",
+                        "name": "Copyright"
+                    }
+                }
+            ))
+
+        return atm_list

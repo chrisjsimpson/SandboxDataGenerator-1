@@ -41,8 +41,6 @@ if __name__ == '__main__':
     account_list = []
     branch_tmp = random.choice(branch_list)
     account1 = user1.create_account(branch_tmp, "CURRENT", "MXN", 60000)
-    user1.create_customer(branch_tmp.bank, )
-
     account1.set_behavior(income=33000)
     account_list.append(account1)
     branch_tmp = random.choice(branch_list)

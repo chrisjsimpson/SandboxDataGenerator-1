@@ -20,4 +20,9 @@ FILE_ROOT = "../example_input/"
 
 VERIFY = True if API_HOST.startswith("https") else False
 
-OUTPUT_PATH = "../output_path/"
+OUTPUT_PATH = "./output_path/"
+
+INPUT_PATH = "./input_file/"
+DATASET_PATH = "{}dataset.xlsx".format(INPUT_PATH)
+OPTIONS_PATH = "{}options.xlsx".format(INPUT_PATH)
+USER_NUM = 2

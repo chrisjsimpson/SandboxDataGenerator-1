@@ -1,6 +1,7 @@
 import random
 import uuid
-
+import re
+import pandas as pd
 from object.Routing import lobby_default, driveup_default
 from object.Routing import Address, Location, Meta_list, Day, Routing, phone_number_generation
 
@@ -63,6 +64,49 @@ class Branch:
                 drive_up=drive_up
             )
 
+    @staticmethod
+    def generate_from_file(bank, num,  input_file = '../input_file/dataset.xlsx'):
+        df = pd.read_excel(input_file, sheet_name = 'branches', header=0, index_col=None)
+        branch_list = []
+        df = df.sample(frac=1).reset_index(drop=True)
+
+        for row in df[:num].iterrows():
+            row = row[1]
+        #if row['Bank_ID'] == bank.id:
+            branch_id = str(uuid.uuid4())
+            name = "Branch {} of {}".format(branch_id, bank.id)
+
+            location = Location(row['latitude'], row['longitude'])
+            address = Address(row['Address 1'], row['Address 2'], row['Address 3'], row['City'], row['County'], row['State'], row['Postcode'],row['Country code'])
+            meta = {
+                "license":{
+                    "id":"PDDL",
+                    "name":''
+                }
+            }
+
+            lobby = {
+                "hours":lobby_default
+            }
+
+            drive_up = {
+                "hours": driveup_default
+            }
+
+            branch_list.append(Branch(
+                branch_id = branch_id,
+                bank = bank,
+                name=name,
+                address=address,
+                location=location,
+                meta=meta,
+                lobby=lobby,
+                drive_up=drive_up
+            ))
+
+        return branch_list
+
+
 class ATM:
     def __init__(self, atm_id, bank, name,
                  address, location, meta
@@ -94,12 +138,9 @@ class ATM:
             meta = {
                 "license":{
                     "id":"PDDL",
-                    "name":random.choice(Meta_list)
+                    "name":''
                 }
             }
-
-            lobby = lobby_default
-            driveUp = driveup_default
 
             yield ATM(
                 atm_id = atm_id,
@@ -109,3 +150,34 @@ class ATM:
                 location=location,
                 meta=meta
             )
+
+    @staticmethod
+    def generate_from_file(bank, num,  input_file = '../input_file/dataset.xlsx'):
+        df = pd.read_excel(input_file, sheet_name = 'atms', header=0, index_col=None)
+        atm_list = []
+        df = df.sample(frac=1).reset_index(drop=True)
+
+        for row in df[:num].iterrows():
+            row = row[1]
+            atm_id = str(uuid.uuid4())
+            name = "Branch {} of {}".format(atm_id, bank.id)
+
+            location = Location(row['latitude'], row['longitude'])
+            address = Address(row['Address 1'], row['Address 2'], row['Address 3'], row['City'], row['County'], row['State'], row['Postcode'],row['Country code'])
+            meta = {
+                "license":{
+                    "id":"PDDL",
+                    "name":''
+                }
+            }
+
+            atm_list.append(ATM(
+                atm_id = atm_id,
+                bank = bank,
+                name=name,
+                address=address,
+                location=location,
+                meta=meta
+            ))
+
+        return atm_list

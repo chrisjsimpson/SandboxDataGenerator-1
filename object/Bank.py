@@ -1,6 +1,6 @@
 import random
 import uuid
-
+import pandas as pd
 from object.Branch import ATM, Branch
 from object.Routing import Routing, Meta_list, lobby_default, driveup_default
 
@@ -71,3 +71,37 @@ class Bank:
                 national_identifier=national_identifier,
                 bank_routing=bank_routing
             )
+
+    @staticmethod
+    def generate_from_file(num,  input_file = '../input_file/dataset.xlsx'):
+        df = pd.read_excel(input_file, sheet_name = 'banks', header=0, index_col=None)
+        bank_list = []
+        df = df.sample(frac=1).reset_index(drop=True)
+
+        for row in df[:num].iterrows():
+            row = row[1]
+            bank_id = row['Bank_ID']
+
+            full_name = row['full_name']
+            short_name = row['short_name']
+            logo_url = row['logo']
+            website_url = row['website']
+            swift_bic = "IIIGGB22"
+            national_identifier = row['country']
+            bank_routing: Routing = Routing(
+                scheme="OBP",
+                address=bank_id
+            )
+
+            bank_list.append(Bank(
+                bank_id=bank_id,
+                full_name=full_name,
+                short_name=short_name,
+                logo_url=logo_url,
+                website_url=website_url,
+                swift_bic=swift_bic,
+                national_identifier=national_identifier,
+                bank_routing=bank_routing
+            ))
+
+        return bank_list

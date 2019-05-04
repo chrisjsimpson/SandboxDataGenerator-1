@@ -1,6 +1,7 @@
 import uuid
 import random
 from datetime import datetime, timedelta
+import re
 
 import numpy as np
 
@@ -58,7 +59,7 @@ class Address:
 
 class Location:
     def __init__(self,
-                 latitude = random.uniform(0.0, 180.0),
+                 latitude = random.uniform(0.0, 90.0),
                  longitude = random.uniform(0.0, 360.0)
                  ):
         self.latitude = float("{:.2f}".format(latitude))

@@ -1,5 +1,7 @@
 import random
-import uuid
+import settings
+import pandas as pd
+from openpyxl import load_workbook
 
 from object.Account import Account
 from object.Customer import Customer
@@ -10,7 +12,10 @@ girl_first_names=('Alice','Ammy')
 last_names=('Johnson','Smith','Williams')
 mails=('gmail.com','qq.com','tesobe.com')
 class User:
-    def __init__(self,username, email, password, phone, relationship_status, employment_status, highest_education_attained):
+    def __init__(self, username, email, password, phone, relationship_status,
+                 employment_status, highest_education_attained,
+                 savings, current, country
+                 ):
         self.username = username
         self.email = email
         self.password = password
@@ -18,6 +23,9 @@ class User:
         self.relationship_status = relationship_status
         self.employment_status = employment_status
         self.highest_education_attained = highest_education_attained
+        self.savings = savings
+        self.current = current
+        self.country = country
 
     def dict(self):
         return {
@@ -83,13 +91,28 @@ class User:
         )
 
     @staticmethod
-    def Generator(num, gender = 'male', relationship_status = 'married', employment_status = 'retired', highest_education_attained='BA.'):
-        if gender == 'male':
+    def Generator(num, gender = 'male', relationship_status = 'married', employment_status = 'retired', highest_education_attained='BA.', input_file = settings.DATASET_PATH):
+        wb = load_workbook(input_file)
+
+        if gender=='male':
             first_names = boy_first_names
         else:
             first_names = girl_first_names
         first_name_tmp = random.choice(first_names)
         last_name = random.choice(last_names)
+
+        if 'first_name' in wb.sheetnames:
+            dataframe = pd.read_excel(input_file, sheet_name = 'first_name', header=0, index_col=None)
+            if gender == 'male':
+                first_names = dataframe.Boy.values
+            else:
+                first_names = dataframe.Girl.values
+            first_name_tmp = random.choice(first_names)
+
+        if 'last_name' in wb.sheetnames:
+            dataframe = pd.read_excel(input_file, sheet_name = 'last_name', header=None, index_col=None)
+            last_name = random.choice(dataframe[0].values)
+
         for i in range(num):
             first_name = "{}".format(first_name_tmp)
             username = "{} {}".format(first_name, last_name)
@@ -102,5 +125,23 @@ class User:
                 phone=phone_number_generation(),
                 relationship_status= relationship_status,
                 employment_status= employment_status,
-                highest_education_attained = highest_education_attained
+                highest_education_attained = highest_education_attained,
+                savings=80000,
+                current=2400,
+                country='MXN'
             )
+
+    @staticmethod
+    def generator_for_file(input_file = settings.OPTIONS_PATH):
+        wb = load_workbook(input_file)
+        print(wb.sheetnames)
+        if 'user' in wb.sheetnames:
+            dataframe = pd.read_excel(input_file, sheet_name = 'user', header=0, index_col=None)
+            users = []
+            for row in dataframe.iterrows():
+                row = row[1]
+                users.append(next(User.Generator(1, row['gender'], row['relationship_status'], row['employment_status'],
+                                                 row['highest_education_attained'], row['savings'])))
+            return users
+        else:
+            raise Exception("There is not user option.")
