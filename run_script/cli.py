@@ -41,11 +41,11 @@ def generate_main_file(input_file, output_dir):
     account_list = []
     for user in user_list:
         branch_tmp = random.choice(branch_list)
-        account1 = user.create_account(branch_tmp, "CURRENT", "MXN", 60000)
+        account1 = user.create_account(branch_tmp, "CURRENT", user.country, user.current)
         account1.set_behavior(income=33000)
         account_list.append(account1)
         branch_tmp = random.choice(branch_list)
-        account2 = user.create_account(branch_tmp, "SAVING", "MXN", 2000000)
+        account2 = user.create_account(branch_tmp, "SAVING", user.country, user.savings)
         account2.set_behavior(income=30000)
         account_list.append(account2)
 
