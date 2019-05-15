@@ -91,12 +91,12 @@ def generate_main_file(input_file, output_dir):
             ])
 
 
-    OUTPUT_PATH = int(os.getenv('OUTPUT_DIR'))
+    output_dir = int(os.getenv('OUTPUT_DIR'))
     try:
-        os.makedirs(OUTPUT_PATH)
+        os.makedirs(output_dir)
     except:
         pass
-    with open('{}sandbox_pretty.json'.format(OUTPUT_PATH), 'w') as outfile:
+    with open('{}sandbox_pretty.json'.format(output_dir), 'w') as outfile:
         json.dump({
             "users": user_list,
             "banks": bank_list,
@@ -113,7 +113,7 @@ def generate_main_file(input_file, output_dir):
         for bank in bank_list:
             customer_list.append(user.create_customer(bank))
 
-    with open('{}customers_pretty.json'.format(OUTPUT_PATH), 'w') as outfile:
+    with open('{}customers_pretty.json'.format(output_dir), 'w') as outfile:
         json.dump(customer_list, outfile, default=lambda x: x.dict(), indent=4)
 
 
@@ -178,32 +178,16 @@ def init(bank_number, branch_number, atm_number, product_number, country, output
     os.environ['OUTPUT_DIR']=output_dir
     click.echo('{}'.format(os.getenv('BANK_NUMBER', False)))
 
-
-'''
-@cli.command(help="add first name")
-@click.option('--filename', default="firstname.csv", required=False, help='Filename of first name')
-@click.option('--firstname', prompt='First Name', help='first name to be fill to dataset')
-@click.option('--gender', default = 'Male', prompt='Gender', help='name to gender')
-def add_firstname(filename = "firstname.csv", firstname='', gender='Male' ):
-    if firstname != '':
-        fields=[firstname, gender]
-        with open(filename,'a') as file:
-            writer = csv.writer(file)
-            writer.writerow(fields)
-
-@cli.command(help="add last name")
-@click.option('--filename', default="lastname.csv", required=False, help='Filename of last name')
-@click.option('--lastname', prompt='Your name', help='last name to be fill to dataset')
-def add_lastname(filename = "lastname.csv", lastname = ''):
-    fields=[lastname]
-    with open(filename, 'a') as file:
-        writer = csv.writer(file)
-        writer.writerow(fields)
-
-@cli.command(help="add user")
-@click.option('--filename', default="", help='Number of greetings.')
-def add_behavior(filename = None, counterparty_name = '', frequency = 1, value = 0):
-    click.echo("add user")
-'''
-if __name__=='__main__':
-    init()
+@cli.command(help="web_init")
+@click.option('--api_host', default='http://127.0.0.1:8080', help='api_host')
+@click.option('--redirect_url', default='http://127.0.0.1:9090', help='redirect_url')
+@click.option('--admin_username', default='pflee', help='admin_username')
+@click.option('--admin_password', default='Pflee@0218', help='admin_password')
+@click.option('--file_root', default='G:/OBP-Project/SandboxDataGenerator/output_path', help='file_root')
+def web_init(api_host, redirect_url, admin_username, admin_password, file_root):
+    os.environ['API_HOST'] = str(api_host)
+    os.environ['REDIRECT_URL'] = str(redirect_url)
+    os.environ['ADMIN_USERNAME'] = str(admin_username)
+    os.environ['ADMIN_PASSWORD'] = str(admin_password)
+    os.environ['OUTPUT_DIR']=file_root
+    click.echo('{}'.format(os.getenv('ADMIN_USERNAME', False)))
