@@ -42,14 +42,80 @@ def generate_main_file(input_file, output_dir):
     for user in user_list:
         branch_tmp = random.choice(branch_list)
         account1 = user.create_account(branch_tmp, "CURRENT", user.country, user.current)
-        account1.set_behavior(income=33000)
+        account1.set_behavior(income=user.current, spending_frequency =
+            { "food":          user.food,
+              "utility":       user.utility,
+              "clothing":      user.clothing,
+              "auto":          user.auto,
+              "health":        user.health,
+              "entertainment": user.entertainment,
+              "gift":         user.gift,
+              "education":     user.education,
+              "fee":           user.fee },
+            housing_type={
+                "RENT": -user.rent
+            } if user.rent > 0 else None
+        )
         account_list.append(account1)
+
         branch_tmp = random.choice(branch_list)
         account2 = user.create_account(branch_tmp, "SAVING", user.country, user.savings)
-        account2.set_behavior(income=30000)
+        account2.set_behavior(income=user.savings)
         account_list.append(account2)
 
-    click.echo([user.dict() for user in user_list])
+    months = 36
+    date_start = date.today() - timedelta(days=months * 30)
+    transaction_list = []
+    for i in range(months):
+        date_start = date_start + timedelta(days=30)
+        for account in account_list:
+            transaction_list.extend(account.generateTransaction(date_start))
+
+    with open("transaction.csv", 'w') as csv_file:
+        fnames = ['id', 'bank', 'counterparty', 'posted', 'new_balance', 'value', 'type', 'user', 'account_type']
+        # wr = csv.DictWriter(csv_file, fieldnames=fnames, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        # wr.writeheader()
+        wr = csv.writer(csv_file, delimiter=',')
+        wr.writerow(fnames)
+        for transaction in transaction_list:
+            wr.writerow([
+                transaction.id,
+                transaction.this_account.branch.bank.id,
+                transaction.other_counterparty,
+                str(transaction.posted),
+                transaction.new_balance,
+                '{:.2f}'.format(transaction.value),
+                transaction.type,
+                transaction.this_account.user[0].username,
+                transaction.this_account.type
+            ])
+
+
+    OUTPUT_PATH = int(os.getenv('OUTPUT_DIR'))
+    try:
+        os.makedirs(OUTPUT_PATH)
+    except:
+        pass
+    with open('{}sandbox_pretty.json'.format(OUTPUT_PATH), 'w') as outfile:
+        json.dump({
+            "users": user_list,
+            "banks": bank_list,
+            "branches": branch_list,
+            "accounts": account_list,
+            "atms":atm_list,
+            # "counterparties":counterparty_list,
+            "products":product_list,
+            "transactions": transaction_list
+        }, outfile, default=lambda x: x.dict(), indent=4)
+
+    customer_list = []
+    for user in user_list:
+        for bank in bank_list:
+            customer_list.append(user.create_customer(bank))
+
+    with open('{}customers_pretty.json'.format(OUTPUT_PATH), 'w') as outfile:
+        json.dump(customer_list, outfile, default=lambda x: x.dict(), indent=4)
+
 
 @cli.command(help="Generate Counterparty Json file")
 @click.option('--input_file', default="./input_file/OBP_counterparties_TESOBE_Hong_Kong.xlsx", required=True, help='Filename of first name')
@@ -101,13 +167,18 @@ def generate_counterparty_file(input_file, city, output_dir):
 @click.option('--branch_number', default=4, help='branch_number')
 @click.option('--atm_number', default=6, help='atm_number')
 @click.option('--product_number', default=10, help='product_number')
-def init(bank_number, branch_number, atm_number, product_number):
+@click.option('--country', default='MXN', help='country')
+@click.option('--output_dir', default='../output_path', help='output_dir')
+def init(bank_number, branch_number, atm_number, product_number, country, output_dir):
     os.environ['BANK_NUMBER'] = str(bank_number)
     os.environ['BRANCH_NUMBER'] = str(branch_number)
     os.environ['ATM_NUMBER'] = str(atm_number)
     os.environ['PRODUCT_NUMBER'] = str(product_number)
-    os.environ['COUNTRY']='MXN'
+    os.environ['COUNTRY']=country
+    os.environ['OUTPUT_DIR']=output_dir
     click.echo('{}'.format(os.getenv('BANK_NUMBER', False)))
+
+
 '''
 @cli.command(help="add first name")
 @click.option('--filename', default="firstname.csv", required=False, help='Filename of first name')

@@ -14,8 +14,10 @@ mails=('gmail.com','qq.com','tesobe.com')
 class User:
     def __init__(self, username, email, password, phone, relationship_status,
                  employment_status, highest_education_attained,
-                 savings, current, country
-                 ):
+                 savings, current, country, food, utility, clothing,auto,
+            health,	entertainment,	gift,	education,	fee,	rent
+
+    ):
         self.username = username
         self.email = email
         self.password = password
@@ -26,6 +28,16 @@ class User:
         self.savings = savings
         self.current = current
         self.country = country
+        self.food = food
+        self.utility = utility
+        self.clothing = clothing
+        self.auto = auto
+        self.health = health
+        self.entertainment = entertainment
+        self.gift = gift
+        self.education = education
+        self.fee = fee
+        self.rent = rent
 
     def dict(self):
         return {
@@ -91,7 +103,12 @@ class User:
         )
 
     @staticmethod
-    def Generator(num, gender = 'male', relationship_status = 'married', employment_status = 'retired', highest_education_attained='BA.', input_file = settings.DATASET_PATH):
+    def Generator(num, gender = 'male', relationship_status = 'married',
+                  employment_status = 'retired', highest_education_attained='BA.',
+                  savings = 80000, current = 2400, country = 'MXN',
+                  food=5, utility=0.2, clothing=1,auto=0.2,
+                  health=0.1,	entertainment=1,	gift=0.2,	education=0.2,	fee=0.5,	rent=0,
+                  input_file = settings.DATASET_PATH):
         wb = load_workbook(input_file)
 
         if gender=='male':
@@ -126,9 +143,19 @@ class User:
                 relationship_status= relationship_status,
                 employment_status= employment_status,
                 highest_education_attained = highest_education_attained,
-                savings=80000,
-                current=2400,
-                country='MXN'
+                savings=savings,
+                current=current,
+                country=country,
+                food = food,
+                utility = utility,
+                clothing = clothing,
+                auto = auto,
+                health = health,
+                entertainment = entertainment,
+                gift = gift,
+                education = education,
+                fee = fee,
+                rent = rent
             )
 
     @staticmethod
@@ -141,7 +168,14 @@ class User:
             for row in dataframe.iterrows():
                 row = row[1]
                 users.append(next(User.Generator(1, row['gender'], row['relationship_status'], row['employment_status'],
-                                                 row['highest_education_attained'], row['savings'])))
+                                                 row['highest_education_attained'], row['savings'],
+                                                 row['current'], row['country'],
+                                                 row['food'], row['utility'],
+                                                 row['clothing'], row['auto'],
+                                                 row['health'], row['entertainment'],
+                                                 row['gift'], row['education'],
+                                                 row['fee'], row['rent'],
+                                                 )))
             return users
         else:
             raise Exception("There is not user option.")
