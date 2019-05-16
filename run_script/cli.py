@@ -19,19 +19,19 @@ def cli():
     pass
 
 @cli.command(help="Generate Main Json file")
-@click.option('--input_file', default="./input_file/info.xlsx", required=False, help='Filename of first name')
+@click.option('--input_file', default="./input_file/dataset.xlsx", required=False, help='Filename of first name')
 @click.option('--output_dir', default='./output_path/', help='first name to be fill to dataset')
 def generate_main_file(input_file, output_dir):
     user_list = User.generator_for_file(settings.OPTIONS_PATH)
-    bank_number = int(os.getenv('BANK_NUMBER'))
+    bank_number = settings.BANK_NUMBER
 
-    currency = os.getenv('COUNTRY')
+    currency = settings.COUNTRY
     branch_list = []
-    branch_number = int(os.getenv('BRANCH_NUMBER'))
+    branch_number = settings.BRANCH_NUMBER
     atm_list = []
-    atm_number = int(os.getenv('ATM_NUMBER'))
+    atm_number = settings.ATM_NUMBER
     product_list = []
-    product_number = int(os.getenv('PRODUCT_NUMBER'))
+    product_number = settings.PRODUCT_NUMBER
     bank_list = Bank.generate_from_file(bank_number)
     for bank in bank_list:
         branch_list.extend(Branch.generate_from_file(bank, branch_number))
@@ -91,12 +91,12 @@ def generate_main_file(input_file, output_dir):
             ])
 
 
-    output_dir = int(os.getenv('OUTPUT_DIR'))
+    output_dir = settings.OUTPUT_DIR
     try:
         os.makedirs(output_dir)
     except:
         pass
-    with open('{}sandbox_pretty.json'.format(output_dir), 'w') as outfile:
+    with open('{}/sandbox_pretty.json'.format(output_dir), 'w') as outfile:
         json.dump({
             "users": user_list,
             "banks": bank_list,
@@ -113,7 +113,7 @@ def generate_main_file(input_file, output_dir):
         for bank in bank_list:
             customer_list.append(user.create_customer(bank))
 
-    with open('{}customers_pretty.json'.format(output_dir), 'w') as outfile:
+    with open('{}/customers_pretty.json'.format(output_dir), 'w') as outfile:
         json.dump(customer_list, outfile, default=lambda x: x.dict(), indent=4)
 
 
@@ -159,6 +159,10 @@ def generate_counterparty_file(input_file, city, output_dir):
             "region":city
         })
 
+    try:
+        os.makedirs(output_dir)
+    except:
+        pass
     with open('{}counterparty_pretty.json'.format(output_dir), 'w') as outfile:
         json.dump(df_list, outfile, default=lambda x: x.dict(), indent=4)
 
@@ -168,15 +172,14 @@ def generate_counterparty_file(input_file, city, output_dir):
 @click.option('--atm_number', default=6, help='atm_number')
 @click.option('--product_number', default=10, help='product_number')
 @click.option('--country', default='MXN', help='country')
-@click.option('--output_dir', default='../output_path', help='output_dir')
+@click.option('--output_dir', default='./output_path', help='output_dir')
 def init(bank_number, branch_number, atm_number, product_number, country, output_dir):
-    os.environ['BANK_NUMBER'] = str(bank_number)
-    os.environ['BRANCH_NUMBER'] = str(branch_number)
-    os.environ['ATM_NUMBER'] = str(atm_number)
-    os.environ['PRODUCT_NUMBER'] = str(product_number)
-    os.environ['COUNTRY']=country
-    os.environ['OUTPUT_DIR']=output_dir
-    click.echo('{}'.format(os.getenv('BANK_NUMBER', False)))
+    settings.BANK_NUMBER = str(bank_number)
+    settings.BRANCH_NUMBER = str(branch_number)
+    settings.ATM_NUMBER = str(atm_number)
+    settings.PRODUCT_NUMBER = str(product_number)
+    settings.COUNTRY=country
+    settings.OUTPUT_DIR=output_dir
 
 @cli.command(help="web_init")
 @click.option('--api_host', default='http://127.0.0.1:8080', help='api_host')
@@ -191,3 +194,8 @@ def web_init(api_host, redirect_url, admin_username, admin_password, file_root):
     os.environ['ADMIN_PASSWORD'] = str(admin_password)
     os.environ['OUTPUT_DIR']=file_root
     click.echo('{}'.format(os.getenv('ADMIN_USERNAME', False)))
+
+@cli.command(help="import_main")
+@click.option('--file_root', default='G:/OBP-Project/SandboxDataGenerator/output_path', help='file_root')
+def import_main(file_root):
+    pass

@@ -161,7 +161,7 @@ class User:
     @staticmethod
     def generator_for_file(input_file = settings.OPTIONS_PATH):
         wb = load_workbook(input_file)
-        print(wb.sheetnames)
+
         if 'user' in wb.sheetnames:
             dataframe = pd.read_excel(input_file, sheet_name = 'user', header=0, index_col=None)
             users = []

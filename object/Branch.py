@@ -65,7 +65,7 @@ class Branch:
             )
 
     @staticmethod
-    def generate_from_file(bank, num,  input_file = '../input_file/dataset.xlsx'):
+    def generate_from_file(bank, num,  input_file = './input_file/dataset.xlsx'):
         df = pd.read_excel(input_file, sheet_name = 'branches', header=0, index_col=None)
         branch_list = []
         df = df.sample(frac=1).reset_index(drop=True)
@@ -152,7 +152,7 @@ class ATM:
             )
 
     @staticmethod
-    def generate_from_file(bank, num,  input_file = '../input_file/dataset.xlsx'):
+    def generate_from_file(bank, num,  input_file = './input_file/dataset.xlsx'):
         df = pd.read_excel(input_file, sheet_name = 'atms', header=0, index_col=None)
         atm_list = []
         df = df.sample(frac=1).reset_index(drop=True)
