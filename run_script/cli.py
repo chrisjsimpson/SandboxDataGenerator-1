@@ -19,13 +19,10 @@ def cli():
     pass
 
 @cli.command(help="Generate Main Json file")
-@click.option('--input_file', default="./input_file/dataset.xlsx", required=False, help='Filename of first name')
-@click.option('--output_dir', default='./output_path/', help='first name to be fill to dataset')
-def generate_main_file(input_file, output_dir):
+def generate_main_file():
     user_list = User.generator_for_file(settings.OPTIONS_PATH)
     bank_number = settings.BANK_NUMBER
 
-    currency = settings.COUNTRY
     branch_list = []
     branch_number = settings.BRANCH_NUMBER
     atm_list = []
@@ -91,12 +88,12 @@ def generate_main_file(input_file, output_dir):
             ])
 
 
-    output_dir = settings.OUTPUT_DIR
+    output_dir = settings.OUTPUT_PATH
     try:
         os.makedirs(output_dir)
     except:
         pass
-    with open('{}/sandbox_pretty.json'.format(output_dir), 'w') as outfile:
+    with open('{}sandbox_pretty.json'.format(output_dir), 'w') as outfile:
         json.dump({
             "users": user_list,
             "banks": bank_list,
@@ -113,15 +110,14 @@ def generate_main_file(input_file, output_dir):
         for bank in bank_list:
             customer_list.append(user.create_customer(bank))
 
-    with open('{}/customers_pretty.json'.format(output_dir), 'w') as outfile:
+    with open('{}customers_pretty.json'.format(output_dir), 'w') as outfile:
         json.dump(customer_list, outfile, default=lambda x: x.dict(), indent=4)
 
 
 @cli.command(help="Generate Counterparty Json file")
 @click.option('--input_file', default="./input_file/OBP_counterparties_TESOBE_Hong_Kong.xlsx", required=True, help='Filename of first name')
 @click.option('--city', default="Hong Kong", required=True, help='Filename of first name')
-@click.option('--output_dir', default="./output_path/", help='first name to be fill to dataset')
-def generate_counterparty_file(input_file, city, output_dir):
+def generate_counterparty_file(input_file, city):
     wb = load_workbook(input_file)
 
     sheet_selected = [sheetname for sheetname in wb.sheetnames if city in sheetname ]
@@ -160,10 +156,10 @@ def generate_counterparty_file(input_file, city, output_dir):
         })
 
     try:
-        os.makedirs(output_dir)
+        os.makedirs(settings.OUTPUT_PATH)
     except:
         pass
-    with open('{}counterparty_pretty.json'.format(output_dir), 'w') as outfile:
+    with open('{}counterparty_pretty.json'.format(settings.OUTPUT_PATH), 'w') as outfile:
         json.dump(df_list, outfile, default=lambda x: x.dict(), indent=4)
 
 @cli.command(help="init")
@@ -172,14 +168,14 @@ def generate_counterparty_file(input_file, city, output_dir):
 @click.option('--atm_number', default=6, help='atm_number')
 @click.option('--product_number', default=10, help='product_number')
 @click.option('--country', default='MXN', help='country')
-@click.option('--output_dir', default='./output_path', help='output_dir')
+@click.option('--output_path', default='./output_path', help='output_path')
 def init(bank_number, branch_number, atm_number, product_number, country, output_dir):
     settings.BANK_NUMBER = str(bank_number)
     settings.BRANCH_NUMBER = str(branch_number)
     settings.ATM_NUMBER = str(atm_number)
     settings.PRODUCT_NUMBER = str(product_number)
     settings.COUNTRY=country
-    settings.OUTPUT_DIR=output_dir
+    settings.OUTPUT_PATH=output_dir
 
 @cli.command(help="web_init")
 @click.option('--api_host', default='http://127.0.0.1:8080', help='api_host')

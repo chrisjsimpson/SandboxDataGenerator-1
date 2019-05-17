@@ -20,7 +20,7 @@ FILE_ROOT = "./output_path/"
 
 VERIFY = True if API_HOST.startswith("https") else False
 
-OUTPUT_PATH = "./output_path/"
+OUTPUT_PATH = './output_path/'
 
 INPUT_PATH = "./input_file/"
 DATASET_PATH = "{}dataset.xlsx".format(INPUT_PATH)
@@ -31,4 +31,3 @@ BRANCH_NUMBER=4
 ATM_NUMBER=6
 PRODUCT_NUMBER=10
 COUNTRY='MXN'
-OUTPUT_DIR='./output_path'
