@@ -8,16 +8,47 @@ virtualenv -p python3 venv
 . venv/bin/activate
 ```
 
+## installization
+```bash
+$ pip install . --editable
+```
+
 ## Run
 Only for Mexico now
 Generate main sandbox data including users, 
 banks, branches, accounts, atms, products and transactions
 Generate customer data
+### Initialization
 ```
-$ python run_script/GenerateMexico.py
+$ obpfaker init
 ```
 
-Generate counterparty data
+### Generate counterparty data
 ```
-$ python run_script/GenerateCounterpartyJson.py
+$ obpfaker generate-counterparty-file
+```
+
+### Generate Main data
+```bash
+$ obpfaker generate-main-file
+```
+
+### Import web initialization
+```
+$ obpfaker web-init
+```
+
+### Import main file to Sandbox Server
+```
+$ obpfaker import-main
+```
+
+### Import counterparty file to Sandbox Server
+```
+$ obpfaker import-counterparty
+```
+
+### Import customer file to Sandbox Server
+```
+$ obpfaker import-customer
 ```

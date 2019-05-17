@@ -192,10 +192,181 @@ def web_init(api_host, redirect_url, admin_username, admin_password, file_root):
     os.environ['REDIRECT_URL'] = str(redirect_url)
     os.environ['ADMIN_USERNAME'] = str(admin_username)
     os.environ['ADMIN_PASSWORD'] = str(admin_password)
-    os.environ['OUTPUT_DIR']=file_root
-    click.echo('{}'.format(os.getenv('ADMIN_USERNAME', False)))
+    os.environ['FILE_ROOT']=file_root
+    click.echo('set successfully')
+    click.echo('API_HOST: '.format(settings.API_HOST))
+    click.echo('REDIRECT_URL: '.format(settings.REDIRECT_URL))
+    click.echo('ADMIN_USERNAME: '.format(settings.ADMIN_USERNAME))
+    click.echo('ADMIN_PASSWORD: '.format(settings.ADMIN_PASSWORD))
+    click.echo('FILE_ROOT: '.format(settings.FILE_ROOT))
 
 @cli.command(help="import_main")
-@click.option('--file_root', default='G:/OBP-Project/SandboxDataGenerator/output_path', help='file_root')
-def import_main(file_root):
-    pass
+def import_main():
+    adminUserUsername = settings.ADMIN_USERNAME
+    adminPassword = settings.ADMIN_PASSWORD
+    from object.Admin import Admin
+    admin_user = Admin(adminUserUsername, adminPassword)
+    session = admin_user.direct_login()
+
+    file_json = Admin.load(settings.FILE_ROOT+"sandbox_pretty.json")
+    url = settings.API_HOST+"/obp/v3.0.0/sandbox/data-import"
+    result2 = session.request('POST', url, json=file_json, verify=settings.VERIFY)
+    if result2.status_code==201:
+        click.echo("Import Successfully.")
+    else:
+        click.echo("Import Failed.")
+
+@cli.command(help="import_customer")
+def import_customer():
+    adminUserUsername = settings.ADMIN_USERNAME
+    adminPassword = settings.ADMIN_PASSWORD
+
+    from object.PostCustomer import PostCustomer
+    json_customers = PostCustomer.load(settings.FILE_ROOT+"/customers_pretty.json")
+
+    click.echo("Got {} records".format(len(json_customers)))
+
+    customer_list = [PostCustomer(customer['customer_number'],
+                                  customer['legal_name'],
+                                  customer['mobile_phone_number'],
+                                  customer['email'],
+                                  customer['face_image'],
+                                  customer['date_of_birth'],
+                                  customer['relationship_status'],
+                                  customer['dependants'],
+                                  customer['dob_of_dependants'],
+                                  customer['highest_education_attained'],
+                                  customer['employment_status'],
+                                  customer['kyc_status'],
+                                  customer['last_ok_date'],
+                                  customer['bank_id'],
+                                  customer['credit_rating'],
+                                  customer['credit_limit']
+                                  ) for customer in json_customers]
+
+    from object.Admin import Admin
+    from object.Bank_Import import Bank_Import
+    json_user = Admin.load(settings.FILE_ROOT+"sandbox_pretty.json")
+    click.echo("Got {} users".format(len(json_user['users'])))
+
+    click.echo("login as user: ")
+    admin_user = Admin(adminUserUsername, adminPassword)
+    session = admin_user.direct_login()
+    click.echo("login successfully!!!")
+
+    click.echo("Got {} banks".format(len(json_user['banks'])))
+    bank_list=[]
+    for bank in json_user['banks']:
+        bank_list.append(Bank_Import(bank['id'],
+                              bank['short_name'],
+                              bank['full_name'],
+                              bank['logo'],
+                              bank['website']))
+
+    for user_dict in json_user['users']:
+        user = Admin(user_dict['user_name'], user_dict['password'], user_dict['email'])
+        customer_filtered = [customer for customer in customer_list if customer.email == user.email]
+        result = session.get(
+            settings.API_HOST + "/obp/v3.1.0/users/username/" + user.user_name)
+        if result.status_code==200:
+            current_user = json.loads(result.content)
+
+            for customer in customer_filtered:
+                click.echo("email is {} customer number is {} name is {} and has {} dependants born on {} "
+                      .format(customer.email, customer.customer_number, customer.legal_name, customer.dependants, customer.dob_of_dependants))
+
+                for bank in bank_list:
+                    click.echo("Posting a customer for bank {}".format(bank.short_name))
+                    url = settings.API_HOST+"/obp/v2.1.0/banks/{}/customers".format(bank.id)
+                    result2 = session.request('POST', url, json=customer.to_json(current_user['user_id']), verify=settings.VERIFY)
+                    if result2.status_code==201:
+                        click.echo("saved {} as customer {}".format(customer.customer_number, result2.content))
+                    else:
+                        click.echo("did NOT save customer {}".format(result2.content if result2 is not None and result2.content is not None else ""))
+        else:
+            click.echo(result.content if result is not None and result.content is not None else "")
+
+@cli.command(help="import_counterparty")
+@click.option('--file_root', default='./output_path', help='file_root')
+def import_counterparty(file_root):
+    from object.Admin import Admin
+    from object.PostCounterparty import PostCounterparty
+    json_object_counterparty= PostCounterparty.load(settings.FILE_ROOT+"OBP_sandbox_counterparties_pretty_2.json")
+
+    counterparty_list = [val for sublist in json_object_counterparty for val in sublist]
+
+    json_object_user=Admin.load(settings.FILE_ROOT+"OBP_sandbox_pretty_2.json")
+
+    for user_dict in json_object_user['users']:
+        user = Admin(user_dict['user_name'], user_dict['password'], user_dict['email'])
+        click.echo("login as user: ")
+        session = user.direct_login()
+        click.echo("get users private accounts")
+        private_account = user.get_user_private_account()
+        account_list = json.loads(private_account)['accounts']
+        click.echo("ok!!!")
+
+        click.echo("get other accounts for the accounts")
+        for account in account_list:
+            bank_id = account['bank_id']
+            region = bank_id.split('.')[2]
+            account_id = account['id']
+            view = account['views_available'][0]
+            result = user.get_user_other_account(bank_id, account_id, view['id'])
+            click.echo(type(result))
+            other_accounts_list = json.loads(result)['other_accounts']
+
+            click.echo("bank_id: {}".format(bank_id))
+
+            click.echo("region is {}".format(region))
+            click.echo("get matching json counterparty data for each transaction's other_account")
+            for other_accounts in other_accounts_list:
+                counterparty_name = other_accounts['holder']['name']
+                click.echo("Filtering counterparties by region {} and counterparty name {}".format(region, counterparty_name))
+                regionCounterparties = [counterparty for counterparty in counterparty_list if counterparty['region']==region]
+                records = [counterparty for counterparty in counterparty_list if counterparty['name'].lower()==counterparty_name.lower()]
+                click.echo("Found {} records".format(len(records)))
+                for cp in records:
+                    click.echo("couterparty is Region {} Name {} Home Page {}".format(cp['region'],cp['name'],cp['homePageUrl']))
+                    logoUrl = cp['homePageUrl'] if ("http://www.brandprofiles.com" in cp['logoUrl']) else cp['logoUrl']
+                    if logoUrl.startswith("http") and other_accounts['metadata']['image_URL'] is None:
+                        json_tmp = {"image_URL": logoUrl}
+                        url = settings.API_HOST + "/obp/v3.1.0/banks/" + bank_id + "/accounts/" + account_id + "/" + view['id'] + "/other_accounts/"+other_accounts['id']+"/metadata/image_url"
+                        result = session.request('POST', url, json = json_tmp, verify=settings.VERIFY)
+                        if result.status_code == 201:
+                            click.echo("Saved " + logoUrl + " as imageURL for counterparty "+ other_accounts['id'])
+                        else:
+                            click.echo("Save failed. {}".format(result.error if result is not None and result.error is not None else ""))
+                    else:
+                        click.echo("did NOT save " + logoUrl + " as imageURL for counterparty "+ other_accounts['id'])
+
+                    if (cp['homePageUrl'].startswith("http") and not cp['homePageUrl'].endswith("jpg") and not cp['homePageUrl'].endswith("png") and other_accounts['metadata']['URL'] is None):
+                        json_tmp = {"URL": cp['homePageUrl']}
+                        url = settings.API_HOST + "/obp/v3.1.0/banks/" + bank_id + "/accounts/" + account_id + "/" + \
+                              view['id'] + "/other_accounts/" + other_accounts['id'] + "/metadata/url"
+                        result = session.request('POST', url, json=json_tmp, verify=settings.VERIFY)
+                        if result.status_code == 201:
+                            click.echo("Saved " + cp['homePageUrl'] + " as URL for counterparty "+ other_accounts['id'])
+                        else:
+                            click.echo("Save failed. {}".format(result.error if result is not None and result.error is not None else ""))
+                    else:
+                        click.echo("did NOT save " + cp['homePageUrl'] + " as URL for counterparty "+ other_accounts['id'])
+
+                    if (cp['category'] is not None and other_accounts['metadata']['more_info'] is None):
+                        categoryBits = cp['category'].split("_")
+                        moreInfo = categoryBits[0]
+
+                        json_tmp = {"more_info": moreInfo}
+                        url = settings.API_HOST + "/obp/v3.1.0/banks/" + bank_id + "/accounts/" + account_id + "/" + view['id'] + "/other_accounts/" + other_accounts['id'] + "/metadata/more_info"
+                        result = session.request('POST', url, json=json_tmp, verify=settings.VERIFY)
+                        if result.status_code==201:
+                            click.echo("Saved " + moreInfo + " as more_info for counterparty "+ other_accounts['id'])
+                        else:
+                            click.echo("Save failed. {}".format(result.error if result is not None and result.error is not None else ""))
+                    else:
+                        if other_accounts['metadata']['more_info'] is not None:
+                            click.echo("more info is not empty:{}")
+                        else:
+                            click.echo("did NOT save more_info for counterparty "+ other_accounts['id'])
+
+        user.oauth_logout()

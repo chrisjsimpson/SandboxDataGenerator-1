@@ -16,7 +16,7 @@ DIRECTLOGIN_PATH = '/my/logins/direct'
 ADMIN_USERNAME = "pflee"
 ADMIN_PASSWORD = "Pflee@0218"
 
-FILE_ROOT = "../example_input/"
+FILE_ROOT = "./output_path/"
 
 VERIFY = True if API_HOST.startswith("https") else False
 
