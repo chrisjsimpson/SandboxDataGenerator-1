@@ -10,7 +10,7 @@ virtualenv -p python3 venv
 
 ## installization
 ```bash
-$ pip install . --editable
+$ pip install --editable .
 ```
 
 ## Run
